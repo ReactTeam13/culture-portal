@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom';
 
 function CommonPageItems(props) {  
   return (
-    data.map((item, index) => {
+    data.filter(item => item.name.indexOf(props.term) > -1)
+    .map((item, index) => {
       return (
         <div className="common-page"
              key={index}>          

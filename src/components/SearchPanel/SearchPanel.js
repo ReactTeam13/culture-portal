@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 import './SearchPanel.css';
 
 export default class SearchPanel extends Component {
-
   state = {
     term: ''
   };
 
-  onTermChange = (event) => {
+  onSearchChange = (event) => {
     const {onSearchChange = () => {}} = this.props;
     this.setState({
       term: event.target.value
@@ -25,7 +24,7 @@ export default class SearchPanel extends Component {
                  className="form-control search-input"
                  placeholder="search"
                  value={this.state.term}
-                 onChange={ this.onTermChange } />
+                 onChange={ this.onSearchChange } />
         </label>
         <button type="submit">Найти</button>
         </form>

@@ -6,8 +6,10 @@ import SearchPanel from '../../components/SearchPanel/SearchPanel';
 function CommonPage(props) {  
   return (
     <div>
-      <SearchPanel/>
-      <CommonPageItems onButtonClick={props.onButtonClick}/>
+      <SearchPanel onSearchChange={props.onSearchChange}/>
+      <CommonPageItems 
+        onButtonClick={props.onButtonClick}
+        term={props.term}/>
     </div>
   )
 }
