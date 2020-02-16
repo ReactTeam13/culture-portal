@@ -15,3 +15,12 @@
 .description-mainpage span {
   display: block;
 }
+
+.main-page {
+  text-align: center;
+}
+
+.main-page .read-more-button {  
+  margin: -20px auto 40px;
+  padding: 25px 120px;
+}

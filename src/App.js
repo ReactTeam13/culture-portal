@@ -8,12 +8,17 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 export default class App extends Component {
   state={
-    person: 0
+    person: 0,
+    term: ''
   }
   onButtonClick = (event) => {
     this.setState({
         person: event.target.id
       })
+  }
+  
+  onSearchChange = (term) => {
+    this.setState({ term })
   }
   
   render() {
@@ -27,7 +32,9 @@ export default class App extends Component {
                  exact/>
           <Route path="/commonpage" 
                  render={(props) => <CommonPage 
-                 onButtonClick={this.onButtonClick}/>} 
+                 onButtonClick={this.onButtonClick}
+                 onSearchChange={this.onSearchChange}
+                 term={this.state.term} />}  
                  exact/>
           <Route path="/personalpage" 
                  render={(props) => <PersonalPage person={this.state.person}/>} 
