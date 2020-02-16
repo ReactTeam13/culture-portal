@@ -4,7 +4,7 @@ import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 function TimeLine(props) {
   return ( 
     <div>
-    <h2 style={{textAlign: 'center', color: '#e86971', fontSize: '2em' }}>Биография архитектора</h2>
+    <h2>Биография архитектора</h2>
     <Timeline lineColor={'#ddd'}>
       {props.data.activity.map((item, index) => {
       return (
