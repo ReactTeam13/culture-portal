@@ -5,8 +5,8 @@ import './Map.css'
 
 export class MapContainer extends Component {
   state = {
-    lat: data[0].locationsCoords.lat,
-    lng: data[0].locationsCoords.lng,
+    lat: this.props.data.locationsCoords.lat,
+    lng: this.props.data.locationsCoords.lng,
   }
   render() {
     return (
