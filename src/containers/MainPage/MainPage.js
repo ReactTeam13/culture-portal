@@ -4,10 +4,8 @@ import Avatar from '../../components/Avatar/Avatar';
 import Description from '../../components/Description/Description';
 import data from '../../data/people';
 
-function MainPage(props) { 
-  const date = new Date();
-  const day = date.getDate();
-  const authorDay = day % data.length;  
+function MainPage(props) {   
+  const authorDay = Math.floor(Math.random() * data.length); 
   let profile = data[authorDay];
   return (
     <div className="main-page">
@@ -15,7 +13,8 @@ function MainPage(props) {
       <Avatar data={profile}/>
       <Description data={profile}/>
       <p className="description-mainpage">
-        <span>Добро пожаловать на портал,</span> <span>посвященный архитекторам Беларуси.</span> 
+        <span>Добро пожаловать на портал,</span> 
+        <span>посвященный архитекторам Беларуси.</span> 
       </p>
     </div>
   )

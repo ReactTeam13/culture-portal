@@ -27,9 +27,9 @@ export default [
         deathPlace: 'Минск',
         locationsCoords: {
             lat: '48.2590267',
-            lng: '37.4491505'
+            lng: '37.4451505'
         }, 
-        videoId: 'Kox5SsK0Tu8',
+        videoId: '7CsnFSbpUqE',
         activity: [
             {
                 date: '13.01.1914',
@@ -91,9 +91,9 @@ export default [
         deathPlace: 'Минск',
         locationsCoords: {
             lat: '59.7640792',
-            lng: '30.5805257'
+            lng: '30.5785257'
         },
-        videoId: '-0-cwOtJvs',
+        videoId: '-0-cwOtJv_s',
         activity: [
             {
                 date: '03.12.1902',
