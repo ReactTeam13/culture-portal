@@ -21,4 +21,4 @@ function ImageGalleryComponent(props) {
   );
 }
 
-export default ImageGalleryComponent
+export default ImageGalleryComponent;

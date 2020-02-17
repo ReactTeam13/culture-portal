@@ -1,6 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
 import './index.scss';
 
 const Button = ({
@@ -15,19 +13,5 @@ const Button = ({
     {content}
   </button>
 );
-
-Button.defaultProps = {
-  type: 'button',
-  content: 'press',
-  isDisabled: false,
-  onClickCallback: null,
-};
-
-Button.propTypes = {
-  type: PropTypes.string,
-  content: PropTypes.string,
-  isDisabled: PropTypes.bool,
-  onClickCallback: PropTypes.func,
-};
 
 export default Button;

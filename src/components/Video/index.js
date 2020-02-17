@@ -1,29 +1,30 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import '../../../node_modules/react-modal-video/css/modal-video.min.css';
 import './index.css';
 import ModalVideo from 'react-modal-video';
 
 class Video extends Component {
-  constructor () {
-    super()
+  constructor() {
+    super();
     this.state = {
-      isOpen: false
-    }
-    this.openModal = this.openModal.bind(this)
+      isOpen: false,
+    };
+    this.openModal = this.openModal.bind(this);
   }
 
-  openModal () {
-    this.setState({isOpen: true})
+  openModal() {
+    this.setState({ isOpen: true });
   }
-  render () {
+
+  render() {
     return (
       <div>
-        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId={this.props.data.videoId} onClose={() => this.setState({isOpen: false})} />
+        <ModalVideo channel="youtube" isOpen={this.state.isOpen} videoId={this.props.data.videoId} onClose={() => this.setState({ isOpen: false })} />
         <button className="btn-video" onClick={this.openModal}>
           Open Video
         </button>
       </div>
-    )
+    );
   }
 }
 

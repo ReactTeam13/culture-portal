@@ -8,6 +8,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     {
+      resolve: 'gatsby-plugin-postcss',
+      options: {
+        postCssPlugins: [require('postcss-preset-env')({ stage: 0 })],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-eslint-v2',
       options: {
         test: /\.js$|\.jsx$/,
