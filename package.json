@@ -1,27 +1,48 @@
 {
-  "name": "culture-portal",
-  "version": "0.1.0",
+  "name": "culture-portal-group-13",
   "private": true,
+  "description": "This is a small project about architects of the Belarus",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "dependencies": {
-    "@material-ui/core": "^4.9.2",
-    "google-maps-react": "^2.0.2",
+    "css-loader": "^3.4.2",
+    "gatsby": "^2.19.7",
+    "gatsby-plugin-sass": "^2.1.28",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "vertical-timeline-component-for-react": "^1.0.6",
+    "@material-ui/core": "^4.9.2",
+    "google-maps-react": "^2.0.2",
     "react-image-gallery": "^0.8.18",
     "react-modal-video": "^1.2.3",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.0.1",
-    "redux": "^4.0.5",
-    "vertical-timeline-component-for-react": "^1.0.6"
+    "react-scripts": "^3.0.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "browserslist": {
     "production": [
@@ -34,8 +55,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
   }
 }
