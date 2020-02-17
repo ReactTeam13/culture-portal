@@ -18,7 +18,7 @@ const Button = ({
 
 Button.defaultProps = {
   type: 'button',
-  content: 'press',
+  content: 'click',
   isDisabled: false,
   onClickCallback: null,
 };
