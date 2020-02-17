@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet/es/Helmet';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from '../components/Header';
 import MainPage from '../containers/MainPage';
@@ -26,6 +27,11 @@ export default class App extends Component {
   render() {
     return (
       <Router>
+        <Helmet>
+          <title>Culture portal. Architects of Belarus.</title>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        </Helmet>
         <div>
           <Header />
           <Route
