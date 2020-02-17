@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../../../node_modules/react-modal-video/css/modal-video.min.css';
-import './Video.css';
+import './index.css';
 import ModalVideo from 'react-modal-video';
 
 class Video extends Component {

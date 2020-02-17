@@ -1,13 +1,13 @@
 import React from 'react';
-import './Footer.css';
+import './index.css';
 
-function Footer() {  
+function Footer() {
   return (
     <footer>
       <p>© 2020 - Белорусский культурный портал</p>
       <p>Выполнено с любовью по заказу The Rolling Scope School</p>
-    </footer>    
-  );  
+    </footer>
+  );
 }
 
 export default Footer;

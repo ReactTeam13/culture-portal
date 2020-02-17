@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './SearchPanel.css';
+import './index.css';
 
 export default class SearchPanel extends Component {
   state = {
@@ -18,7 +18,7 @@ export default class SearchPanel extends Component {
     return (
       <div className="search-container">
         <form className="search-panel">
-        <label>        
+        <label>
           Я ищу архитектора
           <input type="text"
                  className="form-control search-input"

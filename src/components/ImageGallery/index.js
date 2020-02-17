@@ -1,6 +1,6 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
-import './ImageGallery.css';
+import './index.css';
 
 function ImageGalleryComponent(props) {
   const images = [];

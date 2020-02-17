@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './index.css';
 import {Link} from 'react-router-dom';
 
 function Header() {
@@ -16,8 +16,8 @@ function Header() {
           Архитекторы
         </Link>
       </div>
-    </header>    
-  ); 
+    </header>
+  );
 }
 
 export default Header;

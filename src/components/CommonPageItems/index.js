@@ -1,26 +1,26 @@
 import React from 'react';
-import './CommonPageItems.css';
-import Avatar from '../Avatar/Avatar';
-import Description from '../Description/Description';
+import './index.css';
+import Avatar from '../Avatar';
+import Description from '../Description';
 import data from '../../data/people';
 import { Link } from 'react-router-dom';
 
-function CommonPageItems(props) {  
+function CommonPageItems(props) {
   return (
     data.filter(item => item.name.indexOf(props.term) > -1)
     .map((item, index) => {
       return (
         <div className="common-page"
-             key={index}>          
+             key={index}>
           <Avatar data={item}/>
           <div className="description-container">
             <Description data={item}/>
-            <Link to="/personalpage"  
+            <Link to="/personalpage"
                   className="read-more-button"
                   id={index}
                   onClick={props.onButtonClick}>
                   Узнать больше
-            </Link>        
+            </Link>
           </div>
         </div>
       );
