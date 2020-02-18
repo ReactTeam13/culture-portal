@@ -14,7 +14,7 @@ function Header() {
         <p className="header-title">
           Портал архитекторов Беларуси
         </p>
-        <Link to="/commonpage" className="header-link">
+        <Link to="/architectors" className="header-link">
           Архитекторы
         </Link>
       </div>
