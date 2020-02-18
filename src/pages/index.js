@@ -25,6 +25,7 @@ export default class App extends Component {
   };
 
   render() {
+    const { term, person } = this.state;
     return (
       <Router>
         <Helmet>
@@ -36,7 +37,7 @@ export default class App extends Component {
           <Header />
           <Route
             path="/"
-            render={(props) => (
+            render={() => (
               <MainPage
                 onButtonClick={this.onButtonClick}
               />
@@ -45,18 +46,18 @@ export default class App extends Component {
           />
           <Route
             path="/commonpage"
-            render={(props) => (
+            render={() => (
               <CommonPage
                 onButtonClick={this.onButtonClick}
                 onSearchChange={this.onSearchChange}
-                term={this.state.term}
+                term={term}
               />
             )}
             exact
           />
           <Route
             path="/personalpage"
-            render={(props) => <PersonalPage person={this.state.person} />}
+            render={() => <PersonalPage person={person} />}
             exact
           />
           <Footer />

@@ -3,13 +3,13 @@ import './index.css';
 import CommonPageItems from '../../components/CommonPageItems';
 import SearchPanel from '../../components/SearchPanel';
 
-function CommonPage(props) {
+function CommonPage({ onSearchChange, onButtonClick, term }) {
   return (
     <div>
-      <SearchPanel onSearchChange={props.onSearchChange} />
+      <SearchPanel onSearchChange={onSearchChange} />
       <CommonPageItems
-        onButtonClick={props.onButtonClick}
-        term={props.term}
+        onButtonClick={onButtonClick}
+        term={term}
       />
     </div>
   );

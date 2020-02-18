@@ -18,6 +18,8 @@
     "node": true
   },
   "rules": {
+    "global-require": 0,
+    "react/no-array-index-key": 0,
     "strict": 0,
     "sort-keys": "off",
     "react/jsx-fragments": "off",

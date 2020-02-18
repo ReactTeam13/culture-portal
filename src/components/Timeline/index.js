@@ -1,12 +1,12 @@
 import React from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 
-function TimeLine(props) {
+function TimeLine({ data }) {
   return (
     <div>
       <h2>Биография архитектора</h2>
       <Timeline lineColor="#ddd">
-        {props.data.activity.map((item, index) => (
+        {data.activity.map((item, index) => (
           <TimelineItem
             key={index}
             dateText={item.date}

@@ -6,11 +6,12 @@ import Timeline from '../../components/Timeline';
 import Works from '../../components/Works';
 import ImageGalleryComponent from '../../components/ImageGallery';
 import Video from '../../components/Video';
+/* eslint-disable import/no-named-as-default */
 import MapContainer from '../../components/Map';
 import data from '../../data/people';
 
-function PersonalPage(props) {
-  const profile = data[props.person];
+function PersonalPage({ person }) {
+  const profile = data[person];
   return (
     <div className="personal-page">
       <Avatar data={profile} />

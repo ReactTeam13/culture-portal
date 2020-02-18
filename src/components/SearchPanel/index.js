@@ -15,6 +15,7 @@ export default class SearchPanel extends Component {
   };
 
   render() {
+    const { term } = this.state;
     return (
       <div className="search-container">
         <form className="search-panel">
@@ -24,7 +25,7 @@ export default class SearchPanel extends Component {
               type="text"
               className="form-control search-input"
               placeholder="search"
-              value={this.state.term}
+              value={term}
               onChange={this.onSearchChange}
             />
           </label>

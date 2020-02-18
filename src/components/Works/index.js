@@ -3,7 +3,7 @@ import './index.css';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
-function Works(props) {
+function Works({ data }) {
   return (
     <div className="works">
       <h2>
@@ -19,7 +19,7 @@ function Works(props) {
           </span>
         </ListItem>
 
-        {props.data.listOfWorks.map((item, index) => (
+        {data.listOfWorks.map((item, index) => (
           <ListItem button className="listitem-container" key={index}>
             <span className="year">{item.year}</span>
             <span className="work">{item.work}</span>

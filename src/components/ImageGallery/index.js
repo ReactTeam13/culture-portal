@@ -2,9 +2,9 @@ import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import './index.css';
 
-function ImageGalleryComponent(props) {
+function ImageGalleryComponent({ data }) {
   const images = [];
-  props.data.works.forEach((item) => {
+  data.works.forEach((item) => {
     const obj = {
       original: item.image,
       thumbnail: item.image,

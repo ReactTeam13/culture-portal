@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 import './index.css';
 
+/* eslint-disable */ 
 export class MapContainer extends Component {
   render() {
     const { lat, lng } = this.props.data.locationsCoords;

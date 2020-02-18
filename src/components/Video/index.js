@@ -17,9 +17,11 @@ class Video extends Component {
   }
 
   render() {
+    const { isOpen } = this.state;
+    const { data } = this.props;
     return (
       <div>
-        <ModalVideo channel="youtube" isOpen={this.state.isOpen} videoId={this.props.data.videoId} onClose={() => this.setState({ isOpen: false })} />
+        <ModalVideo channel="youtube" isOpen={isOpen} videoId={data.videoId} onClose={() => this.setState({ isOpen: false })} />
         <button className="btn-video" onClick={this.openModal}>
           Open Video
         </button>

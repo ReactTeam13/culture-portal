@@ -5,7 +5,7 @@ import Avatar from '../../components/Avatar';
 import Description from '../../components/Description';
 import data from '../../data/people';
 
-function MainPage(props) {
+function MainPage({ onButtonClick }) {
   const authorDay = Math.floor(Math.random() * data.length);
   const profile = data[authorDay];
   return (
@@ -17,7 +17,7 @@ function MainPage(props) {
         to="/personalpage"
         className="read-more-button"
         id={authorDay}
-        onClick={props.onButtonClick}
+        onClick={onButtonClick}
       >
         Узнать больше
       </Link>
