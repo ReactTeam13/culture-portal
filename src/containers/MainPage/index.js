@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 import Avatar from '../../components/Avatar';
 import Description from '../../components/Description';
 import data from '../../data/people';

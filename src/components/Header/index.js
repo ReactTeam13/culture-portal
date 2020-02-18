@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'gatsby';
+
 import './index.css';
-import { Link } from 'react-router-dom';
+
 
 function Header() {
   return (
