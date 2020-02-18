@@ -17,4 +17,5 @@
 .years span,
 .birth-place span {
   font-weight: 400;
+  margin-left: 10px;
 }
