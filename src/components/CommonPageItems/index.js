@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 import Avatar from '../Avatar';
 import Description from '../Description';
 import data from '../../data/people';
@@ -17,10 +17,8 @@ function CommonPageItems(props) {
           <div className="description-container">
             <Description data={item} />
             <Link
-              to="/personalpage"
+              to={`/architectors/${index}`}
               className="read-more-button"
-              id={index}
-              onClick={props.onButtonClick}
             >
               Узнать больше
             </Link>

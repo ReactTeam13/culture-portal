@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.css';
 import CommonPageItems from '../../components/CommonPageItems';
 import SearchPanel from '../../components/SearchPanel';
 
-function CommonPage({ onSearchChange, onButtonClick, term }) {
+const CommonPage = () => {
+  const [term, setTerm] = useState('');
+
+  const onSearchChange = (value) => {
+    setTerm(value);
+  };
+
   return (
     <div>
       <SearchPanel onSearchChange={onSearchChange} />
       <CommonPageItems
-        onButtonClick={onButtonClick}
         term={term}
       />
     </div>
   );
-}
+};
 
 export default CommonPage;
