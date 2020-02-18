@@ -10,17 +10,24 @@
     "plugin:react/recommended",
     "airbnb"
   ],
+  "plugins": [
+    "react"
+  ],
   "env": {
     "browser": true,
     "node": true
   },
   "rules": {
+    "global-require": 0,
+    "react/no-array-index-key": 0,
     "strict": 0,
     "sort-keys": "off",
     "react/jsx-fragments": "off",
     "react/jsx-filename-extension": "off",
     "react/button-has-type": "off",
+    "react/prop-types": "off",
     "import/no-unresolved": "off",
+    "react/state-in-constructor": "off",
     "jsx-a11y/label-has-for": [
       2,
       {

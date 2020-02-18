@@ -1,0 +1,20 @@
+{ 
+  "headerTitle": "Портал архитекторов Беларуси",
+  "headerMainLink": "Главная",
+  "headerLink": "Архитекторы",  
+  "todayAuthor": "Автор дня",
+  "learnMore": "Узнать больше",
+  "authorLifispan": "Годы жизни: ",
+  "authorAlivespan": "Дата рождения: ", 
+  "welcome": "Добро пожаловать на портал, посвященный архитекторам Беларуси.",
+  "footerTitle": "© 2020 - белорусский культурный портал",
+  "footerCreate": "Выполнено с любовью по заказу The Rolling Scope School",
+  "searchName": "Я ищу архитектора",
+  "searchButton": "Найти",
+  "biography": "Биография архитектора",
+  "video": "Видео", 
+  "listWork": "Список работ",
+  "dateCreate": "Года",
+  "workCreate": "Проекты",
+  "videoButton": "Открыть видео"
+}

@@ -9,6 +9,12 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-plugin-postcss',
+      options: {
+        postCssPlugins: [require('postcss-preset-env')({ stage: 0 })],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-eslint-v2',
       options: {
         test: /\.js$|\.jsx$/,

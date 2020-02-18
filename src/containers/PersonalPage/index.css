@@ -1,0 +1,12 @@
+.personal-page {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;  
+  margin: 0 auto;
+}
+
+.personal-page h2 {
+  text-align: center;
+  color: rgb(232, 105, 113);
+  font-size: 2em;
+}
