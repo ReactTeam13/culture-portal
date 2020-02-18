@@ -8,7 +8,6 @@ storiesOf('Button', module)
     <Button
       type="button"
       content="click me"
-      onClickCallback={(e) => { console.warn(e.target); }}
     />
   ))
   .add('Button disabled', () => (
@@ -16,6 +15,5 @@ storiesOf('Button', module)
       type="button"
       content="click me"
       isDisabled
-      onClickCallback={(e) => { console.warn(e.target); }}
     />
   ));
