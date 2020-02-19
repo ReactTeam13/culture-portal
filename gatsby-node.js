@@ -402,8 +402,9 @@ exports.createPages = ({ actions }) => {
   return new Promise((resolve) => {
     const ArchitectorTemplate = path.resolve('src/templates/architector.js');
     resolve(
-      architectors.forEach((architector, index) => {
-        const url = `architector/${index}`;
+      architectors.forEach((architector) => {
+        const urlName = architector.en.name.split(' ')[0];
+        const url = `architector/${urlName}`;
         createPage({
           path: url,
           component: ArchitectorTemplate,

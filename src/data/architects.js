@@ -3,7 +3,7 @@ export default [
     ru: {
       id: 1,
       name: 'Бакланов Михаил Иванович',
-      avatar: '',
+      avatar: '/img/person1/avatar/ava.jpg',
       occupation: 'Белорусский советский архитектор. Заслуженный архитектор Белорусской ССР.',
       birthDate: '13.01.1914',
       birthPlace: 'с.Ивановка, Украина',
@@ -37,12 +37,12 @@ export default [
         },
       ],
       works: [
-        { image: '', description: 'Национальный академический драматический театр' },
-        { image: '', description: 'Государственная картинная галерея БССР' },
-        { image: '', description: 'Белорусский государственный аграрный технический университет' },
-        { image: '', description: 'Главный корпус Белорусского Государственного университета' },
-        { image: '', description: 'Библиотечный корпус Белорусского политехнического института' },
-        { image: '', description: 'Памятник Якубу Коласу в дер. Миколаевщина Минской области' }],
+        { image: '/img/person1/portfolio/work1.jpg', description: 'Национальный академический драматический театр' },
+        { image: '/img/person1/portfolio/work2.jpg', description: 'Государственная картинная галерея БССР' },
+        { image: '/img/person1/portfolio/work3.jpg', description: 'Белорусский государственный аграрный технический университет' },
+        { image: '/img/person1/portfolio/work4.jpg', description: 'Главный корпус Белорусского Государственного университета' },
+        { image: '/img/person1/portfolio/work5.jpg', description: 'Библиотечный корпус Белорусского политехнического института' },
+        { image: '/img/person1/portfolio/work6.jpg', description: 'Памятник Якубу Коласу в дер. Миколаевщина Минской области' }],
       listOfWorks: [
         {
           year: '1948—1950',
@@ -65,7 +65,7 @@ export default [
     be: {
       id: 1,
       name: 'Бакланаў Міхаіл Іванавіч',
-      avatar: '',
+      avatar: '/img/person1/avatar/ava.jpg',
       occupation: 'Беларускі савецкі архітэктар. Заслужаны архітэктар Беларускай ССР.',
       birthDate: '13.01.1914',
       birthPlace: 'с.Ивановка, Украіна',
@@ -99,12 +99,12 @@ export default [
         },
       ],
       works: [
-        { image: '', description: 'Нацыянальны акадэмічны драматычны тэатр' },
-        { image: '', description: 'Дзяржаўная карцінная галерэя БССР' },
-        { image: '', description: 'Беларускі дзяржаўны аграрны тэхнічны універсітэт' },
-        { image: '', description: 'Галоўны корпус Беларускага Дзяржаўнага універсітэта' },
-        { image: '', description: 'Бібліятэчны корпус Беларускага політэхнічнага інстытута' },
-        { image: '', description: 'Помнік Якубу Коласу ў в. Мікалаеўшчына Мінскай вобласці' }],
+        { image: '/img/person1/portfolio/work1.jpg', description: 'Нацыянальны акадэмічны драматычны тэатр' },
+        { image: '/img/person1/portfolio/work2.jpg', description: 'Дзяржаўная карцінная галерэя БССР' },
+        { image: '/img/person1/portfolio/work3.jpg', description: 'Беларускі дзяржаўны аграрны тэхнічны універсітэт' },
+        { image: '/img/person1/portfolio/work4.jpg', description: 'Галоўны корпус Беларускага Дзяржаўнага універсітэта' },
+        { image: '/img/person1/portfolio/work5.jpg', description: 'Бібліятэчны корпус Беларускага політэхнічнага інстытута' },
+        { image: '/img/person1/portfolio/work6.jpg', description: 'Помнік Якубу Коласу ў в. Мікалаеўшчына Мінскай вобласці' }],
       listOfWorks: [
         {
           year: '1948-1950',
@@ -127,7 +127,7 @@ export default [
     en: {
       id: 1,
       name: 'Baklanov Mikhail Ivanovich',
-      avatar: '',
+      avatar: '/img/person1/avatar/ava.jpg',
       occupation: 'Belarusian Soviet architect. Honored Architect of the Belarusian SSR.',
       birthDate: '13.01.1914',
       birthPlace: 's.Ivanovka, Ukraine',
@@ -161,12 +161,12 @@ export default [
         },
       ],
       works: [
-        { image: '', description: 'National Academic Drama Theater' },
-        { image: '', description: 'State Art Gallery of the BSSR' },
-        { image: '', description: 'Belarusian State Agrarian Technical University' },
-        { image: '', description: 'The main building of the Belarusian State University' },
-        { image: '', description: 'Library building of the Belarusian Polytechnic Institute' },
-        { image: '', description: 'Monument to Yakub Kolas in village Mikolaevschina of the Minsk region' }],
+        { image: '/img/person1/portfolio/work1.jpg', description: 'National Academic Drama Theater' },
+        { image: '/img/person1/portfolio/work2.jpg', description: 'State Art Gallery of the BSSR' },
+        { image: '/img/person1/portfolio/work3.jpg', description: 'Belarusian State Agrarian Technical University' },
+        { image: '/img/person1/portfolio/work4.jpg', description: 'The main building of the Belarusian State University' },
+        { image: '/img/person1/portfolio/work5.jpg', description: 'Library building of the Belarusian Polytechnic Institute' },
+        { image: '/img/person1/portfolio/work6.jpg', description: 'Monument to Yakub Kolas in village Mikolaevschina of the Minsk region' }],
       listOfWorks: [
         {
           year: '1948-1950',
@@ -191,7 +191,7 @@ export default [
     ru: {
       id: 2,
       name: 'Воинов Александр Петрович',
-      avatar: '',
+      avatar: '/img/person2/avatar/ava.jpg',
       occupation: 'Архитектор, ученый, член-корреспондент НАН Беларуси, заслуженный деятель искусств БССР',
       birthDate: '03.12.1902',
       birthPlace: 'г.Колпино, Россия',
@@ -235,12 +235,12 @@ export default [
         },
       ],
       works: [
-        { image: '', description: 'Жилые дома на улице Московской г. Минска' },
-        { image: '', description: 'Гостиница «Свислочь» в г. Минске' },
-        { image: '', description: 'Дворец пионеров и школьников' },
-        { image: '', description: 'Театр юного зрителя, ныне резиденция Президента' },
-        { image: '', description: 'Здание ЦК КПБ' },
-        { image: '', description: 'Институт физкультуры в г. Минске' }],
+        { image: '/img/person1/portfolio/work1.jpg', description: 'Жилые дома на улице Московской г. Минска' },
+        { image: '/img/person1/portfolio/work2.jpg', description: 'Гостиница «Свислочь» в г. Минске' },
+        { image: '/img/person1/portfolio/work3.jpg', description: 'Дворец пионеров и школьников' },
+        { image: '/img/person1/portfolio/work4.jpg', description: 'Театр юного зрителя, ныне резиденция Президента' },
+        { image: '/img/person1/portfolio/work5.jpg', description: 'Здание ЦК КПБ' },
+        { image: '/img/person1/portfolio/work6.jpg', description: 'Институт физкультуры в г. Минске' }],
       listOfWorks: [
         {
           year: '1933—1940',
@@ -260,7 +260,7 @@ export default [
     be: {
       id: 2,
       name: 'Воінаў Аляксандр Пятровіч',
-      avatar: '',
+      avatar: '/img/person2/avatar/ava.jpg',
       occupation: 'Архітэктар, вучоны, член-карэспандэнт НАН Беларусі, заслужаны дзеяч мастацтваў БССР',
       birthDate: '03.12.1902 ',
       birthPlace: 'г.Колпино, Расія',
@@ -304,12 +304,12 @@ export default [
         },
       ],
       works: [
-        { image: '', description: 'Жылыя дамы на вуліцы Маскоўскай г. Мінска' },
-        { image: '', description: 'Гасцініца «Свіслач» у г. Мінску' },
-        { image: '', description: 'Палац піянераў і школьнікаў' },
-        { image: '', description: 'Тэатр юнага гледача, цяпер рэзідэнцыя Прэзідэнта' },
-        { image: '', description: 'Будынак ЦК КПБ' },
-        { image: '', description: 'Інстытут фізкультуры ў г. Мінску' }],
+        { image: '/img/person1/portfolio/work1.jpg', description: 'Жылыя дамы на вуліцы Маскоўскай г. Мінска' },
+        { image: '/img/person1/portfolio/work2.jpg', description: 'Гасцініца «Свіслач» у г. Мінску' },
+        { image: '/img/person1/portfolio/work3.jpg', description: 'Палац піянераў і школьнікаў' },
+        { image: '/img/person1/portfolio/work4.jpg', description: 'Тэатр юнага гледача, цяпер рэзідэнцыя Прэзідэнта' },
+        { image: '/img/person1/portfolio/work5.jpg', description: 'Будынак ЦК КПБ' },
+        { image: '/img/person1/portfolio/work6.jpg', description: 'Інстытут фізкультуры ў г. Мінску' }],
       listOfWorks: [
         {
           year: '1933-1940',
@@ -328,7 +328,7 @@ export default [
     en: {
       id: 2,
       name: 'Voinov Alexander Petrovich',
-      avatar: '',
+      avatar: '/img/person2/avatar/ava.jpg',
       occupation: 'Architect, scientist, corresponding member of the National Academy of Sciences of Belarus, Honored Artist of the BSSR',
       birthDate: '03.12.1902 ',
       birthPlace: 'Kolpino, Russia',
@@ -372,12 +372,12 @@ export default [
         },
       ],
       works: [
-        { image: '', description: 'Residential buildings on the Moscow street of Minsk' },
-        { image: '', description: 'Hotel Svisloch in Minsk' },
-        { image: '', description: 'Palace of Pioneers and Schoolchildren' },
-        { image: '', description: 'The Theater of the Young Spectator, now the residence of the President' },
-        { image: '', description: 'Building of the Central Committee of the CPB' },
-        { image: '', description: 'Institute of Physical Education in Minsk' }],
+        { image: '/img/person1/portfolio/work1.jpg', description: 'Residential buildings on the Moscow street of Minsk' },
+        { image: '/img/person1/portfolio/work2.jpg', description: 'Hotel Svisloch in Minsk' },
+        { image: '/img/person1/portfolio/work3.jpg', description: 'Palace of Pioneers and Schoolchildren' },
+        { image: '/img/person1/portfolio/work4.jpg', description: 'The Theater of the Young Spectator, now the residence of the President' },
+        { image: '/img/person1/portfolio/work5.jpg', description: 'Building of the Central Committee of the CPB' },
+        { image: '/img/person1/portfolio/work6.jpg', description: 'Institute of Physical Education in Minsk' }],
       listOfWorks: [
         {
           year: '1933-1940',
