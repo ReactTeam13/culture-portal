@@ -15,19 +15,5 @@ const data = {
 
 storiesOf('Description', module)
   .add('Description', () => (
-    <div className="description">
-    <h1 className="name">{ data.name }</h1>
-    <p className="occupation">{ data.occupation }</p>
-    <p className="years">
-      Годы жизни:
-      <span>{ data.birthDate }</span>
-      {' '}
-      -
-      <span>{ data.deathDate }</span>
-    </p>
-    <p className="birth-place">
-      Место рождения:
-      <span>{ data.birthPlace }</span>
-    </p>
-  </div>
+    <Description data={data} />
   ));

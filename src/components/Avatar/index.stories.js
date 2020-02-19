@@ -8,14 +8,12 @@ export default {
   title: 'img',
 };
 
-const image = {
-  src: imageFile,
-  alt: 'my image',
+const data = {
+  avatar: imageFile,
+  name: 'my image',
 };
 
 storiesOf('Avatar', module)
   .add('Avatar', () => (
-    <div className="avatar-container">
-    <img src={image.src} alt={image.alt} />
-  </div>
+    <Avatar data={data} />
   ));
