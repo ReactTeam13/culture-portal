@@ -1,0 +1,9 @@
+.avatar {
+	transition: transform .2s;
+	filter: grayscale(20%);
+}
+.avatar:hover{
+	cursor: pointer;
+	transform: scale(0.97);
+	filter: grayscale(0%);
+}

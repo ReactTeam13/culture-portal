@@ -6,23 +6,24 @@ import MainPage from '../containers/MainPage';
 import CommonPage from '../containers/CommonPage';
 import PersonalPage from '../containers/PersonalPage';
 import Footer from '../components/Footer';
+import "bootstrap/dist/css/bootstrap.min.css"
 import './index.css';
 
 export default class App extends Component {
-  state={
+  state = {
     person: 0,
     term: '',
-  };
+  }
 
   onButtonClick = (event) => {
     this.setState({
       person: event.target.id,
     });
-  };
+  }
 
   onSearchChange = (term) => {
     this.setState({ term });
-  };
+  }
 
   render() {
     const { term, person } = this.state;
@@ -30,18 +31,20 @@ export default class App extends Component {
       <Router>
         <Helmet>
           <title>Culture portal. Architects of Belarus.</title>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          />
         </Helmet>
         <div>
           <Header />
           <Route
             path="/"
-            render={() => (
-              <MainPage
-                onButtonClick={this.onButtonClick}
-              />
-            )}
+            render={() => <MainPage onButtonClick={this.onButtonClick} />}
             exact
           />
           <Route
