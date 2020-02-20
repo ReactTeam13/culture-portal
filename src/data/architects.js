@@ -463,11 +463,11 @@ export default [
       ],
       works: [
         { image: '/img/person5/portfolio/image1.jpg', description: 'Кинотеатр «Пионер» г. Минска' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Площадь «Независимости» в г. Минске' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Октябрьская площадь в г. Минске' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Площадь «Победы» в г. Минске' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Дом семьи Якуба Коласа г. Минске' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Суворовское училище г. Минске' },
+        { image: '/img/person5/portfolio/image2.jpg', description: 'Площадь «Независимости» в г. Минске' },
+        { image: '/img/person5/portfolio/image3.jpg', description: 'Октябрьская площадь в г. Минске' },
+        { image: '/img/person5/portfolio/image4.jpg', description: 'Площадь «Победы» в г. Минске' },
+        { image: '/img/person5/portfolio/image5.jpg', description: 'Дом семьи Якуба Коласа г. Минске' },
+        { image: '/img/person5/portfolio/image6.jpg', description: 'Суворовское училище г. Минске' },
       ],
       listOfWorks: [
         {
@@ -560,11 +560,11 @@ export default [
       ],
       works: [
         { image: '/img/person5/portfolio/image1.jpg', description: 'Кінатэатр "Піянер" г. Мінска' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Плошча "Незалежнасці" ў г. Мінску' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Кастрычніцкая плошча ў г. Мінску' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Плошча "Перамогі" ў г. Мінску' },
-        { image: '/img/person5/portfolio/image1.jpg', description: "Дом сям'і Якуба Коласа г. Мінску" },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Сувораўскае вучылішча г. Мінску' },
+        { image: '/img/person5/portfolio/image2.jpg', description: 'Плошча "Незалежнасці" ў г. Мінску' },
+        { image: '/img/person5/portfolio/image3.jpg', description: 'Кастрычніцкая плошча ў г. Мінску' },
+        { image: '/img/person5/portfolio/image4.jpg', description: 'Плошча "Перамогі" ў г. Мінску' },
+        { image: '/img/person5/portfolio/image5.jpg', description: "Дом сям'і Якуба Коласа г. Мінску" },
+        { image: '/img/person5/portfolio/image6.jpg', description: 'Сувораўскае вучылішча г. Мінску' },
       ],
       listOfWorks: [
         {
@@ -591,7 +591,7 @@ export default [
     },
     en: {
       id: 5,
-      name: 'Georgy Vladimirovich Zaborsky',
+      name: 'Zaborsky Georgy Vladimirovich',
       avatar: '/img/person5/avatar/ava.jpg',
       occupation: "People's architect of the USSR, honored Builder of Belarus, academician of the Russian Academy of architecture and construction Sciences, academician of the Belarusian Academy of architecture, winner of the state prize of the USSR",
       birthDate: '11.11.1909',
@@ -657,11 +657,11 @@ export default [
       ],
       works: [
         { image: '/img/person5/portfolio/image1.jpg', description: 'Pioneer cinema in Minsk' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Independence square in Minsk' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Oktyabrskaya square in Minsk' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Victory square in Minsk' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'The family home of Yakub Kolas, Minsk' },
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Suvorov military school in Minsk' },
+        { image: '/img/person5/portfolio/image2.jpg', description: 'Independence square in Minsk' },
+        { image: '/img/person5/portfolio/image3.jpg', description: 'Oktyabrskaya square in Minsk' },
+        { image: '/img/person5/portfolio/image4.jpg', description: 'Victory square in Minsk' },
+        { image: '/img/person5/portfolio/image5.jpg', description: 'The family home of Yakub Kolas, Minsk' },
+        { image: '/img/person5/portfolio/image6.jpg', description: 'Suvorov military school in Minsk' },
       ],
       listOfWorks: [
         {

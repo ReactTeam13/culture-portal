@@ -237,12 +237,12 @@ const architectors = [
         },
       ],
       works: [
-        { image: '/img/person1/portfolio/work1.jpg', description: 'Жилые дома на улице Московской г. Минска' },
-        { image: '/img/person1/portfolio/work2.jpg', description: 'Гостиница «Свислочь» в г. Минске' },
-        { image: '/img/person1/portfolio/work3.jpg', description: 'Дворец пионеров и школьников' },
-        { image: '/img/person1/portfolio/work4.jpg', description: 'Театр юного зрителя, ныне резиденция Президента' },
-        { image: '/img/person1/portfolio/work5.jpg', description: 'Здание ЦК КПБ' },
-        { image: '/img/person1/portfolio/work6.jpg', description: 'Институт физкультуры в г. Минске' }],
+        { image: '/img/person2/portfolio/work1.jpg', description: 'Жилые дома на улице Московской г. Минска' },
+        { image: '/img/person2/portfolio/work2.jpg', description: 'Гостиница «Свислочь» в г. Минске' },
+        { image: '/img/person2/portfolio/work3.jpg', description: 'Дворец пионеров и школьников' },
+        { image: '/img/person2/portfolio/work4.jpg', description: 'Театр юного зрителя, ныне резиденция Президента' },
+        { image: '/img/person2/portfolio/work5.jpg', description: 'Здание ЦК КПБ' },
+        { image: '/img/person2/portfolio/work6.jpg', description: 'Институт физкультуры в г. Минске' }],
       listOfWorks: [
         {
           year: '1933—1940',
@@ -306,12 +306,12 @@ const architectors = [
         },
       ],
       works: [
-        { image: '/img/person1/portfolio/work1.jpg', description: 'Жылыя дамы на вуліцы Маскоўскай г. Мінска' },
-        { image: '/img/person1/portfolio/work2.jpg', description: 'Гасцініца «Свіслач» у г. Мінску' },
-        { image: '/img/person1/portfolio/work3.jpg', description: 'Палац піянераў і школьнікаў' },
-        { image: '/img/person1/portfolio/work4.jpg', description: 'Тэатр юнага гледача, цяпер рэзідэнцыя Прэзідэнта' },
-        { image: '/img/person1/portfolio/work5.jpg', description: 'Будынак ЦК КПБ' },
-        { image: '/img/person1/portfolio/work6.jpg', description: 'Інстытут фізкультуры ў г. Мінску' }],
+        { image: '/img/person2/portfolio/work1.jpg', description: 'Жылыя дамы на вуліцы Маскоўскай г. Мінска' },
+        { image: '/img/person2/portfolio/work2.jpg', description: 'Гасцініца «Свіслач» у г. Мінску' },
+        { image: '/img/person2/portfolio/work3.jpg', description: 'Палац піянераў і школьнікаў' },
+        { image: '/img/person2/portfolio/work4.jpg', description: 'Тэатр юнага гледача, цяпер рэзідэнцыя Прэзідэнта' },
+        { image: '/img/person2/portfolio/work5.jpg', description: 'Будынак ЦК КПБ' },
+        { image: '/img/person2/portfolio/work6.jpg', description: 'Інстытут фізкультуры ў г. Мінску' }],
       listOfWorks: [
         {
           year: '1933-1940',
@@ -374,12 +374,12 @@ const architectors = [
         },
       ],
       works: [
-        { image: '/img/person1/portfolio/work1.jpg', description: 'Residential buildings on the Moscow street of Minsk' },
-        { image: '/img/person1/portfolio/work2.jpg', description: 'Hotel Svisloch in Minsk' },
-        { image: '/img/person1/portfolio/work3.jpg', description: 'Palace of Pioneers and Schoolchildren' },
-        { image: '/img/person1/portfolio/work4.jpg', description: 'The Theater of the Young Spectator, now the residence of the President' },
-        { image: '/img/person1/portfolio/work5.jpg', description: 'Building of the Central Committee of the CPB' },
-        { image: '/img/person1/portfolio/work6.jpg', description: 'Institute of Physical Education in Minsk' }],
+        { image: '/img/person2/portfolio/work1.jpg', description: 'Residential buildings on the Moscow street of Minsk' },
+        { image: '/img/person2/portfolio/work2.jpg', description: 'Hotel Svisloch in Minsk' },
+        { image: '/img/person2/portfolio/work3.jpg', description: 'Palace of Pioneers and Schoolchildren' },
+        { image: '/img/person2/portfolio/work4.jpg', description: 'The Theater of the Young Spectator, now the residence of the President' },
+        { image: '/img/person2/portfolio/work5.jpg', description: 'Building of the Central Committee of the CPB' },
+        { image: '/img/person2/portfolio/work6.jpg', description: 'Institute of Physical Education in Minsk' }],
       listOfWorks: [
         {
           year: '1933-1940',
@@ -396,7 +396,564 @@ const architectors = [
       ],
     },
   },
+  {
+    ru: {
+      id: 5,
+      name: 'Заборский Георгий Владимирович',
+      avatar: '/img/person5/avatar/ava.jpg',
+      occupation: 'Народный архитектор СССР, заслуженный строитель Беларуси, академик Российской академии архитектуры и строительных наук, академик Белорусской академии архитектуры, лауреат Государственной премии СССР',
+      birthDate: '11.11.1909',
+      birthPlace: 'г.Минск',
+      deathDate: '27.03.1999',
+      deathPlace: 'г.Минск',
+      locationsCoords: {
+        lat: '53.9',
+        lng: '27.56667',
+      },
+      videoId: '_6j9mrxQGso',
+      activity: [
+        {
+          date: '11.11.1909',
+          place: 'Минск',
+          description: 'Родился в г.Минске',
+        },
+        {
+          date: '1939',
+          place: 'Ленинград',
+          description: 'Окончил Всероссийскую Академию художествю',
+        },
+        {
+          date: '1939',
+          place: 'Минск',
+          description: 'В первые дни ушел добровольцем на фронт, был тяжело ранен и попал в госпиталь. Именно там Заборский нарисовал серию эскизов, которые стали основой обелиска, возведенного на площади Победы в Минске',
+        },
+        {
+          date: '1945-1964',
+          place: 'Минск',
+          description: 'Руководил архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподавал на архитектурном отделении Белорусского политехнического института. Принимал активное участие в разработке проектов планировки и застройки Минска, Полоцка, Орши, а также в проектировании площадей Минска: Ленина (Независимости), Центральной (Октябрьской), Круглой (Победы).',
+        },
+        {
+          date: '1952',
+          place: 'Минск',
+          description: 'Cпроектировал дом для семьи Я. Коласа.',
+        },
+        {
+          date: '1964',
+          place: 'Минск',
+          description: 'По личному желанию перешел в проектный институт Белгипросельстрой.',
+        },
+        {
+          date: '1971',
+          place: 'Минск',
+          description: 'Лауреат Государственной премии СССР',
+        },
+        {
+          date: '1981',
+          place: 'Минск',
+          description: 'Народный архитектор СССР',
+        },
+        {
+          date: '11.11.1979',
+          place: 'Минск',
+          description: 'Oрден Дружбы народов',
+        },
+        {
+          date: '11.02.1994',
+          place: 'Минск',
+          description: 'Медаль Франциска Скорины ',
+        },
+      ],
+      works: [
+        { image: '/img/person5/portfolio/image1.jpg', description: 'Кинотеатр «Пионер» г. Минска' },
+        { image: '/img/person5/portfolio/image2.jpg', description: 'Площадь «Независимости» в г. Минске' },
+        { image: '/img/person5/portfolio/image3.jpg', description: 'Октябрьская площадь в г. Минске' },
+        { image: '/img/person5/portfolio/image4.jpg', description: 'Площадь «Победы» в г. Минске' },
+        { image: '/img/person5/portfolio/image5.jpg', description: 'Дом семьи Якуба Коласа г. Минске' },
+        { image: '/img/person5/portfolio/image6.jpg', description: 'Суворовское училище г. Минске' },
+      ],
+      listOfWorks: [
+        {
+          year: '1950',
+          work: 'Проектирование жилой застройки по ул. Ленина в Минске',
+        },
+        {
+          year: '1950',
+          work: 'Были созданы Суворовское училище и здание ЦК ЛКСМБ',
+        },
+        {
+          year: '1952',
+          work: 'спроектировал дом для семьи Я.Коласа',
+        },
+        {
+          year: '1952',
+          work: 'Был открыт памятник. В. Сталину',
+        },
+        {
+          year: '1954',
+          work: 'Был открыт памятник-монумент на пл. Победы.',
+        },
+      ],
+    },
+    be: {
+      id: 5,
+      name: 'Заборскі Георгій Уладзіміравіч',
+      avatar: '/img/person5/avatar/ava.jpg',
+      occupation: 'Народны архітэктар СССР, заслужаны будаўнік Беларусі, акадэмік Расійскай акадэміі архітэктуры і будаўнічых навук, акадэмік Беларускай акадэміі архітэктуры, лаўрэат Дзяржаўнай прэміі СССР',
+      birthDate: '11.11.1909',
+      birthPlace: 'г. Мінск',
+      deathDate: '27.03.1999',
+      deathPlace: 'г. Мінск',
+      locationsCoords: {
+        lat: '53.9',
+        lng: '27.56667',
+      },
+      videoId: '_6j9mrxQGso',
+      activity: [
+        {
+          date: '11.11.1909',
+          place: 'г. Мінск',
+          description: 'Нарадзіўся ў г. Мінску',
+        },
+        {
+          date: '1939',
+          place: 'Ленінград',
+          description: 'Скончыў Усерасійскую Акадэмію мастацтву',
+        },
+        {
+          date: '1939',
+          place: 'г. Мінск',
+          description: 'У першыя дні пайшоў добраахвотнікам на фронт, быў цяжка паранены і трапіў у шпіталь. Менавіта там Заборскі намаляваў серыю эскізаў, якія сталі асновай абеліска, збудаванага на плошчы Перамогі ў Мінску',
+        },
+        {
+          date: '1945-1964',
+          place: 'г. Мінск',
+          description: 'Кіраваў архітэктурна-канструктарскімі майстэрнямі праектных інстытутаў Белдзяржпраект і Мінскпраект і адначасова выкладаў на архітэктурным аддзяленні Беларускага політэхнічнага інстытута. Прымаў актыўны ўдзел у распрацоўцы праектаў планіроўкі і забудовы Мінска, Полацка, Оршы, а таксама ў праектаванні плошчаў Мінска: Леніна (Незалежнасці), Цэнтральнай (Кастрычніцкай), Круглай (Перамогі).',
+        },
+        {
+          date: '1952',
+          place: 'г. Мінск',
+          description: "Спраектаваў дом для сям'і Я. Коласа..",
+        },
+        {
+          date: '1964',
+          place: 'г. Мінск',
+          description: 'Па асабістым жаданні перайшоў у праектны інстытут Белгіпрасельбуд.',
+        },
+        {
+          date: '1971',
+          place: 'г. Мінск',
+          description: 'Лаўрэат Дзяржаўнай прэміі СССР',
+        },
+        {
+          date: '1981',
+          place: 'г. Мінск',
+          description: 'Народны архітэктар СССР',
+        },
+        {
+          date: '11.11.1979',
+          place: 'г. Мінск',
+          description: 'Ордэн Дружбы народаў',
+        },
+        {
+          date: '11.02.1994',
+          place: 'г. Мінск',
+          description: 'Медаль Францыска Скарыны',
+        },
+      ],
+      works: [
+        { image: '/img/person5/portfolio/image1.jpg', description: 'Кінатэатр "Піянер" г. Мінска' },
+        { image: '/img/person5/portfolio/image2.jpg', description: 'Плошча "Незалежнасці" ў г. Мінску' },
+        { image: '/img/person5/portfolio/image3.jpg', description: 'Кастрычніцкая плошча ў г. Мінску' },
+        { image: '/img/person5/portfolio/image4.jpg', description: 'Плошча "Перамогі" ў г. Мінску' },
+        { image: '/img/person5/portfolio/image5.jpg', description: "Дом сям'і Якуба Коласа г. Мінску" },
+        { image: '/img/person5/portfolio/image6.jpg', description: 'Сувораўскае вучылішча г. Мінску' },
+      ],
+      listOfWorks: [
+        {
+          year: '1950',
+          work: 'Праектаванне жылой забудовы па вул.Леніна ў Мінску',
+        },
+        {
+          year: '1950',
+          work: 'Былі створаны Сувораўскае вучылішча і будынак ЦК ЛКСМБ',
+        },
+        {
+          year: '1952',
+          work: "Спраектаваў дом для сям'і Я. Коласа",
+        },
+        {
+          year: '1952',
+          work: 'Быў адкрыты помнік. В. Сталіну',
+        },
+        {
+          year: '1954',
+          work: 'Быў адкрыты помнік-манумент на пл. Перамогі.',
+        },
+      ],
+    },
+    en: {
+      id: 5,
+      name: 'Zaborsky Georgy Vladimirovich',
+      avatar: '/img/person5/avatar/ava.jpg',
+      occupation: "People's architect of the USSR, honored Builder of Belarus, academician of the Russian Academy of architecture and construction Sciences, academician of the Belarusian Academy of architecture, winner of the state prize of the USSR",
+      birthDate: '11.11.1909',
+      birthPlace: 'Minsk',
+      deathDate: '27.03.1999',
+      deathPlace: 'Minsk',
+      locationsCoords: {
+        lat: '53.9',
+        lng: '27.56667',
+      },
+      videoId: '_6j9mrxQGso',
+      activity: [
+        {
+          date: '11.11.1909',
+          place: 'Minsk',
+          description: 'Born in Minsk',
+        },
+        {
+          date: '1939',
+          place: 'Leningrad',
+          description: 'Graduated from the all-Russian Academy of arts',
+        },
+        {
+          date: '1939',
+          place: 'Minsk',
+          description: 'In the first days, he volunteered for the front, was seriously wounded and was taken to the hospital. It was there that Zaborsky drew a series of sketches that became the basis of the obelisk erected on Victory square in Minsk',
+        },
+        {
+          date: '1945-1964',
+          place: 'Minsk',
+          description: 'He directed the architectural and design workshops of the design institutes Belgosproekt and minskproekt and at the same time taught at the architectural Department of the Belarusian Polytechnic Institute. He took an active part in the development of planning and development projects in Minsk, Polotsk, Orsha, as well as in the design of Minsk squares: Lenin (Independence), Central (Oktyabrskaya), Kruglaya (Pobedy).Руководил архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподавал на архитектурном отделении Белорусского политехнического института. Принимал активное участие в разработке проектов планировки и застройки Минска, Полоцка, Орши, а также в проектировании площадей Минска: Ленина (Независимости), Центральной (Октябрьской), Круглой (Победы).',
+        },
+        {
+          date: '1952',
+          place: 'Minsk',
+          description: 'Designed a house for the family of Ya. Kolas.',
+        },
+        {
+          date: '1964',
+          place: 'Minsk',
+          description: 'At his own request, he moved to the design Institute of Belgiproselstroy.',
+        },
+        {
+          date: '1971',
+          place: 'Minsk',
+          description: 'Winner of the state prize of the USSR',
+        },
+        {
+          date: '1981',
+          place: 'Minsk',
+          description: "People's architect of the USSR",
+        },
+        {
+          date: '11.11.1979',
+          place: 'Minsk',
+          description: 'Order of Friendship of peoples',
+        },
+        {
+          date: '11.02.1994',
+          place: 'Minsk',
+          description: 'A Medal Of Francysk Skaryna',
+        },
+      ],
+      works: [
+        { image: '/img/person5/portfolio/image1.jpg', description: 'Pioneer cinema in Minsk' },
+        { image: '/img/person5/portfolio/image2.jpg', description: 'Independence square in Minsk' },
+        { image: '/img/person5/portfolio/image3.jpg', description: 'Oktyabrskaya square in Minsk' },
+        { image: '/img/person5/portfolio/image4.jpg', description: 'Victory square in Minsk' },
+        { image: '/img/person5/portfolio/image5.jpg', description: 'The family home of Yakub Kolas, Minsk' },
+        { image: '/img/person5/portfolio/image6.jpg', description: 'Suvorov military school in Minsk' },
+      ],
+      listOfWorks: [
+        {
+          year: '1950',
+          work: 'Design of residential buildings on Lenin street in Minsk',
+        },
+        {
+          year: '1950',
+          work: 'The Suvorov school and the lksmb Central Committee building were created',
+        },
+        {
+          year: '1952',
+          work: 'designed a house for the family of Ya. Kolas',
+        },
+        {
+          year: '1952',
+          work: 'A monument to V. Stalin was unveiled',
+        },
+        {
+          year: '1954',
+          work: 'It was a monument-a monument on the Victory square.',
+        },
+      ],
+    },
+  },
+  {
+    ru: {
+      id: 6,
+      name: 'Карако Виктор Иванович',
+      avatar: '/img/person6/avatar/ava.jpg',
+      occupation: 'Белорусский архитектор, член правления Белорусского союза архитекторов, лауреат премии Ленинского Комсомола Белоруссии, руководитель творческой мастерской',
+      birthDate: '29.07.1948',
+      birthPlace: 'г.Гродно',
+      deathDate: '-',
+      deathPlace: '-',
+      locationsCoords: {
+        lat: '53.6884',
+        lng: '23.8258',
+      },
+      videoId: '',
+      activity: [
+        {
+          date: '29 июля 1948',
+          place: 'г. Гродно, Белорусская ССР',
+          description: 'родился',
+        },
+        {
+          date: '1966—1972 гг',
+          place: 'Минск',
+          description: 'Учился на кафедре архитектуры Белорусского политехнического института.',
+        },
+        {
+          date: '1972—1976, 1982—1998',
+          place: 'Минск',
+          description: 'Работал архитектором, старшим архитектором, главным архитектор проектов, руководителем мастерской в «БЕЛГОСПРОЕКТе»',
+        },
+        {
+          date: '1976—1982',
+          place: 'Минск',
+          description: 'Руководитель группы архитекторов, главный архитектор проектов, руководитель мастерской БелНИИПградостроительства.',
+        },
+        {
+          date: '1982',
+          place: 'г. Новополоцк',
+          description: 'Стал лауреатом премии Ленинского Комсомола Белоруссии в области архитектуры за проект дворца молодёжи в г. Новополоцке.',
+        },
+        {
+          date: 'С 1998',
+          place: 'Минск',
+          description: 'Возглавляет собственную творческую мастерскую',
+        },
+        {
+          date: 'С 2003 г.',
+          place: 'Минск',
+          description: 'Преподает проектирование на архитектурном факультете Беларуского национального технического университета.',
+        },
+        {
+          date: 'С 2005 г.',
+          place: 'Минск',
+          description: 'Является членом правления Белорусского союза архитекторов, председателем городской организации БСА и членом Городского Монументально-декоративного Совета.',
+        },
+      ],
+      works: [
+        { image: '/img/person6/portfolio/image7.jpg', description: 'Реконструкция здания банка по улице Заславской, 10' },
+        { image: '/img/person6/portfolio/image8.jpg', description: 'Молодёжный центр в г. Новополоцк' },
+        { image: '/img/person6/portfolio/image9.jpg', description: 'Реконструкция школы 4 в г. Минск' },
+        { image: '/img/person6/portfolio/image10.jpg', description: 'Оперный театр в г. Пловдиве' },
+        { image: '/img/person6/portfolio/image11.jpg', description: 'Здание МВД по ул. Опанского в г. Минск' },
+        { image: '/img/person6/portfolio/image12.jpg', description: 'Судейский домик на гоночном кольце Боровая' },
+      ],
+      listOfWorks: [
+        {
+          year: '-',
+          work: 'Реконструкция здания банка по улице Заславской, 10',
+        },
+        {
+          year: '-',
+          work: 'Молодёжный центр в г. Новополоцк',
+        },
+        {
+          year: '-',
+          work: 'Реконструкция школы 4 в г. Минск',
+        },
+        {
+          year: '-',
+          work: 'Оперный театр в г. Пловдиве',
+        },
+        {
+          year: '-',
+          work: 'Здание МВД по ул. Опанского в г. Минск',
+        },
+      ],
+    },
+    be: {
+      id: 6,
+      name: 'Карака Віктар Іванавіч',
+      avatar: '/img/person6/avatar/ava.jpg',
+      occupation: 'Беларускі архітэктар, член праўлення Беларускага саюза архітэктараў, лаўрэат прэміі Ленінскага камсамола Беларусі, кіраўнік творчай майстэрні',
+      birthDate: '29.07.1948',
+      birthPlace: 'г. Гродна',
+      deathDate: '-',
+      deathPlace: '-',
+      locationsCoords: {
+        lat: '53.6884',
+        lng: '23.8258',
+      },
+      videoId: '',
+      activity: [
+        {
+          date: '29 ліпеня 1948',
+          place: 'г. Гродна, Беларуская ССР',
+          description: 'Нарадзіуся',
+        },
+        {
+          date: '1966—1972 гг',
+          place: 'Мінск',
+          description: 'Вучыўся на кафедры архітэктуры Беларускага політэхнічнага інстытута.',
+        },
+        {
+          date: '1972—1976, 1982—1998',
+          place: 'Мінск',
+          description: 'Працаваў архітэктарам, старшым архітэктарам, галоўным архітэктар праектаў, кіраўніком майстэрні ў " Белдзяржпраекце»',
+        },
+        {
+          date: '1976—1982',
+          place: 'Мінск',
+          description: 'Кіраўнік групы архітэктараў, галоўны архітэктар праектаў, кіраўнік майстэрні Белндіпгорадабудаўніцтва.',
+        },
+        {
+          date: '1982',
+          place: 'г. Новополоцк',
+          description: 'Стаў лаўрэатам прэміі Ленінскага камсамола Беларусі ў галіне архітэктуры за праект Палаца моладзі ў г.Наваполацку',
+        },
+        {
+          date: 'С 1998',
+          place: 'Мінск',
+          description: 'Узначальвае ўласную творчую майстэрню',
+        },
+        {
+          date: 'С 2003 г.',
+          place: 'Мінск',
+          description: 'Выкладае праектаванне на Архітэктурным факультэце Беларускага нацыянальнага тэхнічнага ўніверсітэта.',
+        },
+        {
+          date: 'С 2005 г.',
+          place: 'Мінск',
+          description: "З'яўляецца членам праўлення Беларускага саюза архітэктараў, старшынёй гарадской арганізацыі БСА і членам гарадскога манументальна-дэкаратыўнага Савета.",
+        },
+      ],
+      works: [
+        { image: '/img/person6/portfolio/image7.jpg', description: 'Рэканструкцыя будынка банка па вуліцы Заслаўскай, 10' },
+        { image: '/img/person6/portfolio/image8.jpg', description: 'Моладзевы цэнтр У Г. Наваполацк' },
+        { image: '/img/person6/portfolio/image9.jpg', description: 'Рэканструкцыя школы 4 У Г. Мінск' },
+        { image: '/img/person6/portfolio/image10.jpg', description: 'Оперны тэатр у г. Плоўдзіве' },
+        { image: '/img/person6/portfolio/image11.jpg', description: 'Будынак МУС па вул. Апанскага ў г. Мінск' },
+        { image: '/img/person6/portfolio/image12.jpg', description: 'Судзейскі дамок на гоначным кольцы Баравая' },
+      ],
+      listOfWorks: [
+        {
+          year: '-',
+          work: 'Рэканструкцыя будынка банка па вуліцы Заслаўскай, 10',
+        },
+        {
+          year: '-',
+          work: 'Моладзевы цэнтр У Г. Наваполацк',
+        },
+        {
+          year: '-',
+          work: 'Рэканструкцыя школы 4 У Г. Мінск',
+        },
+        {
+          year: '-',
+          work: 'Оперны тэатр у г. Плоўдзіве',
+        },
+        {
+          year: '-',
+          work: 'Будынак МУС па вул. Апанскага ў г. Мінск',
+        },
+      ],
+    },
+    en: {
+      id: 6,
+      name: 'Karako Viktor Ivanovich',
+      avatar: '/img/person6/avatar/ava.jpg',
+      occupation: 'Belarusian architect, member of the Board of the Belarusian Union of architects, winner of the Lenin Komsomol of Belarus award, head of the creative workshop',
+      birthDate: '29.07.1948',
+      birthPlace: 'Grodno',
+      deathDate: '-',
+      deathPlace: '-',
+      locationsCoords: {
+        lat: '53.6884',
+        lng: '23.8258',
+      },
+      videoId: '',
+      activity: [
+        {
+          date: 'July 29, 1948',
+          place: 'Grodno, Belarusian SSR',
+          description: 'Was born',
+        },
+        {
+          date: '1966—1972',
+          place: 'Minsk',
+          description: 'He studied at the Department of architecture of the Belarusian Polytechnic Institute.',
+        },
+        {
+          date: '1972—1976, 1982—1998',
+          place: 'Minsk',
+          description: 'He worked as an architect, senior architect, chief project architect, and workshop Manager at Belgosproject»',
+        },
+        {
+          date: '1976—1982',
+          place: 'Minsk',
+          description: 'Head of the group of architects, chief project architect, head of The belniipgradostroitelstva workshop.',
+        },
+        {
+          date: '1982',
+          place: 'Novopolotsk',
+          description: 'He was awarded the Lenin Komsomol of Belarus prize in architecture for the project of the youth Palace in Novopolotsk.',
+        },
+        {
+          date: 'Since 1998',
+          place: 'Minsk',
+          description: 'Heads his own creative workshop',
+        },
+        {
+          date: 'Since 2003',
+          place: 'Minsk',
+          description: 'He teaches design at the faculty of architecture of the Belarusian national technical University.',
+        },
+        {
+          date: 'Since 2005',
+          place: 'Minsk',
+          description: "He is a member of the Board of the Belarusian Union of architects, Chairman of the BSA city organization, and a member of the city's Monumental and decorative Council.",
+        },
+      ],
+      works: [
+        { image: '/img/person6/portfolio/image7.jpg', description: 'Reconstruction of the Bank building at 10 Zaslavskaya street' },
+        { image: '/img/person6/portfolio/image8.jpg', description: 'Youth center in Novopolotsk' },
+        { image: '/img/person6/portfolio/image9.jpg', description: 'Reconstruction of school 4 in Minsk' },
+        { image: '/img/person6/portfolio/image10.jpg', description: 'Opera house in Plovdiv' },
+        { image: '/img/person6/portfolio/image11.jpg', description: 'Ministry of internal Affairs building on opanski street in Minsk' },
+        { image: '/img/person6/portfolio/image12.jpg', description: "Judge's house on the Borovaya racing ring" },
+      ],
+      listOfWorks: [
+        {
+          year: '-',
+          work: 'Reconstruction of the Bank building at 10 Zaslavskaya street',
+        },
+        {
+          year: '-',
+          work: 'Youth center in Novopolotsk',
+        },
+        {
+          year: '-',
+          work: 'Reconstruction of school 4 in Minsk',
+        },
+        {
+          year: '-',
+          work: 'Opera house in Plovdiv',
+        },
+        {
+          year: '-',
+          work: 'Ministry of internal Affairs building on opanski street in Minsk',
+        },
+      ],
+    },
+  },
 ];
+
 exports.createPages = ({ actions }) => {
   const { createPage } = actions;
   return new Promise((resolve) => {
