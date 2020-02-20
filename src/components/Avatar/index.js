@@ -5,8 +5,8 @@ function Avatar({ data }) {
   const { avatar, name } = data;
   return (
 
-    <div className="avatar-container">
-      <img src={avatar} alt={name} />
+    <div className="col-md-4 avatar-container">
+      <img src={avatar} alt={name} class="img-thumbnail"/>
     </div>
   );
 }

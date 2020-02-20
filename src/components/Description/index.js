@@ -6,17 +6,17 @@ function Description({ data }) {
     name, occupation, birthDate, deathDate, birthPlace,
   } = data;
   return (
-    <div className="description">
-      <h1 className="name">{ name }</h1>
-      <p className="occupation">{ occupation }</p>
-      <p className="years">
+    <div className="col-md-8 description">
+      <h1 className="text-left name">{ name }</h1>
+      <p className="text-left occupation">{ occupation }</p>
+      <p className="text-left years">
         Годы жизни:
         <span>{ birthDate }</span>
         {' '}
         -
         <span>{ deathDate }</span>
       </p>
-      <p className="birth-place">
+      <p className="text-left birth-place">
         Место рождения:
         <span>{ birthPlace }</span>
       </p>
