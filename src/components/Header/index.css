@@ -1,6 +1,9 @@
+.navigation-link  {
+  font-size: 18px;
+}
+
 .navigation-link:hover {
-  transform: scale(1.1);
   text-transform: none;
   text-decoration: none;
-  color: inherit;
+  color: #C3A871;
 }

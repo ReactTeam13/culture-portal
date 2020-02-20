@@ -1,7 +1,10 @@
+.main-logo {
+  font-size: 18px;
+}
+
 .main-logo .main-logo--link:hover {
-  transform: scale(1.1);
   text-decoration: none;
-  color: inherit;
+  color: #C3A871;
 }
 
 @media (max-width: 767px) {
