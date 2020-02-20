@@ -1,8 +1,7 @@
 import React from 'react';
 import './index.css';
 import { Link } from 'gatsby';
-import Avatar from '../../components/Avatar';
-import Description from '../../components/Description';
+import ArchitectBlock from '../../components/ArchitectBlock';
 import architects from '../../data/architects';
 
 function MainPage({ onButtonClick }) {
@@ -12,8 +11,7 @@ function MainPage({ onButtonClick }) {
   return (
     <div className="main-page">
       <h2 className="title-mainpage">Автор дня</h2>
-      <Avatar data={profile} />
-      <Description data={profile} />
+      <ArchitectBlock data={profile} />
       <Link
         to={`/architector/${url}`}
         className="read-more-button"
