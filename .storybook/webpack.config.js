@@ -22,14 +22,14 @@ module.exports = ({ config }) => {
   config.resolve.mainFields = ["browser", "module", "main"];
 
   //Use loaders to handle scss
-  config.module.rules.push({
-    test: /\.scss$/,
-    use: [
-      'style-loader',
-      'css-loader',
-      'sass-loader',
-    ],
-  });
+  // config.module.rules.push({
+  //   test: /\.scss$/,
+  //   use: [
+  //     'style-loader',
+  //     'css-loader',
+  //     'sass-loader',
+  //   ],
+  // });
 
   return config
 };
