@@ -1,5 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../../../static/styles/reset.css";
 
 import Header from '../Header';
 import Footer from '../Footer';
