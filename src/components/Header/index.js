@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Logo from '../Logo';
+import LanguageControl from '../LanguageControl';
 
 import './index.css';
 
@@ -27,10 +28,7 @@ function Header() {
         </nav>
 
         <div className="col-12 order-2 text-center mb-4 col-md order-md-3 mb-md-0 text-md-right language-switcher-wrapper">
-          {/*  Place buttons here, once is will be ready */}
-          <div>
-            <button>111</button>
-          </div>
+          <LanguageControl />
         </div>
       </div>
     </header>
