@@ -16,7 +16,7 @@ const Layout = ({ children }) => (
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
       <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
     </Helmet>
-    <div className="container">
+    <div>
       <Header />
       <main>
         {children}

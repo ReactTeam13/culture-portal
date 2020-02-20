@@ -7,7 +7,7 @@ import './index.css';
 
 function Header() {
   return (
-    <header className="py-3">
+    <header className="container py-3">
       <div className="row justify-content-between align-items-center">
         <div className="col-12 order-1 text-center mb-5 col-md order-md-1 mb-md-0 text-md-left logo-wrapper">
           <Logo />
