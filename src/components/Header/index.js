@@ -9,7 +9,7 @@ function Header() {
   return (
     <header className="container py-3">
       <div className="row justify-content-between align-items-center">
-        <div className="col-12 order-1 text-center mb-4 col-md order-md-1 mb-md-0 text-center">
+        <div className="col-12 order-1 text-center mb-5 col-md order-md-1 mb-md-0 text-center">
           <Logo />
         </div>
 
