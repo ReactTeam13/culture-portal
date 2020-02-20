@@ -1,11 +1,18 @@
 import React from 'react';
 import './index.css';
+import FooterNav from './FooterNav/index';
+import FooterDesctiption from './FooterDescription/index';
+import FooterBottom from './FooterBottom/index';
+import t from '../../translations/ru.json';
 
 function Footer() {
   return (
     <footer>
-      <p>© 2020 - Белорусский культурный портал</p>
-      <p>Выполнено с любовью по заказу The Rolling Scope School</p>
+      <div className="row bg-gray">
+        <div className="col-lg-4 col-sm-12"><FooterNav t={t} /></div>
+        <div className="col"><FooterDesctiption t={t} /></div>
+        <div className="col-12"><FooterBottom t={t} /></div>
+      </div>
     </footer>
   );
 }

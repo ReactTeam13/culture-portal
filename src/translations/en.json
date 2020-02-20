@@ -16,5 +16,13 @@
   "listWork": "List of works",
   "dateCreate": "Years",
   "workCreate": "Projects",
-  "videoButton": "Open video"
+  "videoButton": "Open video",
+  "footer" : {
+      "linkTeam": "Our team",
+      "linkWorklog": "Worklog",
+        "linkStorybook": "Storybook",
+        "title": "© 2020 - Belarusian cultural portal",
+        "description": "This site, the Cultural Portal of Famous Architects of the Republic of Belarus, is the result of teamwork of RSSchool students"
+    }
+
 }
