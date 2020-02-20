@@ -1,0 +1,21 @@
+.main-logo {
+  font-size: 18px;
+}
+
+.main-logo .main-logo--link:hover {
+  text-decoration: none;
+  color: #C3A871;
+}
+
+@media (max-width: 767px) {
+  .main-logo .main-logo--description {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-logo .main-logo--description {
+    width: 50%;
+    vertical-align: middle;
+  }
+}
