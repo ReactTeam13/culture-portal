@@ -7,17 +7,17 @@ function FooterNav({ t }) {
   return (
     <ul className="p-4 pl-5 text-light">
       <li className="m-3">
-        <Link to="/team">
+        <Link to="/team" className="footerLink">
           {t.footer.linkTeam}
         </Link>
       </li>
       <li className="m-3">
-        <Link to="/">
+        <Link to="/" className="footerLink">
           {t.footer.linkWorklog}
         </Link>
       </li>
       <li className="m-3">
-        <Link to="/">
+        <Link to="/" className="footerLink">
           {t.footer.linkStorybook}
         </Link>
       </li>
