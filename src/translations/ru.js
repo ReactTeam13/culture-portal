@@ -14,8 +14,11 @@ export default {
     authorAlivespan: 'Дата рождения: ',
   },
   footer: {
-    title: '© 2020 - белорусский культурный портал',
-    create: 'Выполнено с любовью по заказу The Rolling Scope School',
+    linkTeam: 'Наша команда',
+    linkWorklog: 'Проделанная работа',
+    linkStorybook: 'Руководство по стилю',
+    title: '© Rolling Scopes School, 2020',
+    description: 'Этот сайт - Культурный портал об известных архитекторах Республики Беларусь - результат командной работы студентов-разработчиков RSSchool',
   },
   search: {
     title: 'Я ищу архитектора',
