@@ -10,7 +10,7 @@ function MainPage({ onButtonClick }) {
   const url = architects[authorDay].en.name.split(' ')[0];
   return (
     <div className="main-page">
-      <h2 className="title-mainpage">Автор дня</h2>
+      <h2 className="text-uppercase text-center mb-4 title-mainpage">Архитектор дня</h2>
       <ArchitectBlock data={profile} />
       <Link
         to={`/architector/${url}`}
