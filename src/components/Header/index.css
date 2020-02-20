@@ -1,22 +1,6 @@
-.header-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 5px 10px 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.header-title {
-  padding: 0;
-  margin: 0;
-  font-size: 22px;
-}
-
-.header-link {
-  color: #000;
-  font-size: 24px;
-  line-height: 80px;
-  font-weight: 700;
+.navigation-link:hover {
+  transform: scale(1.1);
+  text-transform: none;
   text-decoration: none;
-  min-width: 160px;
+  color: inherit;
 }

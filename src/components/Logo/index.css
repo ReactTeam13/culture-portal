@@ -1,0 +1,18 @@
+.main-logo .main-logo--link:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .main-logo .main-logo--description {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-logo .main-logo--description {
+    width: 50%;
+    vertical-align: middle;
+  }
+}

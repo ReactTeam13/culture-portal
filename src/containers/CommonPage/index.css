@@ -4,7 +4,7 @@
   align-items: flex-start;
   align-content: flex-start;
   width: 100%;
-  max-width: 1200px;  
+  max-width: 1200px;
   margin: 40px auto;
   padding: 20px 40px;
   border: 1px solid #ccc;
@@ -14,7 +14,7 @@
   width: 280px;
   height: 280px;
   margin: 0;
-} 
+}
 
 .common-page .avatar-container img {
   width: 280px;
@@ -40,7 +40,7 @@
 }
 
 .read-more-button {
-  display: inline-block;  
+  display: inline-block;
   font-size: 24px;
   color: #fff;
   text-decoration: none;
