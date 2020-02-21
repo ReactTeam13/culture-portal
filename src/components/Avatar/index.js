@@ -6,7 +6,7 @@ function Avatar({ data }) {
   return (
 
     <div className="col-md-4 avatar-container">
-      <img src={avatar} alt={name} class="img-thumbnail"/>
+      <img src={avatar} alt={name} className="img-thumbnail"/>
     </div>
   );
 }
