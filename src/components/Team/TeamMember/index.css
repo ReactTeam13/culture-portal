@@ -3,5 +3,8 @@
 	height: 20px;
 }
 .yellow {
-	color: #D7B87B
+	color: #D7B87B;
+}
+.max-w-300{
+	max-width: 300px;
 }
