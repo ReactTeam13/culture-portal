@@ -1,0 +1,39 @@
+.language-control__item {
+  display: inline-block;
+}
+
+.language-control__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.language-control__input {
+  display: none;
+}
+
+.language-control__label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 31px;
+  height: 31px;
+
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+
+  background-color: #E5E5E5;
+  border: 1px solid #E5E5E5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.language-control__input:checked + 
+.language-control__label {
+  border: 1px solid #D7B87B;
+  background-color: #D7B87B;
+}
+
+.language-control__input:not(:checked) + 
+.language-control__label:hover {
+  border: 1px solid #D7B87B;
+}
