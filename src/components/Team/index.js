@@ -7,10 +7,12 @@ import './index.css';
 
 function TeamBlock({ lang }) {
   return (
-    <div className="container">
+    <div>
       <TeamBlockPhoto />
-      <TeamTitle titleData={teamData[lang].title} />
-      <TeamMembers teamData={teamData[lang].team} />
+      <div className="container">
+        <TeamTitle titleData={teamData[lang].title} />
+        <TeamMembers teamData={teamData[lang].team} />
+      </div>
     </div>
   );
 }
