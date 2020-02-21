@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 import Avatar from '../../components/Avatar';
 import Description from '../../components/Description';
 import architects from '../../data/architects';
+import ParalaxBlock from '../../components/ParalaxBlock';
 
 function MainPage({ onButtonClick }) {
   const authorDay = Math.floor(Math.random() * architects.length);
@@ -11,6 +12,7 @@ function MainPage({ onButtonClick }) {
   const url = architects[authorDay].en.name.split(' ')[0];
   return (
     <div className="main-page">
+      <ParalaxBlock />
       <h2 className="title-mainpage">Автор дня</h2>
       <Avatar data={profile} />
       <Description data={profile} />
