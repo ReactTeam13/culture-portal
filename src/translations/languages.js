@@ -1,15 +1,15 @@
 export default {
   ru: {
     path: 'ru',
-    title: 'Русский',
+    label: 'Ру',
     default: true,
   },
   en: {
     path: 'en',
-    title: 'English',
+    label: 'En',
   },
   be: {
     path: 'be',
-    title: 'Белорусский',
+    label: 'Бе',
   },
 };

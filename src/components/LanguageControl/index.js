@@ -3,25 +3,19 @@ import { useTranslation } from 'react-i18next';
 
 import './index.css';
 
-const LanguageControl = () => {
+const LanguageControl = ({ languages }) => {
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
-
-  const languages = [
-    { value: 'ru', label: 'Ру' },
-    { value: 'en', label: 'En' },
-    { value: 'be', label: 'Бе' },
-  ];
 
   const handleChange = (event) => {
     const { value } = event.target;
     i18n.changeLanguage(value);
   };
 
-  const items = languages.map((language) => {
-    const { value, label } = language;
+  const items = Object.keys(languages).map((key) => {
+    const { path: value, label } = languages[key];
     return (
-      <p key={value} className="language-control__item">
+      <div key={value} className="language-control__item">
         <input
           className="language-control__input"
           id={value}
@@ -37,7 +31,7 @@ const LanguageControl = () => {
         >
           {label}
         </label>
-      </p>
+      </div>
     );
   });
 
