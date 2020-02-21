@@ -18,7 +18,7 @@ export default {
     linkWorklog: 'Worklog',
     linkStorybook: 'Storybook',
     title: '© Rolling Scopes School, 2020',
-    description: 'This site, the Cultural Portal of Famous Architects of the Republic of Belarus, is the result of teamwork of RSSchool students',
+    description: ['This site -', ' the Cultural Portal of Famous Architects of the Republic of Belarus ', '- is the result of teamwork of RSSchool students'],
   },
   search: {
     title: 'I am looking for an architect',
