@@ -1,3 +1,20 @@
-.btn {
-  color: red;
+.btn-yellow {
+  background: #D7B87B;
+  color: #41414E;
+  border: none;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.btn-yellow:hover, .btn-yellow:focus {
+  background: #C3A871;
+}
+.btn-yellow:active {
+  background: #C3A871;
+}
+
+.btn-xxl {
+  padding: 8px 60px;
+  font-size: 28px;
+  border-radius: 50px;
 }

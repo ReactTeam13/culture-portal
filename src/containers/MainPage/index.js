@@ -3,6 +3,7 @@ import './index.css';
 import { Link } from 'gatsby';
 import Avatar from '../../components/Avatar';
 import Description from '../../components/Description';
+import Button from '../../components/Button';
 import architects from '../../data/architects';
 
 function MainPage({ onButtonClick }) {

@@ -5,7 +5,7 @@ const Button = ({
   type, content, onClickCallback, isDisabled,
 }) => (
   <button
-    className="btn"
+    className="btn btn-xxl btn-yellow"
     type={type || 'button'}
     disabled={isDisabled}
     onClick={onClickCallback}
