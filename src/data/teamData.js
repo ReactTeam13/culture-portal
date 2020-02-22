@@ -2,6 +2,7 @@ const githubIcon = 'https://image.flaticon.com/icons/svg/733/733553.svg';
 const teamData = {
   en: {
     title: {
+      header: ['Meet', 'our team'],
       article: {
         h: 'Meet our team',
         p: 'Our group tried to realize the ideas of each participant and put our soul into our project. We hope you enjoyed it!',
@@ -92,6 +93,7 @@ const teamData = {
   },
   ru: {
     title: {
+      header: ['Встречайте,', 'Наша команда'],
       article: {
         h: 'Встречайте нашу команду',
         p: 'Наша большая группа постаралась воплотить идеи каждого участника и вложить душу в наш проект. Надеимся, Вам он понравился!',
@@ -181,6 +183,7 @@ const teamData = {
   },
   be: {
     title: {
+      header: ['Сустракайце,', 'Наша каманда'],
       article: {
         h: 'Сустракайце нашу каманду',
         p: 'Наша вялікая група паспрабавала ўвасобіць ідэі кожнага ўдзельніка і ўкласці душу ў наш праект. Спадзяемся, што Вам ён спадабаўся!',
