@@ -17,11 +17,13 @@ function MainPage({ onButtonClick }) {
       <Description data={profile} />
       <Link
         to={`/architector/${url}`}
-        className="read-more-button"
         id={authorDay}
         onClick={onButtonClick}
       >
-        Узнать больше
+        <Button
+      type="button"
+      content="Читать далее"
+    />
       </Link>
       <p className="description-mainpage">
         <span>Добро пожаловать на портал,</span>
