@@ -21,9 +21,9 @@ function MainPage({ onButtonClick }) {
         onClick={onButtonClick}
       >
         <Button
-      type="button"
-      content="Читать далее"
-    />
+          type="button"
+          content="Читать далее"
+        />
       </Link>
       <p className="description-mainpage">
         <span>Добро пожаловать на портал,</span>
