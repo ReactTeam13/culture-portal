@@ -1,9 +1,13 @@
 import React from 'react';
 import './index.css';
 import { Link } from 'gatsby';
+<<<<<<< HEAD
 import Avatar from '../../components/Avatar';
 import Description from '../../components/Description';
 import Button from '../../components/Button';
+=======
+import ArchitectBlock from '../../components/ArchitectBlock';
+>>>>>>> develop
 import architects from '../../data/architects';
 
 function MainPage({ onButtonClick }) {
@@ -12,9 +16,8 @@ function MainPage({ onButtonClick }) {
   const url = architects[authorDay].en.name.split(' ')[0];
   return (
     <div className="main-page">
-      <h2 className="title-mainpage">Автор дня</h2>
-      <Avatar data={profile} />
-      <Description data={profile} />
+      <h2 className="text-uppercase text-center mb-4 title-mainpage">Архитектор дня</h2>
+      <ArchitectBlock data={profile} />
       <Link
         to={`/architector/${url}`}
         id={authorDay}
