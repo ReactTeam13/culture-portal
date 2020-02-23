@@ -1,0 +1,57 @@
+.circle1 {
+  width: 180;
+  height: 180;
+  left: 50%;
+  marginLeft: -90;
+  top: 242;
+  position: absolute;
+  z-index: 2;
+}
+
+.circle2 {
+  width: 250;
+  height: 250;
+  left: 50%;
+  margin-left: -126;
+  top: 206;
+  position: absolute;
+  z-index: 2;
+}
+
+.circle2-1 {
+ position: absolute;
+  border: 3px solid black;
+  height: 100%;
+  z-index: 12;
+}
+
+.circle2-2 {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  border: 1px solid black;
+  height: 100%;
+  width: 102%;
+  z-index: 10;
+}
+
+.circle3 {
+  position: absolute;
+  width: 345px;
+  height: 345px;
+  top : 185px;
+  left : 50%;
+  margin-left: -173px;
+  opacity: 1;
+  border: 10px dashed #41414E;
+  z-index: 0;
+}
+
+.plx1 {
+  width: 180;
+  height: 180;
+  left: 50%;
+  marginLeft: -90;
+  top: 270;
+  position: absolute;
+}

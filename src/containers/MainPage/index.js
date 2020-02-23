@@ -1,10 +1,12 @@
 import React from 'react';
 import './index.css';
 import { Link } from 'gatsby';
-import Avatar from '../../components/Avatar';
-import Description from '../../components/Description';
+import ArchitectBlock from '../../components/ArchitectBlock';
+import Button from '../../components/Button';
 import architects from '../../data/architects';
 import ParalaxBlock from '../../components/ParalaxBlock';
+import Avatar from '../../components/Avatar';
+import Description from '../../components/Description';
 
 function MainPage({ onButtonClick }) {
   const authorDay = Math.floor(Math.random() * architects.length);
@@ -16,13 +18,17 @@ function MainPage({ onButtonClick }) {
       <h2 className="title-mainpage">Автор дня</h2>
       <Avatar data={profile} />
       <Description data={profile} />
+      <h2 className="text-uppercase text-center mb-4 title-mainpage">Архитектор дня</h2>
+      <ArchitectBlock data={profile} />
       <Link
         to={`/architector/${url}`}
-        className="read-more-button"
         id={authorDay}
         onClick={onButtonClick}
       >
-        Узнать больше
+        <Button
+          type="button"
+          content="Читать далее"
+        />
       </Link>
       <p className="description-mainpage">
         <span>Добро пожаловать на портал,</span>
