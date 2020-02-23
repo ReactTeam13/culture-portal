@@ -26,13 +26,15 @@
 .card3 {
     width: 200px;
     height: 200px;
-    padding: 58px 45px 45px;
+    padding: 52px 45px 45px;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 80px;
+    line-height: 20px;
     background: rgb(168, 135, 77);
     border-radius: 50%;
     color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .card4,
