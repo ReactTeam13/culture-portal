@@ -952,6 +952,514 @@ const architectors = [
       ],
     },
   },
+  {
+    ru: {
+      id: 9,
+      name: 'Левин Леонид Менделевич',
+      avatar: '/img/person9/avatar/ava.jpg',
+      occupation: 'Заслуженный архитектор Республики Беларусь',
+      birthDate: '25.06.1936',
+      birthPlace: 'Минск, Белорусская ССР, СССР',
+      deathDate: '01.03.2014',
+      deathPlace: 'Минск, Белоруссия',
+      locationsCoords: {
+        lat: '53.904541',
+        lng: '27.561523',
+      },
+      videoId: '3QJXk6dIpKQ',
+      activity: [{
+        date: '25.06.1936',
+        place: 'Минск',
+        description: 'Родился в Минске.',
+      },
+      {
+        date: '1954—1960',
+        place: 'Минск',
+        description: 'Учился в Белорусском политехническом институте.',
+      },
+      {
+        date: '1960—1967',
+        place: 'Минск',
+        description: 'Участие в создании парка им. 50-летия Советской власти.',
+      },
+      {
+        date: '1968',
+        place: 'Минск',
+        description: 'Участие в создании выставочного павильона ВДНХ БССР в Минске.',
+      },
+      {
+        date: '1970',
+        place: 'Минск',
+        description: 'В составе авторского коллектива был удостоен Ленинской премии за мемориальный комплекс 1968—1969 гг. «Хатынь».',
+      },
+      ],
+      works: [{
+        image: 'https://live.staticflickr.com/8467/8080350229_9ed8cb8e63_h.jpg',
+        description: 'Мемориальный комплекс «Хатынь»',
+      },
+      {
+        image: 'https://live.staticflickr.com/8510/8352680273_bcca25c94c_h.jpg',
+        description: 'Мемориальный комплекс «Яма». Памятник создавался в течение 8 лет.',
+      },
+      {
+        image: 'https://live.staticflickr.com/4454/37118646123_3a74157531_b.jpg',
+        description: 'Памятник Якубу Коласу (Минск)',
+      },
+      {
+        image: 'https://live.staticflickr.com/7130/27390652600_777498e503_h.jpg',
+        description: 'Памятник Янке Купале (Минск)',
+      },
+      {
+        image: 'https://live.staticflickr.com/7493/27568593762_9a50064a91_h.jpg',
+        description: '«Троицкое предместье» (Минск)',
+      },
+      {
+        image: 'https://live.staticflickr.com/4303/35546085910_c83289faee_h.jpg',
+        description: '«Верхний город» (Минск)',
+      },
+      ],
+      listOfWorks: [{
+        year: '1969',
+        work: 'Мемориальный комплекс «Хатынь»',
+      },
+      {
+        year: '2000',
+        work: 'Мемориальный комплекс «Яма». Памятник создавался в течение 8 лет.',
+      },
+      {
+        year: '1972',
+        work: 'Памятник Якубу Коласу (Минск)',
+      },
+      {
+        year: '1972',
+        work: 'Памятник Янке Купале (Минск)',
+      },
+      {
+        year: '1980—1986',
+        work: '«Троицкое предместье» (Минск)',
+      },
+      ],
+    },
+    en: {
+      id: 9,
+      name: 'Levin Leonid Mendelevich',
+      avatar: '/img/person9/avatar/ava.jpg',
+      occupation: 'Honored Architect of the Republic of Belarus',
+      birthDate: '25 .06.1936 ',
+      birthPlace: 'Minsk, Belorussian SSR, USSR',
+      deathDate: '01 .03.2014 ',
+      deathPlace: 'Minsk, Belarus',
+      locationsCoords: {
+        lat: '53 .904541 ',
+        lng: '27 .561523 ',
+      },
+      videoId: '3QJXk6dIpKQ',
+      activity: [{
+        date: '25 .06.1936 ',
+        place: 'Minsk',
+        description: 'Born in Minsk.',
+      },
+      {
+        date: '1954-1960',
+        place: 'Minsk',
+        description: 'Studied at the Belarusian Polytechnic Institute.',
+      },
+      {
+        date: '1960-1967',
+        place: 'Minsk',
+        description: 'Participation in the creation of the park to them. 50th anniversary of Soviet power. ',
+      },
+      {
+        date: '1968',
+        place: 'Minsk',
+        description: 'Participation in the creation of the exhibition pavilion of VDNH BSSR in Minsk.',
+      },
+      {
+        date: '1970',
+        place: 'Minsk',
+        description: 'As part of the team of authors, he was awarded the Lenin Prize for the memorial complex of 1968-1969. Khatyn. ',
+      },
+      ],
+      works: [{
+        image: 'https://live.staticflickr.com/8467/8080350229_9ed8cb8e63_h.jpg',
+        description: 'Khatyn Memorial Complex',
+      },
+      {
+        image: 'https://live.staticflickr.com/8510/8352680273_bcca25c94c_h.jpg',
+        description: 'Memorial complex “Pit”. The monument was created over 8 years. ',
+      },
+      {
+        image: 'https://live.staticflickr.com/4454/37118646123_3a74157531_b.jpg',
+        description: 'Monument to Yakub Kolas (Minsk)',
+      },
+      {
+        image: 'https://live.staticflickr.com/7130/27390652600_777498e503_h.jpg',
+        description: 'Monument to Janka Kupala (Minsk)',
+      },
+      {
+        image: 'https://live.staticflickr.com/7493/27568593762_9a50064a91_h.jpg',
+        description: '“Trinity Suburb” (Minsk)',
+      },
+      {
+        image: 'https://live.staticflickr.com/4303/35546085910_c83289faee_h.jpg',
+        description: '“Upper Town” (Minsk)',
+      },
+      ],
+      listOfWorks: [{
+        year: '1969',
+        work: 'Khatyn Memorial Complex',
+      },
+      {
+        year: '2000',
+        work: 'Memorial complex “Pit”. The monument was created over 8 years. ',
+      },
+      {
+        year: '1972',
+        work: 'Monument to Yakub Kolas (Minsk)',
+      },
+      {
+        year: '1972',
+        work: 'Monument to Janka Kupala (Minsk)',
+      },
+      {
+        year: '1980—1986',
+        work: 'Trinity Suburb (Minsk)',
+      },
+      ],
+    },
+    be: {
+      id: 9,
+      name: 'Левін Леанід Мендзелевіч',
+      avatar: '/img/person9/avatar/ava.jpg',
+      occupation: 'Заслужаны архітэктар Рэспублікі Беларусь',
+      birthDate: '25 .06.1936 ',
+      birthPlace: 'Мінск, Беларуская ССР, СССР',
+      deathDate: '01 .03.2014 ',
+      deathPlace: 'Мінск, Беларусь',
+      locationsCoords: {
+        lat: '53 .904541 ',
+        lng: '27 .561523 ',
+      },
+      videoId: '3QJXk6dIpKQ',
+      activity: [{
+        date: '25 .06.1936 ',
+        place: 'Мінск',
+        description: 'Нарадзіўся ў Мінску.',
+      },
+      {
+        date: '1954-1960',
+        place: 'Мінск',
+        description: 'Вучыўся ў Беларускім політэхнічным інстытуце.',
+      },
+      {
+        date: '1960-1967',
+        place: 'Мінск',
+        description: 'Удзел у стварэнні парка ім. 50-годдзя Савецкай улады. ',
+      },
+      {
+        date: '1968',
+        place: 'Мінск',
+        description: 'Удзел у стварэнні выставачнага павільёна ВДНГ БССР у Мінску.',
+      },
+      {
+        date: '1970',
+        place: 'Мінск',
+        description: 'У складзе аўтарскага калектыву быў удастоены Ленінскай прэміі за мемарыяльны комплекс 1968-1969 гг. «Хатынь».',
+      },
+      ],
+      works: [{
+        image: 'https://live.staticflickr.com/8467/8080350229_9ed8cb8e63_h.jpg',
+        description: 'Мемарыяльны комплекс «Хатынь»',
+      },
+      {
+        image: 'https://live.staticflickr.com/8510/8352680273_bcca25c94c_h.jpg',
+        description: 'Мемарыяльны комплекс "Яма". Помнік ствараўся на працягу 8 гадоў.',
+      },
+      {
+        image: 'https://live.staticflickr.com/4454/37118646123_3a74157531_b.jpg',
+        description: 'Помнік Якубу Коласу (Мінск)',
+      },
+      {
+        image: 'https://live.staticflickr.com/7130/27390652600_777498e503_h.jpg',
+        description: 'Помнік Янку Купалу (Мінск)',
+      },
+      {
+        image: 'https://live.staticflickr.com/7493/27568593762_9a50064a91_h.jpg',
+        description: ' «Траецкае прадмесце» (Мінск)',
+      },
+      {
+        image: 'https://live.staticflickr.com/4303/35546085910_c83289faee_h.jpg',
+        description: ' «Верхні горад» (Мінск)',
+      },
+      ],
+      listOfWorks: [{
+        year: '1969',
+        work: 'Мемарыяльны комплекс «Хатынь»',
+      },
+      {
+        year: '2000',
+        work: 'Мемарыяльны комплекс "Яма". Помнік ствараўся на працягу 8 гадоў.',
+      },
+      {
+        year: '1972',
+        work: 'Помнік Якубу Коласу (Мінск)',
+      },
+      {
+        year: '1972',
+        work: 'Помнік Янку Купалу (Мінск)',
+      },
+      {
+        year: '1980-1986',
+        work: ' «Траецкае прадмесце» (Мінск)',
+      },
+      ],
+    },
+  },
+  {
+    ru: {
+      id: 12,
+      name: 'Шабуневский Станислав Данилович',
+      avatar: '/img/person12/avatar/ava.jpg',
+      occupation: 'Заслуженный архитектор, автор значительной части застройки Гомеля начала XX в.',
+      birthDate: '02.12.1868',
+      birthPlace: 'Скородное, Мозырский уезд, Минская губерния, Российская империя',
+      deathDate: '1937',
+      deathPlace: 'Беломорско-Балтийский канал, Республика Карелия, СССР',
+      locationsCoords: {
+        lat: '52.419128',
+        lng: '30.972269',
+      },
+      videoId: 'hqpxgVd7eJg',
+      activity: [{
+        date: '02.12.1868',
+        place: 'Скородное, Мозырский уезд, Минская губерния, Российская империя',
+        description: 'Родился в деревне Скородное.',
+      },
+      {
+        date: '1870-1880',
+        place: 'Слуцк',
+        description: 'Учился в четырёхклассной прогимназии, потом закончил Слуцкую гимназию.',
+      },
+      {
+        date: '1870-1880',
+        place: 'Петербург',
+        description: 'Поступил в Петербургский институт гражданских инженеров, на курс архитектуры у академика С. Шретера.',
+      },
+      {
+        date: '1897',
+        place: 'Гомель',
+        description: 'Служил в Гомеле на должности городского архитектора.',
+      },
+      {
+        date: '1923',
+        place: 'Гомель',
+        description: 'Назначен инспектором по строительству Гомельского губернского Совета народного хозяйства.',
+      },
+      {
+        date: '1931',
+        place: 'Гомель',
+        description: 'работал начальником управления строительного контроля при Гомельском горсовете.',
+      },
+      ],
+      works: [{
+        image: 'https://live.staticflickr.com/4046/4571294561_85d760da2c_c.jpg',
+        description: 'Здание бывшего Орловского коммерческого банка.',
+      },
+      {
+        image: 'https://live.staticflickr.com/111/313839194_6c42fcd56b_c.jpg',
+        description: 'Бывший доходный дом купца К. П. Грошикова.',
+      },
+      {
+        image: 'https://live.staticflickr.com/1255/1437480802_161278771f_h.jpg',
+        description: 'Здание бывшего Виленского коммерческого банка.',
+      },
+      {
+        image: 'https://live.staticflickr.com/2655/4106581231_bcdbd1420c_h.jpg',
+        description: 'Дом-коммуна, пр. Ленина',
+      },
+      ],
+      listOfWorks: [{
+        year: '1901',
+        work: 'Орловский коммерческий банк на углу Румянцевской и Ирининской улиц.',
+      },
+      {
+        year: '1909',
+        work: 'Бывший доходный дом купца К. П. Грошикова.',
+      },
+      {
+        year: '1910—1912',
+        work: 'Дом, на углу Румянцевской и Троицкой улиц (Здание бывшего Виленского коммерческого банка.)',
+      },
+      {
+        year: '1929—1931',
+        work: 'Дом-коммуна, пр. Ленина - жилой дом для рабочих паровозо-вагоноремонтного завода с квартирами коммунального типа',
+      },
+
+      ],
+    },
+    en: {
+      id: 12,
+      name: 'Shabunevsky Stanislav Danilovich',
+      avatar: '/img/person12/avatar/ava.jpg',
+      occupation: 'Honored architect, author of a significant part of the construction of Gomel at the beginning of the 20th century.',
+      birthDate: '02 .12.1868 ',
+      birthPlace: 'Skorodnoye, Mozyr Uyezd, Minsk Province, Russian Empire',
+      deathDate: '1937',
+      deathPlace: 'White Sea-Baltic Canal, Republic of Karelia, USSR',
+      locationsCoords: {
+        lat: '52 .419128 ',
+        lng: '30 .972269 ',
+      },
+      videoId: 'hqpxgVd7eJg',
+      activity: [{
+        date: '02 .12.1868 ',
+        place: 'Skorodnoye, Mozyr Uyezd, Minsk Province, Russian Empire',
+        description: 'Born in the village of Skorodnoye.',
+      },
+      {
+        date: '1870-1880',
+        place: 'Slutsk',
+        description: 'Studied in a four-year gymnasium, then graduated from the Slutsk gymnasium.',
+      },
+      {
+        date: '1870-1880',
+        place: 'Petersburg',
+        description: 'I entered the St. Petersburg Institute of Civil Engineers, a course in architecture with academician S. Schreter.',
+      },
+      {
+        date: '1897',
+        place: 'Gomel',
+        description: 'Served in Gomel as a city architect.',
+      },
+      {
+        date: '1923',
+        place: 'Gomel',
+        description: 'Appointed construction inspector of the Gomel Provincial National Economy Council.',
+      },
+      {
+        date: '1931',
+        place: 'Gomel',
+        description: 'worked as the head of the construction control department at the Gomel City Council.',
+      },
+      ],
+      works: [{
+        image: 'https://live.staticflickr.com/4046/4571294561_85d760da2c_c.jpg',
+        description: 'The building of the former Oryol Commercial Bank.',
+      },
+      {
+        image: 'https://live.staticflickr.com/111/313839194_6c42fcd56b_c.jpg',
+        description: 'The former apartment building of the merchant K.P. Groshikov.',
+      },
+      {
+        image: 'https://live.staticflickr.com/1255/1437480802_161278771f_h.jpg',
+        description: 'The building of the former Vilnius Commercial Bank.',
+      },
+      {
+        image: 'https://live.staticflickr.com/2655/4106581231_bcdbd1420c_h.jpg',
+        description: 'House-commune, Lenin Ave',
+      },
+      ],
+      listOfWorks: [{
+        year: '1901',
+        work: 'Oryol Commercial Bank on the corner of Rumyantsevskaya and Irininskaya streets.',
+      },
+      {
+        year: '1909',
+        work: 'The former apartment building of the merchant K.P. Groshikov.',
+      },
+      {
+        year: '1910-1912',
+        work: 'House, on the corner of Rumyantsevskaya and Troitskaya Streets (The building of the former Vilna Commercial Bank.)',
+      },
+      {
+        year: '1929-1931',
+        work: 'House-commune, Lenin Ave. - residential building for workers of a steam locomotive-car repair plant with communal type apartments',
+      },
+
+      ],
+    },
+    be: {
+      id: 12,
+      name: 'Шабунеўскага Станіслаў Данілавіч',
+      avatar: '/img/person12/avatar/ava.jpg',
+      occupation: 'Заслужаны архітэктар, аўтар значнай часткі забудовы Гомеля пачатку XX ст.',
+      birthDate: '02 .12.1868 ',
+      birthPlace: 'Скароднае, Мазырскі павет, Мінская губерня, Расійская імперыя',
+      deathDate: '1937',
+      deathPlace: 'Беламорска-Балтыйскі канал, Рэспубліка Карэлія, СССР',
+      locationsCoords: {
+        lat: '52 .419128 ',
+        lng: '30 .972269 ',
+      },
+      videoId: 'hqpxgVd7eJg',
+      activity: [{
+        date: '02 .12.1868 ',
+        place: 'Скароднае, Мазырскі павет, Мінская губерня, Расійская імперыя',
+        description: 'Нарадзіўся ў вёсцы Скароднае.',
+      },
+      {
+        date: '1870-1880',
+        place: 'Слуцк',
+        description: 'Вучыўся ў четырёхклассной прагімназіі, потым скончыў Слуцкую гімназію.',
+      },
+      {
+        date: '1870-1880',
+        place: 'Пецярбург',
+        description: 'Паступіў у Пецярбургскі інстытут цывільных інжынераў, на курс архітэктуры ў акадэміка С. Шретер.',
+      },
+      {
+        date: '1897',
+        place: 'Гомель',
+        description: 'Служыў у Гомелі на пасады гарадскога архітэктара.',
+      },
+      {
+        date: '1923',
+        place: 'Гомель',
+        description: 'Прызначаны інспектарам па будаўніцтве Гомельскага губернскага Савета народнай гаспадаркі.',
+      },
+      {
+        date: '1931',
+        place: 'Гомель',
+        description: 'працаваў начальнікам упраўлення будаўнічага кантролю пры Гомельскім гарсавеце.',
+      },
+      ],
+      works: [{
+        image: 'https://live.staticflickr.com/4046/4571294561_85d760da2c_c.jpg',
+        description: 'Будынак былога Арлоўскага камерцыйнага банка.',
+      },
+      {
+        image: 'https://live.staticflickr.com/111/313839194_6c42fcd56b_c.jpg',
+        description: 'Былы даходны дом купца К. П. Грошыкава.',
+      },
+      {
+        image: 'https://live.staticflickr.com/1255/1437480802_161278771f_h.jpg',
+        description: 'Будынак былога Віленскага камерцыйнага банка.',
+      },
+      {
+        image: 'https://live.staticflickr.com/2655/4106581231_bcdbd1420c_h.jpg',
+        description: 'Дом-камуна, пр. Леніна',
+      },
+      ],
+      listOfWorks: [{
+        year: '1901',
+        work: 'Арлоўскі камерцыйны банк на рагу Румянцаўскай і Ірынінскай вуліц.',
+      },
+      {
+        year: '1909',
+        work: 'Былы даходны дом купца К. П. Грошыкава.',
+      },
+      {
+        year: '1910-1912',
+        work: 'Дом, на рагу Румянцаўскай і Траецкай вуліц (Будынак былога Віленскага камерцыйнага банка.)',
+      },
+      {
+        year: '1929-1931',
+        work: 'Дом-камуна, пр. Леніна - жылы дом для працоўных паравоза-вагонарамонтнага завода з кватэрамі камунальнай тыпу',
+      },
+
+      ],
+    },
+  },
 ];
 
 exports.createPages = ({ actions }) => {
