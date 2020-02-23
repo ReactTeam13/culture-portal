@@ -29,7 +29,7 @@ export default class SearchPanel extends Component {
               onChange={this.onSearchChange}
             />
           </label>
-          <button type="submit">Найти</button>
+          <button className="search-button" type="submit">Найти</button>
         </form>
       </div>
     );
