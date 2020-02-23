@@ -1,6 +1,6 @@
 export default {
   header: {
-    title: 'Portal of architects of Belarus',
+    title: 'Architects of Belarus',
     mainLink: 'Home',
     link: 'Architects',
   },
