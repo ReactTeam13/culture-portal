@@ -14,9 +14,11 @@ export default {
     authorAlivespan: 'Дата нараджэння:',
   },
   footer: {
-    linkTeam: 'Наша каманда',
-    linkWorklog: 'Праведзеная праца',
-    linkStorybook: 'Кіраўніцтва па стылі',
+    links: {
+      linkTeam: 'Наша каманда',
+      linkWorklog: 'Праведзеная праца',
+      linkStorybook: 'Кіраўніцтва па стылі',
+    },
     title: '© Rolling Scopes School, 2020',
     description: ['Гэты сайт - ', 'Культурны партал пра вядомых архітэктараў Рэспублікі Беларусь - ', 'вынік каманднай працы студэнтаў-распрацоўшчыкаў RSSchool'],
   },

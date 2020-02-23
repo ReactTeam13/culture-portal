@@ -14,9 +14,11 @@ export default {
     authorAlivespan: 'Date of birth:',
   },
   footer: {
-    linkTeam: 'Our team',
-    linkWorklog: 'Worklog',
-    linkStorybook: 'Storybook',
+    links: {
+      linkTeam: 'Our team',
+      linkWorklog: 'Worklog',
+      linkStorybook: 'Storybook',
+    },
     title: '© Rolling Scopes School, 2020',
     description: ['This site -', ' the Cultural Portal of Famous Architects of the Republic of Belarus ', '- is the result of teamwork of RSSchool students'],
   },

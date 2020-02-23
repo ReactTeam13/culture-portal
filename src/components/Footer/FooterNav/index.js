@@ -3,22 +3,22 @@ import './index.css';
 import { Link } from 'gatsby';
 
 
-function FooterNav({ t }) {
+function FooterNav({ links }) {
   return (
     <ul className="p-4 pl-5 text-light">
       <li className="m-3">
         <Link to="/team" className="footerLink">
-          {t.footer.linkTeam}
+          {links.linkTeam}
         </Link>
       </li>
       <li className="m-3">
         <Link to="/" className="footerLink">
-          {t.footer.linkWorklog}
+          {links.linkWorklog}
         </Link>
       </li>
       <li className="m-3">
         <Link to="/" className="footerLink">
-          {t.footer.linkStorybook}
+          {links.linkStorybook}
         </Link>
       </li>
     </ul>
