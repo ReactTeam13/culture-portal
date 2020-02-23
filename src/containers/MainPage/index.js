@@ -1,13 +1,8 @@
 import React from 'react';
 import './index.css';
 import { Link } from 'gatsby';
-<<<<<<< HEAD
-import Avatar from '../../components/Avatar';
-import Description from '../../components/Description';
-import Button from '../../components/Button';
-=======
 import ArchitectBlock from '../../components/ArchitectBlock';
->>>>>>> develop
+import Button from '../../components/Button';
 import architects from '../../data/architects';
 
 function MainPage({ onButtonClick }) {
