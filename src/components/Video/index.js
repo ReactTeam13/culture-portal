@@ -10,20 +10,27 @@ class Video extends Component {
       isOpen: false,
     };
     this.openModal = this.openModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
   }
 
   openModal() {
     this.setState({ isOpen: true });
   }
 
+  closeModal() {
+    this.setState({ isOpen: false });
+  }
+
   render() {
     const { isOpen } = this.state;
     const { data } = this.props;
     return (
-      <div>
-        <ModalVideo channel="youtube" isOpen={isOpen} videoId={data.videoId} onClose={() => this.setState({ isOpen: false })} />
-        <button className="btn-video" onClick={this.openModal}>
-          Open Video
+      <div className="video-block text-center">
+        <h2 className="h3 mb-3 ohra">Видео</h2>
+        <p className="max-w-550 p-2 mx-auto h6 text-center">Биография автора и известные работы архитектора в одном видео</p>
+        <ModalVideo channel="youtube" isOpen={isOpen} videoId={data.videoId} onClose={this.closeModal} />
+        <button className="btn-video btn-xxl btn-yellow" onClick={this.openModal}>
+          Open video
         </button>
       </div>
     );
