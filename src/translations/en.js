@@ -5,9 +5,9 @@ export default {
     link: 'Architects',
   },
   mainPage: {
-    todayAuthor: 'Author of the day',
+    todayArchitect: 'Architect of the day',
     link: 'Learn more',
-    welcome: 'Welcome to the portal dedicated  to architects of Belarus.',
+    title: 'CULTURAL PORTAL about famous architects of Belarus',
   },
   description: {
     authorLifispan: 'Years of life:',
