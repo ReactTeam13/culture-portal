@@ -3,7 +3,8 @@ import { storiesOf } from '@storybook/react';
 
 import Logo from './index';
 
+
 storiesOf('Logo', module)
   .add('Logo', () => (
-    <Logo />
+    <Logo title="Aрхитекторы Беларуси" />
   ));
