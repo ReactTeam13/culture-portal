@@ -1,36 +1,50 @@
 import React, { Component } from 'react';
 import './index.css';
+import Button from '../Button';
 
 export default class SearchPanel extends Component {
   state = {
-    term: '',
+    searchValue: null,
   };
 
   onSearchChange = (event) => {
-    const { onSearchChange = () => {} } = this.props;
     this.setState({
-      term: event.target.value,
+      searchValue: event.target.value,
     });
-    onSearchChange(event.target.value);
+  };
+
+  handleReturnSearchResult = (e) => {
+    if (e.keyCode && e.keyCode !== 13 && e.target.value) return;
+    const {setSearchResult} = this.props;
+    const {searchValue} =this.state;
+    setSearchResult(searchValue);
   };
 
   render() {
-    const { term } = this.state;
     return (
-      <div className="search-container">
-        <form className="search-panel">
-          <label>
-            Я ищу архитектора
+      <div className="search-panel-wrapper d-flex">
+        <div className="search-panel my-auto mx-4 mx-md-auto">
+          <div className="input-group mb-3">
             <input
               type="text"
-              className="form-control search-input"
-              placeholder="search"
-              value={term}
+              className="form-control pl-5 search-panel--search-field"
+              placeholder="Enter the name..."
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
               onChange={this.onSearchChange}
+              onKeyUp={this.handleReturnSearchResult}
             />
-          </label>
-          <button className="search-button" type="submit">Найти</button>
-        </form>
+            <div className="input-group-append">
+              <Button
+                type="button"
+                content="Найти"
+                id="button-addon2"
+                btnAdditionalClasses="btn-xxl btn-yellow"
+                onClickCallback={this.handleReturnSearchResult}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

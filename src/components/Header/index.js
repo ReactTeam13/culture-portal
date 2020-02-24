@@ -19,12 +19,12 @@ function Header() {
         </div>
 
         <nav className="col-12 order-3 text-center mb-4 col-md order-md-2 mb-md-0 navigation">
-          <div className="d-block p-4 d-md-inline-block w-50 text-center">
+          <div className="d-block p-4 d-md-inline-block text-center navigation-link-wrapper">
             <Link to="/" className="navigation-link">
               {t('mainLink')}
             </Link>
           </div>
-          <div className="d-block p-4 d-md-inline-block w-50 text-center">
+          <div className="d-block p-4 d-md-inline-block text-center navigation-link-wrapper">
             <Link to="/architectors" className="navigation-link">
               {t('link')}
             </Link>

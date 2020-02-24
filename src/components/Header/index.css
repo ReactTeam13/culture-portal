@@ -7,3 +7,9 @@
   text-decoration: none;
   color: #C3A871;
 }
+
+@media (min-width: 768px) {
+  .navigation-link-wrapper {
+    width: 50%;
+  }
+}
