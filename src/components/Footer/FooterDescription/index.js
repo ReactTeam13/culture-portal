@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css';
 
-function FooterDescription({ t }) {
+function FooterDescription({ description }) {
   return (
     <div className="p-5 text-black">
       <p>
-        {t.footer.description[0]}
-        <span className="ohra">{t.footer.description[1]}</span>
-        {t.footer.description[2]}
+        {description[0]}
+        <span className="ohra">{description[1]}</span>
+        {description[2]}
       </p>
     </div>
   );

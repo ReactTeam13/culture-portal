@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css';
 
-function FooterBottom({ t }) {
+function FooterBottom({ title }) {
   return (
-    <div className="bg-deep-gray p-4 text-center">{t.footer.title}</div>
+    <div className="bg-deep-gray p-4 text-center">{title}</div>
   );
 }
 

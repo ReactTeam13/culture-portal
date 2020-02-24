@@ -1,6 +1,6 @@
 export default {
   header: {
-    title: 'Портал архитекторов Беларуси',
+    title: 'Aрхитекторы Беларуси',
     mainLink: 'Главная',
     link: 'Архитекторы',
   },
@@ -14,9 +14,11 @@ export default {
     authorAlivespan: 'Дата рождения: ',
   },
   footer: {
-    linkTeam: 'Наша команда',
-    linkWorklog: 'Проделанная работа',
-    linkStorybook: 'Руководство по стилю',
+    links: {
+      linkTeam: 'Наша команда',
+      linkWorklog: 'Проделанная работа',
+      linkStorybook: 'Руководство по стилю',
+    },
     title: '© Rolling Scopes School, 2020',
     description: ['Этот сайт -', ' Культурный портал об известных архитекторах Республики Беларусь', ' - результат командной работы студентов-разработчиков RSSchool'],
   },

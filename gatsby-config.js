@@ -9,6 +9,13 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: 'wddyi4x4jn0j',
+        accessToken: '1p2IPRtclrF25deXFNS4xIytaV0eGKPgHmwSz9hlQ6Q',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-postcss',
       options: {
         postCssPlugins: [require('postcss-preset-env')({ stage: 0 })],
