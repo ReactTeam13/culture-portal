@@ -1,39 +1,30 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 import './index.css';
 import { Link } from 'gatsby';
 import ArchitectBlock from '../../components/ArchitectBlock';
 import Button from '../../components/Button';
 import architects from '../../data/architects';
 import ParalaxBlock from '../../components/ParalaxBlock';
-import Avatar from '../../components/Avatar';
-import Description from '../../components/Description';
 
-function MainPage({ onButtonClick }) {
+function MainPage() {
+  const { t, i18n: { language } } = useTranslation('mainPage');
   const authorDay = Math.floor(Math.random() * architects.length);
-  const profile = architects[authorDay].ru;
-  const url = architects[authorDay].en.name.split(' ')[0];
+  const profile = architects[authorDay][language];
+  const lastNameIndex = 0;
+  const urlName = architects[authorDay].en.name.split(' ')[lastNameIndex];
   return (
     <div className="main-page">
-      <ParalaxBlock />
-      <h2 className="title-mainpage">Автор дня</h2>
-      <Avatar data={profile} />
-      <Description data={profile} />
-      <h2 className="text-uppercase text-center mb-4 title-mainpage">Архитектор дня</h2>
+      <ParalaxBlock text={t('title')} />
+      <h2 className="text-uppercase text-center mb-4 title-mainpage">{t('todayArchitect')}</h2>
       <ArchitectBlock data={profile} />
-      <Link
-        to={`/architector/${url}`}
-        id={authorDay}
-        onClick={onButtonClick}
-      >
+      <Link to={`/architector/${urlName}`}>
         <Button
           type="button"
-          content="Читать далее"
+          content={t('link')}
         />
       </Link>
-      <p className="description-mainpage">
-        <span>Добро пожаловать на портал,</span>
-        <span>посвященный архитекторам Беларуси.</span>
-      </p>
     </div>
   );
 }

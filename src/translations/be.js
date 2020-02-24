@@ -5,9 +5,9 @@ export default {
     link: 'Архітэктары',
   },
   mainPage: {
-    todayAuthor: 'Аўтар дня',
+    todayArchitect: 'Архітэктар дня',
     link: 'Даведацца больш',
-    welcome: 'Сардэчна запрашаем на партал, прысвечаны архітэктарам Беларусі.',
+    title: 'КУЛЬТУРНЫ ПОРТАЛ аб вядомых архітэктараў Беларусі',
   },
   description: {
     authorLifispan: 'Гады жыцця:',
