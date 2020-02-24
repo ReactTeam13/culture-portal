@@ -4,3 +4,14 @@
   font-size: 2em;
   color: #d7b87b;
 }
+.map-container{
+  height: 650px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 480px){
+  .map-container{
+    height: 250px;
+  }
+}
