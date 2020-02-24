@@ -15,8 +15,8 @@ export default class SearchPanel extends Component {
 
   handleReturnSearchResult = (e) => {
     if (e.keyCode && e.keyCode !== 13 && e.target.value) return;
-    const {setSearchResult} = this.props;
-    const {searchValue} =this.state;
+    const { setSearchResult } = this.props;
+    const { searchValue } = this.state;
     setSearchResult(searchValue);
   };
 

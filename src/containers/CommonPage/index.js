@@ -6,7 +6,6 @@ import data from '../../data/architects';
 
 class CommonPage extends React.Component {
   state = {
-    data,
     filteredData: data,
   };
 
