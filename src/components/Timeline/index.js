@@ -1,5 +1,6 @@
 import React from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import './index.css';
 
 function TimeLine({ data }) {
   return (
@@ -10,9 +11,9 @@ function TimeLine({ data }) {
           <TimelineItem
             key={index}
             dateText={item.date}
-            dateInnerStyle={{ background: '#e86971', color: '#fff' }}
+            dateInnerStyle={{ backgroundColor: '#d7b87b', color: '#fff' }}
           >
-            <h3>{item.place}</h3>
+            <h3 className="date-line-place">{item.place}</h3>
             <p>{item.description}</p>
           </TimelineItem>
         ))}
