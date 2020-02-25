@@ -1,0 +1,16 @@
+.timeline-item-date,
+.timeline-item-dateinner{
+    clip-path: none !important;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    height: 50px !important;
+    max-width: 250px;
+    text-align: center;
+}
+.date-line-place{
+    font-weight: bold;
+    padding:  0.5rem 0;
+}
+.body-container{
+    color: #41414E !important;
+}
