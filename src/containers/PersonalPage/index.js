@@ -6,7 +6,7 @@ import Timeline from '../../components/Timeline';
 import Works from '../../components/Works';
 import ImageGalleryComponent from '../../components/ImageGallery';
 import Video from '../../components/Video';
-/* eslint-disable import/no-named-as-default */
+// eslint-disable-next-line import/no-named-as-default
 import MapContainer from '../../components/Map';
 
 function PersonalPage({ profile }) {
@@ -18,7 +18,9 @@ function PersonalPage({ profile }) {
       <Works data={profile} />
       <ImageGalleryComponent data={profile} />
       <Video data={profile} />
-      <MapContainer data={profile} />
+      <div className="map-container">
+        <MapContainer data={profile} />
+      </div>
     </div>
   );
 }

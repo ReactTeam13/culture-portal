@@ -6,9 +6,7 @@ import ListItem from '@material-ui/core/ListItem';
 function Works({ data }) {
   return (
     <div className="works">
-      <h2>
-        Список работ
-      </h2>
+      <h2>Список работ</h2>
       <List className="list-works">
         <ListItem button className="listitem-title listitem-container">
           <span className="year">

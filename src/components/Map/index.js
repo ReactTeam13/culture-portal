@@ -1,27 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 import './index.css';
 
-/* eslint-disable */ 
-export class MapContainer extends Component {
-  render() {
-    const { lat, lng } = this.props.data.locationsCoords;
-    return (
-      <Map
-        google={this.props.google}
-        initialCenter={{
-          lat,
-          lng,
-        }}
-        className="map"
-        zoom={12}
-      >
-        <Marker
-          position={{ lat, lng }}
-        />
-      </Map>
-    );
-  }
+
+export function MapContainer(props) {
+  const { data, google } = props;
+  const { locationsCoords } = data;
+  const { lat, lng } = locationsCoords;
+  return (
+    <Map
+      google={google}
+      initialCenter={{
+        lat,
+        lng,
+      }}
+      className="map"
+      zoom={12}
+    >
+      <Marker
+        position={{ lat, lng }}
+      />
+    </Map>
+  );
 }
 
 export default GoogleApiWrapper({

@@ -1,4 +1,8 @@
 @import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+.photogallery{
+  padding: 50px 0;
+}
+
 .image-gallery {
   max-width: 1200px;
   margin: 60px auto;
