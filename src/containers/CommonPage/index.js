@@ -12,7 +12,10 @@ const CommonPage = () => {
 
 
   const filterBySearchResult = (searchResult) => {
-    if (!searchResult) { setFilteredData(data); }
+    if (!searchResult) {
+      setFilteredData(data);
+      return;
+    }
 
     const result = data.filter((item) => {
       const regularExpression = new RegExp(searchResult.toLowerCase());
