@@ -14,17 +14,20 @@ function MainPage() {
   const profile = architects[authorDay][language];
   const lastNameIndex = 0;
   const urlName = architects[authorDay].en.name.split(' ')[lastNameIndex];
+  const btn = (
+    <Link to={`/architector/${urlName}`}>
+      <Button
+        type="button"
+        content={t('link')}
+      />
+    </Link>
+  );
   return (
     <div className="main-page">
       <ParalaxBlock text={t('title')} />
       <h2 className="text-uppercase text-center mb-4 title-mainpage">{t('todayArchitect')}</h2>
-      <ArchitectBlock data={profile} />
-      <Link to={`/architector/${urlName}`}>
-        <Button
-          type="button"
-          content={t('link')}
-        />
-      </Link>
+      <ArchitectBlock data={profile} btn={btn} />
+
     </div>
   );
 }

@@ -3,12 +3,12 @@ import './index.css';
 import Avatar from '../Avatar';
 import DescriptionShort from '../DescriptionShort';
 
-function ArchitectBlock({ data }) {
+function ArchitectBlock({ data, btn }) {
   return (
     <div className="container py-3">
       <div className="row">
         <Avatar data={data} />
-        <DescriptionShort data={data} />
+        <DescriptionShort data={data} btn={btn} />
       </div>
     </div>
   );
