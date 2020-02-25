@@ -1,42 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.css';
+import { useTranslation } from 'react-i18next';
 import CommonPageItems from '../../components/CommonPageItems';
 import SearchPanel from '../../components/SearchPanel';
 import data from '../../data/architects';
 
-class CommonPage extends React.Component {
-  state = {
-    filteredData: data,
-  };
+const CommonPage = () => {
+  const [filteredData, setFilteredData] = useState(data);
+  const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
 
 
-  filterBySearchResult = (searchResult) => {
-    if (!searchResult) { this.setState({ filteredData: data }); }
+  const filterBySearchResult = (searchResult) => {
+    if (!searchResult) { setFilteredData(data); }
 
     const result = data.filter((item) => {
       const regularExpression = new RegExp(searchResult.toLowerCase());
       return (
-        regularExpression.test(item.ru.name.toLowerCase())
-              || regularExpression.test(item.en.name.toLowerCase())
-              || regularExpression.test(item.be.name.toLowerCase())
+        regularExpression.test(item[currentLanguage].name.toLowerCase())
+        || regularExpression.test(item[currentLanguage].birthPlace.toLowerCase())
       );
     });
-    this.setState({ filteredData: result });
+    setFilteredData(result);
   };
 
-  render() {
-    const { filteredData } = this.state;
-    return (
-      <div>
-        <SearchPanel
-          setSearchResult={this.filterBySearchResult}
-        />
-        <CommonPageItems
-          data={filteredData}
-        />
-      </div>
-    );
-  }
-}
+  return (
+    <div>
+      <SearchPanel
+        setSearchResult={filterBySearchResult}
+      />
+      <CommonPageItems
+        data={filteredData}
+      />
+    </div>
+  );
+};
 
 export default CommonPage;
