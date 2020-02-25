@@ -9,7 +9,13 @@ function WorklogTab({ data }) {
     data.map((person, c) => (
 
       <div key={c} className="container py-3">
-        <p>{person.name}</p>
+        <div className="col-sm-3">
+          <div className="card card-inverse card-warning h-100 text-center pt-2 mb-3 card-name">
+            <div className="card-block card-title">
+              <h6 className="text-light">{person.name}</h6>
+            </div>
+          </div>
+        </div>
         <table className="table table-bordered table-striped table-responsive-stack">
           <thead className="thead-dark">
             <tr>
