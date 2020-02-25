@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../../../node_modules/react-modal-video/css/modal-video.min.css';
 import './index.css';
 import ModalVideo from 'react-modal-video';
+import Button from '../Button';
 
 class Video extends Component {
   constructor() {
@@ -27,11 +28,18 @@ class Video extends Component {
     return (
       <div className="video-block text-center">
         <h2 className="h3 mb-3 ohra">Видео</h2>
-        <p className="max-w-550 p-2 mx-auto h6 text-center">Биография автора и известные работы архитектора в одном видео</p>
-        <ModalVideo channel="youtube" isOpen={isOpen} videoId={data.videoId} onClose={this.closeModal} />
-        <button className="btn-video btn-xxl btn-yellow" onClick={this.openModal}>
-          Open video
-        </button>
+        <p className="max-w-550 p-2 mx-auto h6 text-center p-video">Биография автора и известные работы архитектора в одном видео</p>
+        <ModalVideo
+          channel="youtube"
+          isOpen={isOpen}
+          videoId={data.videoId}
+          onClose={this.closeModal}
+        />
+        <Button
+          type="button"
+          content="Open video"
+          onClickCallback={this.openModal}
+        />
       </div>
     );
   }

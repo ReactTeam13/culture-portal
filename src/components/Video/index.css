@@ -2,12 +2,8 @@
   background: #F5F4F2;
   padding: 50px 10px;
 }
-.btn-video {
-  margin-top: 20px;
-  text-decoration: none;
-  outline: none;
-  border: none;
-  transition: 0.2s;
+.p-video{
+  margin-bottom: 30px;
 }
 
 @media (max-width: 825px) {
