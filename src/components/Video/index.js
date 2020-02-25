@@ -24,11 +24,13 @@ class Video extends Component {
 
   render() {
     const { isOpen } = this.state;
-    const { data } = this.props;
+    const {
+      data, title, description, buttonText,
+    } = this.props;
     return (
       <div className="video-block text-center">
-        <h2 className="h3 mb-3 ohra">Видео</h2>
-        <p className="max-w-550 p-2 mx-auto h6 text-center p-video">Биография автора и известные работы архитектора в одном видео</p>
+        <h2 className="h3 mb-3 ohra">{title}</h2>
+        <p className="max-w-550 p-2 mx-auto h6 text-center p-video">{description}</p>
         <ModalVideo
           channel="youtube"
           isOpen={isOpen}
@@ -37,7 +39,7 @@ class Video extends Component {
         />
         <Button
           type="button"
-          content="Open video"
+          content={buttonText}
           onClickCallback={this.openModal}
         />
       </div>

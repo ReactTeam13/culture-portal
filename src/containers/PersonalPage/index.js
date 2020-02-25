@@ -1,4 +1,6 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 import './index.css';
 import Avatar from '../../components/Avatar';
 import Description from '../../components/Description';
@@ -10,14 +12,29 @@ import Video from '../../components/Video';
 import MapContainer from '../../components/Map';
 
 function PersonalPage({ profile }) {
+  const { t } = useTranslation('personPage');
   return (
     <div className="personal-page">
       <Avatar data={profile} />
       <Description data={profile} />
-      <Timeline data={profile} />
-      <Works data={profile} />
-      <ImageGalleryComponent data={profile} />
-      <Video data={profile} />
+      <Timeline
+        data={profile}
+        title={t('timelineTitle')}
+        description={t('timelineDescription')}
+      />
+      <Works
+        data={profile}
+        title={t('listWork')}
+        date={t('dateCreate')}
+        work={t('workCreate')}
+      />
+      <ImageGalleryComponent data={profile} title={t('galleryTitle')} />
+      <Video
+        data={profile}
+        title={t('videoTitle')}
+        description={t('videoDescription')}
+        buttonText={t('videoButton')}
+      />
       <div className="map-container">
         <MapContainer data={profile} />
       </div>
