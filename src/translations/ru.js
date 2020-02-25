@@ -28,10 +28,15 @@ export default {
   },
   personPage: {
     biography: 'Биография архитектора',
+    galleryTitle: 'Фотогалерея',
     video: 'Видео',
+    timelineTitle: 'Биография архитектора',
+    timelineDescription: 'Описание жизни архитектора, ключевые даты и периоды в хронологическом порядке',
     listWork: 'Список работ',
     dateCreate: 'Года',
     workCreate: 'Проекты',
+    videoTitle: 'Видео',
+    videoDescription: 'Биография автора и известные работы архитектора в одном видео',
     videoButton: 'Открыть видео',
   },
 };
