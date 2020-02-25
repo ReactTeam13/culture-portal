@@ -19,6 +19,7 @@ function MainPage() {
       <Button
         type="button"
         content={t('link')}
+        btnAdditionalClasses="btn-xxl btn-yellow"
       />
     </Link>
   );
@@ -27,7 +28,6 @@ function MainPage() {
       <ParalaxBlock text={t('title')} />
       <h2 className="text-uppercase text-center mb-4 title-mainpage">{t('todayArchitect')}</h2>
       <ArchitectBlock data={profile} btn={btn} />
-
     </div>
   );
 }

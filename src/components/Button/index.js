@@ -2,13 +2,14 @@ import React from 'react';
 import './index.css';
 
 const Button = ({
-  type, content, onClickCallback, isDisabled,
+  type, content, onClickCallback, isDisabled, id, btnAdditionalClasses,
 }) => (
   <button
-    className="btn btn-xxl btn-yellow"
+    className={`btn ${btnAdditionalClasses}`}
     type={type || 'button'}
     disabled={isDisabled}
     onClick={onClickCallback}
+    id={id}
   >
     {content}
   </button>
