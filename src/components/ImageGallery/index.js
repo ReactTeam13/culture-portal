@@ -2,7 +2,7 @@ import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import './index.css';
 
-function ImageGalleryComponent({ data }) {
+function ImageGalleryComponent({ data, title }) {
   const images = [];
   data.works.forEach((item) => {
     const obj = {
@@ -15,7 +15,7 @@ function ImageGalleryComponent({ data }) {
 
   return (
     <div className="photogallery">
-      <h2 className="h3 mb-3 ohra">Фотогалерея</h2>
+      <h2 className="h3 mb-3 ohra">{title}</h2>
       <ImageGallery items={images} />
     </div>
   );

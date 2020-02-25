@@ -28,10 +28,15 @@ export default {
   },
   personPage: {
     biography: 'Biography of the architect',
+    galleryTitle: 'Photo gallery',
     video: 'Video',
+    timelineTitle: 'Architect Biography',
+    timelineDescription: 'Description of the architect’s life, key dates and periods in chronological order',
     listWork: 'List of works',
     dateCreate: 'Years',
     workCreate: 'Projects',
+    videoTitle: 'Video',
+    videoDescription: 'Biography of the author and famous works of the architect in one video',
     videoButton: 'Open video',
   },
 };

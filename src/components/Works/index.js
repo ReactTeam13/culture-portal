@@ -3,17 +3,19 @@ import './index.css';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
-function Works({ data }) {
+function Works({
+  data, title, date, work,
+}) {
   return (
     <div className="works">
-      <h2>Список работ</h2>
+      <h2>{title}</h2>
       <List className="list-works">
         <ListItem button className="listitem-title listitem-container">
           <span className="year">
-            Года
+            {date}
           </span>
           <span className="work">
-            Проекты
+            {work}
           </span>
         </ListItem>
 
