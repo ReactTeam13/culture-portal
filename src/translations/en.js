@@ -10,8 +10,8 @@ export default {
     title: 'CULTURAL PORTAL about famous architects of Belarus',
   },
   description: {
-    authorLifispan: 'Years of life:',
-    authorAlivespan: 'Date of birth:',
+    authorYearsOfLife: 'Years of life:',
+    authorBirthPlace: 'Place of birth:',
   },
   footer: {
     links: {

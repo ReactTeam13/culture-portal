@@ -1,27 +1,29 @@
 import React from 'react';
 import './index.css';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'gatsby';
 import Avatar from '../Avatar';
-import Description from '../Description';
+import DescriptionShort from '../DescriptionShort';
 
 function CommonPageItems({ data }) {
+  const { t, i18n: { language } } = useTranslation('mainPage');
+
   return (
-    data.map((item) => {
-      const profile = item.ru;
+    data.map((item, index) => {
+      const profile = item[language];
       const url = item.en.name.split(' ')[0];
       return (
-        <div
-          className="common-page"
-          key={item.id}
-        >
-          <Avatar data={profile} />
-          <div className="description-container">
-            <Description data={profile} />
+        <div key={item.id} className="row">
+          <div className={`col-md-6 p-5 text-center ${!(index % 2) ? 'order-md-1' : 'order-md-2'}`}>
+            <Avatar data={profile} />
+          </div>
+          <div className={`col-md-6 p-5 background-dark ${index % 2 ? 'order-md-1' : 'order-md-2'}`}>
+            <DescriptionShort data={profile} />
             <Link
               to={`/architector/${url}`}
-              className="read-more-button"
+              className="btn btn-xxl btn-yellow"
             >
-              Узнать больше
+              {t('link')}
             </Link>
           </div>
         </div>

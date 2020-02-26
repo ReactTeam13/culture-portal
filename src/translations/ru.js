@@ -10,8 +10,8 @@ export default {
     title: 'КУЛЬТУРНЫЙ ПОРТАЛ об известных архитекторах Беларуси',
   },
   description: {
-    authorLifispan: 'Годы жизни: ',
-    authorAlivespan: 'Дата рождения: ',
+    authorYearsOfLife: 'Годы жизни: ',
+    authorBirthPlace: 'Место рождения: ',
   },
   footer: {
     links: {
