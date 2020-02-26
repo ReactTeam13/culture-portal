@@ -32,9 +32,11 @@ const CommonPage = () => {
       <SearchPanel
         setSearchResult={filterBySearchResult}
       />
-      <CommonPageItems
-        data={filteredData}
-      />
+      <div className="container">
+        <CommonPageItems
+          data={filteredData}
+        />
+      </div>
     </div>
   );
 };

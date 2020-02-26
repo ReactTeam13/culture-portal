@@ -10,8 +10,8 @@ export default {
     title: 'КУЛЬТУРНЫ ПОРТАЛ аб вядомых архітэктараў Беларусі',
   },
   description: {
-    authorLifispan: 'Гады жыцця:',
-    authorAlivespan: 'Дата нараджэння:',
+    authorYearsOfLife: 'Гады жыцця:',
+    authorBirthPlace: 'Месца нараджэння:',
   },
   footer: {
     links: {

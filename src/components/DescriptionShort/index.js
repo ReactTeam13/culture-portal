@@ -1,17 +1,38 @@
 import React from 'react';
 import './index.css';
+import { useTranslation } from 'react-i18next';
 
-function DescriptionShort({ data, btn }) {
-  const {
-    name, occupation,
-  } = data;
+
+function DescriptionShort({
+  data: {
+    name, occupation, birthDate, deathDate, birthPlace,
+  }, children, isDescriptionFull,
+}) {
+  const { t } = useTranslation('description');
   return (
-    <div className="col-md-8 description">
-      <div className="row text-left">
-        <h1 className="col-md-4 offset-md-2 mb-4 name-short">{ name }</h1>
-        <p className="col-md-8 offset-md-2 occupation-short">{ occupation }</p>
-        <div className="col-md-8 offset-md-2 mt-4 pb-3">{btn}</div>
-      </div>
+    <div className="text-left">
+      <h1 className="name-short mb-5 mt-md-5">{ name }</h1>
+      <p className="occupation-short mb-5">{ occupation }</p>
+      {isDescriptionFull
+        ? (
+          <>
+            <p className="mb-5">
+              <strong>
+                {t('authorYearsOfLife')}
+              </strong>
+              <br />
+              {`${birthDate} - ${deathDate}`}
+            </p>
+            <p className="mb-5">
+              <strong>
+                {t('authorBirthPlace')}
+              </strong>
+              <br />
+              { birthPlace }
+            </p>
+          </>
+        ) : null}
+      {children}
     </div>
   );
 }

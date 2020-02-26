@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import './index.css';
 import Avatar from '../../components/Avatar';
-import Description from '../../components/Description';
+import DescriptionShort from '../../components/DescriptionShort';
 import Timeline from '../../components/Timeline';
 import Works from '../../components/Works';
 import ImageGalleryComponent from '../../components/ImageGallery';
@@ -15,8 +15,17 @@ function PersonalPage({ profile }) {
   const { t } = useTranslation('personPage');
   return (
     <div className="personal-page">
-      <Avatar data={profile} />
-      <Description data={profile} />
+      <div className="row background-dark">
+        <div className="col-md-5 p-5 text-center">
+          <Avatar data={profile} />
+        </div>
+        <div className="col-md-7 p-5">
+          <DescriptionShort
+            data={profile}
+            isDescriptionFull
+          />
+        </div>
+      </div>
       <Timeline
         data={profile}
         title={t('timelineTitle')}
