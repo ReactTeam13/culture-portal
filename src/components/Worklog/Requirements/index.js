@@ -2,18 +2,17 @@ import React from 'react';
 import requirements from '../../../data/requirements';
 import './index.css';
 import Checkbox from '../../Checkbox/index';
+import transl from './localTranslation';
 
-const lang = 'ru';
-
-function Requirements() {
-  let totoal = 0;
+function Requirements({ lang }) {
+  let total = 0;
   let calculations = '';
   let max = 0;
 
   const count = (score, isReached) => {
     if (isReached) {
       calculations += `${score} + `;
-      totoal += score;
+      total += score;
     }
     max += score;
   };
@@ -36,10 +35,10 @@ function Requirements() {
       </div>
       <div>
         <p className="m-2 mb-3 mt-5">
-          Mark calculations:
+          {`${transl[lang].calculations} : `}
           <small>{calculations.slice(0, -2)}</small>
         </p>
-        <p className="m-2 font-weight-bold">{`TOTAL: ${totoal} from ${max}`}</p>
+        <p className="m-2 font-weight-bold">{`${transl[lang].total} : ${total} ${transl[lang].from} ${max}`}</p>
       </div>
     </div>
   );
