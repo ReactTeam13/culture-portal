@@ -952,6 +952,446 @@ export default [
   },
   {
     ru: {
+      id: 7,
+      name: 'Король Владимир Адамович',
+      avatar: '/img/person7/avatar/ava.jpg',
+      occupation: 'Белорусский советский архитектор. Народный архитектор СССР',
+      birthDate: '27.12.1912',
+      birthPlace: 'г. Червень',
+      deathDate: '28.05.1980',
+      deathPlace: 'Минск',
+      locationsCoords: {
+        lat: '53.7106193',
+        lng: '28.424717',
+      },
+      videoId: '6H75nml2WMM',
+      activity: [
+        {
+          date: '27.12.1912',
+          place: 'г. Червень',
+          description: 'Родился в г. Червене Минской области.',
+        },
+        {
+          date: '1931',
+          place: 'Витебск',
+          description: 'Окончил Витебский художественный техникум',
+        },
+        {
+          date: '1934-1941',
+          place: 'Санкт-Петербург',
+          description: 'Обучался на архитектурном факультете Всероссийской академии художеств.',
+        },
+        {
+          date: '1945',
+          place: 'Минск',
+          description: 'Руководитель архитектурно-планировочной мастерской института Белгоспроект',
+        },
+        {
+          date: '1955',
+          place: 'Минск',
+          description: 'Возглавил Государственный комитет Совета Министров БССР по делам строительства',
+        },
+        {
+          date: '1970',
+          place: 'Минск',
+          description: 'Был удостоен звания народного архитектора СССР',
+        },
+      ],
+      works: [
+        { image: '/img/person7/portfolio/image1.jpg', description: 'Перспектива Центральной площади в Минске' },
+        { image: '/img/person7/portfolio/image2.jpg', description: 'Здание Центрального телеграфа в Минске' },
+      ],
+      listOfWorks: [
+        {
+          year: '1946',
+          work: 'В 1946 году Король (в соавторстве с архитекторами С. Сперанским и Н. Трахтенбергом) разработал проект центральной части столицы, который был задуман как комплекс архитектурных ансамблей.',
+        },
+        {
+          year: '1962',
+          work: 'Здания почтамта на проспекте Независимости и Центрального телеграфа (ныне - Белтелеком) на Октябрьской площади в Минске',
+        },
+      ],
+    },
+    be: {
+      id: 7,
+      name: 'Кароль Уладзімір Адамовіч',
+      avatar: '/img/person7/avatar/ava.jpg',
+      occupation: 'Беларускі савецкі архітэктар. Народны архітэктар СССР',
+      birthDate: '27.12.1912',
+      birthPlace: 'г. Чэрвень',
+      deathDate: '28.05.1980',
+      deathPlace: 'Мінск',
+      locationsCoords: {
+        lat: '53.7106193',
+        lng: '28.424717',
+      },
+      videoId: '6H75nml2WMM',
+      activity: [
+        {
+          date: '27.12.1912',
+          place: 'г. Чэрвень',
+          description: 'Нарадзіўся ў г. Чэрвені Мінскай вобласці.',
+        },
+        {
+          date: '1931',
+          place: 'Віцебск',
+          description: 'Скончыў Віцебскі мастацкі тэхнікум',
+        },
+        {
+          date: '1934-1941',
+          place: 'Санкт-Пецярбург',
+          description: 'Навучаўся на архітэктурным факультэце Усерасійскай акадэміі мастацтваў.',
+        },
+        {
+          date: '1945',
+          place: 'Мінск',
+          description: 'Кіраўнік архітэктурна-планіровачнай майстэрні інстытута "Белдзяржпраект',
+        },
+        {
+          date: '1955',
+          place: 'Мінск',
+          description: 'Ўзначаліў Дзяржаўны камітэт Савета Міністраў БССР па справах будаўніцтва',
+        },
+        {
+          date: '1970',
+          place: 'Мінск',
+          description: 'Быў удастоены звання народнага архітэктара СССР',
+        },
+      ],
+      works: [
+        { image: '/img/person7/portfolio/image1.jpg', description: 'Перспектыва Цэнтральнай плошчы ў Менску' },
+        { image: '/img/person7/portfolio/image2.jpg', description: 'Будынак Цэнтральнага тэлеграфа ў Менску' },
+      ],
+      listOfWorks: [
+        {
+          year: '1946',
+          work: 'У 1946 году Кароль (у суаўтарстве з архітэктарамі С. Сперанскага і Н. Трахтэнберга) распрацаваў праект цэнтральнай частцы сталіцы, які быў задуманы як комплекс архітэктурных ансамбляў.',
+        },
+        {
+          year: '1962',
+          work: 'Будынка паштамта на праспекце Незалежнасці і Цэнтральнага тэлеграфа (цяпер - Белтэлекам) на Кастрычніцкай плошчы ў Менску',
+        },
+      ],
+    },
+    en: {
+      id: 7,
+      name: 'Korol Vladimir Adamovich',
+      avatar: '/img/person7/avatar/ava.jpg',
+      occupation: 'Belorussian Soviet architect. Honored Architect of the USSR',
+      birthDate: '27.12.1912',
+      birthPlace: 'Cherven',
+      deathDate: '28.05.1980',
+      deathPlace: 'Minsk',
+      locationsCoords: {
+        lat: '53.7106193',
+        lng: '28.424717',
+      },
+      videoId: '6H75nml2WMM',
+      activity: [
+        {
+          date: '27.12.1912',
+          place: 'Cherven',
+          description: 'Born in Cherven, Minsk region.',
+        },
+        {
+          date: '1931',
+          place: 'Vitebsk',
+          description: 'Graduated from Vitebsk Art College',
+        },
+        {
+          date: '1934-1941',
+          place: 'St. Petersburg',
+          description: 'He studied at the Faculty of Architecture of the Russian Academy of Arts.',
+        },
+        {
+          date: '1945',
+          place: 'Minsk',
+          description: 'Head of the architectural and planning workshop of the Belgosproject Institute',
+        },
+        {
+          date: '1955',
+          place: 'Minsk',
+          description: 'Headed the State Committee of the Council of Ministers of the BSSR for Construction',
+        },
+        {
+          date: '1970',
+          place: 'Minsk',
+          description: 'He was awarded the title of Honored Architect of the USSR',
+        },
+      ],
+      works: [
+        { image: '/img/person7/portfolio/image1.jpg', description: 'Perspective of the Central Square in Minsk' },
+        { image: '/img/person7/portfolio/image2.jpg', description: 'The building of the Central Telegraph in Minsk' },
+      ],
+      listOfWorks: [
+        {
+          year: '1946',
+          work: 'In 1946, Korol (in collaboration with architects S. Speransky and N. Trachtenberg) developed a project for the central part of the capital, which was conceived as a complex of architectural ensembles.',
+        },
+        {
+          year: '1962',
+          work: 'The post office building on Independence Avenue and the Central Telegraph (now Beltelecom) on October Square in Minsk',
+        },
+      ],
+    },
+  },
+
+  {
+    ru: {
+      id: 8,
+      name: 'Лангбард Иосиф Григорьевич',
+      avatar: '/img/person8/avatar/ava.jpg',
+      occupation: 'Белорусский советский архитектор, заслуженный деятель искусств Белорусской ССР, обладатель Гран-при Всемирной выставки в Париже, доктор архитектуры.',
+      birthDate: '06.01.1882',
+      birthPlace: 'г. Бельск-Подляски, Польша',
+      deathDate: '03.01.1951',
+      deathPlace: 'Санкт-Петербург',
+      locationsCoords: {
+        lat: '52.765058',
+        lng: '23.186752',
+      },
+      videoId: 'xsZke0e0KHc',
+      activity: [
+        {
+          date: '06.01.1882',
+          place: 'Бельск-Подляски',
+          description: 'Родился в г. Бельске бывшей Гродненской губернии (ныне территория Польши).',
+        },
+        {
+          date: '1914',
+          place: 'Санкт-Петербург',
+          description: 'Завершил учебу в Академии художеств.',
+        },
+        {
+          date: '1918—1932',
+          place: 'Санкт-Петербург',
+          description: 'Работал производителем работ в строительной конторе Петроградского (позднее Ленинградского) городского отдела здравоохранения.',
+        },
+        {
+          date: '1937',
+          place: 'Минск',
+          description: 'Был избран в правление Союза архитекторов СССР, членом которого оставался до конца своей жизни.',
+        },
+        {
+          date: '1944',
+          place: 'Минск',
+          description: 'Вошел в состав комиссии Комитета по делам архитектуры при СНК СССР, занимавшейся вопросами восстановления столицы Беларуси',
+        },
+        {
+          date: '1949',
+          place: 'Минск',
+          description: 'Был награжден орденом Знак Почета.',
+        },
+      ],
+      works: [
+        {
+          image: 'https://live.staticflickr.com/4647/39022289242_27c4fd7877_k.jpg',
+          description: 'Дом правительства г. Минск',
+        },
+        {
+          image: 'https://live.staticflickr.com/5616/15499529201_c4cae3500d_b.jpg',
+          description: 'Дом Красной Армии (ныне Дом офицеров) в Минске',
+        },
+        {
+          image: 'https://live.staticflickr.com/7126/7655031732_f96e98e9c4_b.jpg',
+          description: 'Белорусский государственный театр оперы и балета в Минске',
+        },
+        {
+          image: 'https://live.staticflickr.com/8733/16371840073_6e61dce290_b.jpg',
+          description: 'Дом Советов в Могилеве',
+        },
+      ],
+      listOfWorks: [
+        {
+          year: '1929-1934',
+          work:
+            'Дом правительства в Минске - не только одно из лучших творений И.Г.Лангбарда. Это сооружение считается образцом архитектурного творчества той эпохи.',
+        },
+        {
+          year: '1934-1939',
+          work: 'Дом Красной Армии (ныне Дом офицеров) в Минске',
+        },
+        {
+          year: '1936-1937',
+          work: 'Белорусский государственный театр оперы и балета в Минске',
+        },
+        {
+          year: '1938-1939',
+          work: 'Дом Советов в Могилеве',
+        },
+      ],
+    },
+    be: {
+      id: 8,
+      name: 'Лангбард Іосіф Рыгоравіч',
+      avatar: '/img/person8/avatar/ava.jpg',
+      occupation: 'Беларускі савецкі архітэктар, заслужаны дзеяч мастацтваў Беларускай ССР, уладальнік Гран-пры Сусветнай выставы ў Парыжы, доктар архітэктуры.',
+      birthDate: '06.01.1882',
+      birthPlace: 'г. Бельск-Падляскі, Польшча',
+      deathDate: '03.01.1951',
+      deathPlace: 'Санкт-Пецярбург',
+      locationsCoords: {
+        lat: '52.765058',
+        lng: '23.186752',
+      },
+      videoId: 'xsZke0e0KHc',
+      activity: [
+        {
+          date: '06.01.1882',
+          place: 'Бельск-Падляскі',
+          description: 'Нарадзіўся ў г. Бельску былой Гродзенскай губерні (цяпер тэрыторыя Польшчы).',
+        },
+        {
+          date: '1914',
+          place: 'Санкт-Пецярбург',
+          description: 'Завяршыў вучобу ў Акадэміі мастацтваў.',
+        },
+        {
+          date: '1918—1932',
+          place: 'Санкт-Пецярбург',
+          description: 'Працаваў вытворцам работ у будаўнічай канторы Петраградскага (пазней Ленінградскага) гарадскога аддзела аховы здароўя.',
+        },
+        {
+          date: '1937',
+          place: 'Мінск',
+          description: 'Быў абраны ў праўленне Саюза архітэктараў СССР, членам якога заставаўся да канца свайго жыцця.',
+        },
+        {
+          date: '1944',
+          place: 'Мінск',
+          description: 'Увайшоў у склад камісіі Камітэта па справах архітэктуры пры СНК СССР, якая займалася пытаннямі аднаўлення сталіцы Беларусі.',
+        },
+        {
+          date: '1949',
+          place: 'Мінск',
+          description: 'Быў узнагароджаны ордэнам Знак Пашаны.',
+        },
+      ],
+      works: [
+        {
+          image: 'https://live.staticflickr.com/4647/39022289242_27c4fd7877_k.jpg',
+          description: 'Дом ўрада г. Мінск',
+        },
+        {
+          image: 'https://live.staticflickr.com/5616/15499529201_c4cae3500d_b.jpg',
+          description: 'Дом Чырвонай Арміі (цяпер Дом афіцэраў) у Мінску',
+        },
+        {
+          image: 'https://live.staticflickr.com/7126/7655031732_f96e98e9c4_b.jpg',
+          description: 'Беларускі дзяржаўны тэатр оперы і балета ў Мінску',
+        },
+        {
+          image: 'https://live.staticflickr.com/8733/16371840073_6e61dce290_b.jpg',
+          description: 'Дом Саветаў у Магілёве',
+        },
+      ],
+      listOfWorks: [
+        {
+          year: '1929-1934',
+          work:
+            'Дом ўрада ў Мінску - не толькі адно з лепшых тварэнняў И.Г.Лангбарда. Гэта збудаванне лічыцца ўзорам архітэктурнага творчасці той эпохі.',
+        },
+        {
+          year: '1934-1939',
+          work: 'Дом Чырвонай Арміі (цяпер Дом афіцэраў) у Мінску',
+        },
+        {
+          year: '1936-1937',
+          work: 'Беларускі дзяржаўны тэатр оперы і балета ў Мінску',
+        },
+        {
+          year: '1938-1939',
+          work: 'Дом Саветаў у Магілёве',
+        },
+      ],
+    },
+    en: {
+      id: 8,
+      name: 'Langbard Joseph Grigorievich',
+      avatar: '/img/person8/avatar/ava.jpg',
+      occupation: 'Belarusian Soviet architect, Honored Art Worker of the Belarusian SSR, winner of the Grand Prix of the World Exhibition in Paris, doctor of architecture.',
+      birthDate: '06.01.1882',
+      birthPlace: 'Bielsk Podlaski, Poland',
+      deathDate: '03.01.1951',
+      deathPlace: 'St. Petersburg',
+      locationsCoords: {
+        lat: '52.765058',
+        lng: '23.186752',
+      },
+      videoId: 'xsZke0e0KHc',
+      activity: [
+        {
+          date: '06.01.1882',
+          place: 'Bielsk Podlaski',
+          description: 'Born in the city of Bielsk, the former Grodno province (now the territory of Poland).',
+        },
+        {
+          date: '1914',
+          place: 'St. Petersburg',
+          description: 'He completed his studies at the Academy of Arts.',
+        },
+        {
+          date: '1918—1932',
+          place: 'St. Petersburg',
+          description: 'He worked as a producer of works in the construction office of the Petrograd (later Leningrad) city health department.',
+        },
+        {
+          date: '1937',
+          place: 'Minsk',
+          description: 'He was elected to the board of the Union of Architects of the USSR, of which he remained a member until the end of his life.',
+        },
+        {
+          date: '1944',
+          place: 'Minsk',
+          description: 'Joined the committee of the Committee for Architecture at the Council of Honored Commissars of the USSR, dealing with the restoration of the capital of Belarus',
+        },
+        {
+          date: '1949',
+          place: 'Minsk',
+          description: 'He was awarded the Badge of Honor.',
+        },
+      ],
+      works: [
+        {
+          image: 'https://live.staticflickr.com/4647/39022289242_27c4fd7877_k.jpg',
+          description: 'Government House Minsk',
+        },
+        {
+          image: 'https://live.staticflickr.com/5616/15499529201_c4cae3500d_b.jpg',
+          description: 'House of the Red Army (now the House of Officers) in Minsk',
+        },
+        {
+          image: 'https://live.staticflickr.com/7126/7655031732_f96e98e9c4_b.jpg',
+          description: 'Belarusian State Opera and Ballet Theater in Minsk',
+        },
+        {
+          image: 'https://live.staticflickr.com/8733/16371840073_6e61dce290_b.jpg',
+          description: 'House of Soviets in Mogilev',
+        },
+      ],
+      listOfWorks: [
+        {
+          year: '1929-1934',
+          work:
+            'The Government House in Minsk is not only one of the best creations of I.G. Langbard. This building is considered a model of architectural creativity of that era.',
+        },
+        {
+          year: '1934-1939',
+          work: 'House of the Red Army (now the House of Officers) in Minsk',
+        },
+        {
+          year: '1936-1937',
+          work: 'Belarusian State Opera and Ballet Theater in Minsk',
+        },
+        {
+          year: '1938-1939',
+          work: 'House of Soviets in Mogilev',
+        },
+      ],
+    },
+  },
+  {
+    ru: {
       id: 9,
       name: 'Левин Леонид Менделевич',
       avatar: '/img/person9/avatar/ava.jpg',
