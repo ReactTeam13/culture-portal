@@ -27,18 +27,24 @@
     h2.heading {
       font-size: 3.05em;
     }
+    .img-card img{
+      width: 70%;
+    } 
   }
   @media (min-width: 900px) {
     h2.heading {
       font-size: 3.25em;
       margin: 0 0 0.3em;
     }
+    .img-card img{
+      width: 70%;
+    } 
   } 
   .card-wrapper {
     display: block; 
       margin-bottom: 20px;
       line-height: 1.42857143;
-      background-color: #fff;
+      background: linear-gradient(0deg, #E5E5E5, #E5E5E5), linear-gradient(0deg, #E5E5E5, #E5E5E5), #E5E5E5;;
       border-radius: 2px;
       border: 1px solid #C4C4C4;
       transition: box-shadow .25s; 
@@ -47,17 +53,17 @@
     border: 1px solid #5B5B65;
   }
   .img-card {
+    padding: 25px;
     width: 100%;
-    height:200px;
+    height:150px;
     border-top-left-radius:2px;
     border-top-right-radius:2px;
     display:block;
     overflow: hidden;
-    border: 1px solid #C4C4C4;
   }
   .img-card img{
-    width: 100%;
-    height: 200px;
+    width: 50%;
+    height: 100px;
     object-fit:cover; 
     transition: all .25s ease;
   } 
@@ -69,6 +75,8 @@
     margin-top:0px;
     font-weight: 700;
     font-size: 1.65em;
+    color: #C4A871;
+    text-align: center;
   }
   .card-title a {
     color: #000;
