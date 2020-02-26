@@ -17,7 +17,7 @@ function FooterNav({ links }) {
         </Link>
       </li>
       <li className="m-3">
-        <Link to="/" className="footerLink">
+        <Link to="/styleGuide" className="footerLink">
           {links.linkStorybook}
         </Link>
       </li>
