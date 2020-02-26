@@ -39,6 +39,7 @@ class Video extends Component {
         />
         <Button
           type="button"
+          btnAdditionalClasses="btn-xxl btn-yellow"
           content={buttonText}
           onClickCallback={this.openModal}
         />
