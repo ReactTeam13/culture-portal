@@ -1,0 +1,9 @@
+.bg-light-gray{
+  background-color: #F5F4F2;
+  transition: transform .2s;
+}
+.bg-light-gray:hover{
+  background-color: #E4E1E1;
+  transform: scale(0.99);
+}
+

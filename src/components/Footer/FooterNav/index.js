@@ -12,7 +12,7 @@ function FooterNav({ links }) {
         </Link>
       </li>
       <li className="m-3">
-        <Link to="/" className="footerLink">
+        <Link to="/worklog" className="footerLink">
           {links.linkWorklog}
         </Link>
       </li>
