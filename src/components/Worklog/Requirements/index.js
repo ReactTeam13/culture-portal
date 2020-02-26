@@ -18,13 +18,13 @@ function Requirements({ lang }) {
   };
 
   return (
-    <div className="p-4">
+    <div className="pr-5 pl-5">
       <div>
         {
         requirements.map((requirement, i) => {
           count(requirement.score, requirement.check);
           return (
-            <div key={i} className="p-1">
+            <div key={i} className="p-0">
               <Checkbox isChecked={requirement.check} />
               <span className="font-weight-bold m-2">{requirement.score}</span>
               <span>{requirement.data[lang]}</span>

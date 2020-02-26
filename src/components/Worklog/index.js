@@ -18,7 +18,7 @@ function Worklog() {
   return (
     <div className="container">
       <ParallaxCircle text="worklog" />
-      {space}
+      <div className="d-none d-lg-block">{space}</div>
       <Title text={localTranslation.titles[lang].WorklogTab} />
       <WorklogTab data={worklogData[lang].data} />
       {space}

@@ -8,7 +8,7 @@ const translation = {
     ru: {
       WorklogTab: 'Ворклог',
       Difficulties: 'Трудности',
-      Requirements: 'Самостоятельная оцнка',
+      Requirements: 'Самостоятельная оценка',
     },
     be: {
       WorklogTab: 'Варклог',
