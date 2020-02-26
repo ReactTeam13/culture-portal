@@ -10,9 +10,9 @@ function WorklogTab({ data }) {
 
       <div key={c} className="container py-3">
         <div className="col-sm-3">
-          <div className="card card-inverse card-warning h-100 text-center pt-2 mb-3 card-name">
+          <div className="card card-inverse card-warning h-100 text-center pt-2 mb-3">
             <div className="card-block card-title">
-              <h6 className="text-light">{person.name}</h6>
+              <h6 className="text-dark">{person.name}</h6>
             </div>
           </div>
         </div>

@@ -31,10 +31,6 @@
   .table-responsive-stack .table-responsive-stack-thead {
      font-weight: bold;
   }
-
-  .card-name {
-      background: #D7B87B;
-  }
   
   @media screen and (max-width: 768px) {
      .table-responsive-stack tr {
