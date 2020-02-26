@@ -11,7 +11,9 @@ function ArchitectBlock({ data, btn }) {
           <Avatar data={data} />
         </div>
         <div className="col-md-8">
-          <DescriptionShort data={data} children={btn} />
+          <DescriptionShort data={data}>
+            {btn}
+          </DescriptionShort>
         </div>
       </div>
     </div>
