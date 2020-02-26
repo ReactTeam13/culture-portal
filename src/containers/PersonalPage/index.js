@@ -22,7 +22,7 @@ function PersonalPage({ profile }) {
         <div className="col-md-7 p-5">
           <DescriptionShort
             data={profile}
-            isDescriptionFull={true}
+            isDescriptionFull
           />
         </div>
       </div>
