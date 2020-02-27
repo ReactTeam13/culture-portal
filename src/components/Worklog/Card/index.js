@@ -7,9 +7,9 @@ function Card({ src, title, p }) {
       <div>
         <img style={{ width: '120px' }} className="mb-4" src={src} alt={title} />
       </div>
-      <p className="font-weight-bold m-2 ohra">
+      <h6 className="font-weight-bold m-2 ohra mb-3">
         {title}
-      </p>
+      </h6>
       <p>
         {p}
       </p>

@@ -21,6 +21,9 @@ span, p, a, small, .p {
   letter-spacing: 1px;
 }
 
+.bold, strong {
+  font-weight: 500;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -29,8 +32,4 @@ code {
 
 .background-dark {
   background-color: #F5F4F2;
-}
-
-strong {
-  font-weight: bold;
 }

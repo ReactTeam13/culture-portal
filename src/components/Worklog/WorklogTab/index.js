@@ -9,7 +9,7 @@ function WorklogTab({ data }) {
       data.map((person, c) => (
         <div key={c} className="container">
           <div className="pr-4 pl-4 pt-3">
-            <p className="ohra text-center m-2">{person.name}</p>
+            <h4 className="ohra text-center m-2">{person.name}</h4>
             <table className="table table-sm">
               <tbody>
                 {person.data.map((row, i) => (
