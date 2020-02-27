@@ -12,16 +12,16 @@ function MainPage() {
   const { t, i18n: { language } } = useTranslation('mainPage');
   const [architectDay, setArchitectDay] = useState(0);
 
-  const getArchitectDay = () => {
+  const getArchitectDay = (items) => {
+    const { length } = items;
     const msInDay = 86400000;
     const dayNumber = Math.floor((new Date().getTime()) / msInDay);
-    const architectIndex = dayNumber - Math.floor(dayNumber / architects.length)
-      * architects.length;
+    const architectIndex = (dayNumber + length) % length;
     return architectIndex;
   };
 
   useEffect(() => {
-    setArchitectDay(getArchitectDay());
+    setArchitectDay(getArchitectDay(architects));
   });
 
   const profile = architects[architectDay][language];
