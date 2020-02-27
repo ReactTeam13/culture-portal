@@ -10,12 +10,12 @@ import ParalaxBlock from '../../components/ParalaxBlock';
 
 function MainPage() {
   const { t, i18n: { language } } = useTranslation('mainPage');
-  const [architectDay, setArchitectDay] = useState(0);
+  const [architectDay, setArchitectDay] = useState(2);
 
   const getArchitectDay = (items) => {
     const { length } = items;
     const msInDay = 86400000;
-    const dayNumber = Math.floor((new Date().getTime()) / msInDay);
+    const dayNumber = Math.floor((new Date('2020-03-01').getTime()) / msInDay);
     const architectIndex = (dayNumber + length) % length;
     return architectIndex;
   };
