@@ -7,10 +7,10 @@ function ArchitectBlock({ data, btn }) {
   return (
     <div className="container py-3 architect">
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-6">
           <Avatar data={data} />
         </div>
-        <div className="col-md-8">
+        <div className="col-md-6">
           <DescriptionShort data={data}>
             {btn}
           </DescriptionShort>

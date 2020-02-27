@@ -26,7 +26,7 @@ function MainPage() {
   return (
     <div className="main-page">
       <ParalaxBlock text={t('title')} />
-      <h2 className="text-uppercase text-center mb-4 title-mainpage">{t('todayArchitect')}</h2>
+      <h2 className="text-center mb-4 ohra title-mainpage">{t('todayArchitect')}</h2>
       <ArchitectBlock data={profile} btn={btn} />
     </div>
   );
