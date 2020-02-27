@@ -1185,19 +1185,19 @@ export default [
       ],
       works: [
         {
-          image: 'https://live.staticflickr.com/4647/39022289242_27c4fd7877_k.jpg',
+          image: '/img/person8/portfolio/work1.jpg',
           description: 'Дом правительства г. Минск',
         },
         {
-          image: 'https://live.staticflickr.com/5616/15499529201_c4cae3500d_b.jpg',
+          image: '/img/person8/portfolio/work2.jpg',
           description: 'Дом Красной Армии (ныне Дом офицеров) в Минске',
         },
         {
-          image: 'https://live.staticflickr.com/7126/7655031732_f96e98e9c4_b.jpg',
+          image: '/img/person8/portfolio/work3.jpg',
           description: 'Белорусский государственный театр оперы и балета в Минске',
         },
         {
-          image: 'https://live.staticflickr.com/8733/16371840073_6e61dce290_b.jpg',
+          image: '/img/person8/portfolio/work4.jpg',
           description: 'Дом Советов в Могилеве',
         },
       ],
@@ -1269,19 +1269,19 @@ export default [
       ],
       works: [
         {
-          image: 'https://live.staticflickr.com/4647/39022289242_27c4fd7877_k.jpg',
+          image: '/img/person8/portfolio/work1.jpg',
           description: 'Дом ўрада г. Мінск',
         },
         {
-          image: 'https://live.staticflickr.com/5616/15499529201_c4cae3500d_b.jpg',
+          image: '/img/person8/portfolio/work2.jpg',
           description: 'Дом Чырвонай Арміі (цяпер Дом афіцэраў) у Мінску',
         },
         {
-          image: 'https://live.staticflickr.com/7126/7655031732_f96e98e9c4_b.jpg',
+          image: '/img/person8/portfolio/work3.jpg',
           description: 'Беларускі дзяржаўны тэатр оперы і балета ў Мінску',
         },
         {
-          image: 'https://live.staticflickr.com/8733/16371840073_6e61dce290_b.jpg',
+          image: '/img/person8/portfolio/work4.jpg',
           description: 'Дом Саветаў у Магілёве',
         },
       ],
@@ -1353,19 +1353,19 @@ export default [
       ],
       works: [
         {
-          image: 'https://live.staticflickr.com/4647/39022289242_27c4fd7877_k.jpg',
+          image: '/img/person8/portfolio/work1.jpg',
           description: 'Government House Minsk',
         },
         {
-          image: 'https://live.staticflickr.com/5616/15499529201_c4cae3500d_b.jpg',
+          image: '/img/person8/portfolio/work2.jpg',
           description: 'House of the Red Army (now the House of Officers) in Minsk',
         },
         {
-          image: 'https://live.staticflickr.com/7126/7655031732_f96e98e9c4_b.jpg',
+          image: '/img/person8/portfolio/work3.jpg',
           description: 'Belarusian State Opera and Ballet Theater in Minsk',
         },
         {
-          image: 'https://live.staticflickr.com/8733/16371840073_6e61dce290_b.jpg',
+          image: '/img/person8/portfolio/work4.jpg',
           description: 'House of Soviets in Mogilev',
         },
       ],
@@ -1432,27 +1432,23 @@ export default [
       },
       ],
       works: [{
-        image: 'https://live.staticflickr.com/8467/8080350229_9ed8cb8e63_h.jpg',
-        description: 'Мемориальный комплекс «Хатынь»',
-      },
-      {
-        image: 'https://live.staticflickr.com/8510/8352680273_bcca25c94c_h.jpg',
+        image: '/img/person9/portfolio/work1.jpg',
         description: 'Мемориальный комплекс «Яма». Памятник создавался в течение 8 лет.',
       },
       {
-        image: 'https://live.staticflickr.com/4454/37118646123_3a74157531_b.jpg',
+        image: '/img/person9/portfolio/work2.jpg',
         description: 'Памятник Якубу Коласу (Минск)',
       },
       {
-        image: 'https://live.staticflickr.com/7130/27390652600_777498e503_h.jpg',
+        image: '/img/person9/portfolio/work3.jpg',
         description: 'Памятник Янке Купале (Минск)',
       },
       {
-        image: 'https://live.staticflickr.com/7493/27568593762_9a50064a91_h.jpg',
+        image: '/img/person9/portfolio/work4.jpg',
         description: '«Троицкое предместье» (Минск)',
       },
       {
-        image: 'https://live.staticflickr.com/4303/35546085910_c83289faee_h.jpg',
+        image: '/img/person9/portfolio/work5.jpg',
         description: '«Верхний город» (Минск)',
       },
       ],
@@ -1519,27 +1515,23 @@ export default [
       },
       ],
       works: [{
-        image: 'https://live.staticflickr.com/8467/8080350229_9ed8cb8e63_h.jpg',
-        description: 'Khatyn Memorial Complex',
-      },
-      {
-        image: 'https://live.staticflickr.com/8510/8352680273_bcca25c94c_h.jpg',
+        image: '/img/person9/portfolio/work1.jpg',
         description: 'Memorial complex “Pit”. The monument was created over 8 years. ',
       },
       {
-        image: 'https://live.staticflickr.com/4454/37118646123_3a74157531_b.jpg',
+        image: '/img/person9/portfolio/work2.jpg',
         description: 'Monument to Yakub Kolas (Minsk)',
       },
       {
-        image: 'https://live.staticflickr.com/7130/27390652600_777498e503_h.jpg',
+        image: '/img/person9/portfolio/work3.jpg',
         description: 'Monument to Janka Kupala (Minsk)',
       },
       {
-        image: 'https://live.staticflickr.com/7493/27568593762_9a50064a91_h.jpg',
+        image: '/img/person9/portfolio/work4.jpg',
         description: '“Trinity Suburb” (Minsk)',
       },
       {
-        image: 'https://live.staticflickr.com/4303/35546085910_c83289faee_h.jpg',
+        image: '/img/person9/portfolio/work5.jpg',
         description: '“Upper Town” (Minsk)',
       },
       ],
@@ -1606,27 +1598,23 @@ export default [
       },
       ],
       works: [{
-        image: 'https://live.staticflickr.com/8467/8080350229_9ed8cb8e63_h.jpg',
-        description: 'Мемарыяльны комплекс «Хатынь»',
-      },
-      {
-        image: 'https://live.staticflickr.com/8510/8352680273_bcca25c94c_h.jpg',
+        image: '/img/person9/portfolio/work1.jpg',
         description: 'Мемарыяльны комплекс "Яма". Помнік ствараўся на працягу 8 гадоў.',
       },
       {
-        image: 'https://live.staticflickr.com/4454/37118646123_3a74157531_b.jpg',
+        image: '/img/person9/portfolio/work2.jpg',
         description: 'Помнік Якубу Коласу (Мінск)',
       },
       {
-        image: 'https://live.staticflickr.com/7130/27390652600_777498e503_h.jpg',
+        image: '/img/person9/portfolio/work3.jpg',
         description: 'Помнік Янку Купалу (Мінск)',
       },
       {
-        image: 'https://live.staticflickr.com/7493/27568593762_9a50064a91_h.jpg',
+        image: '/img/person9/portfolio/work4.jpg',
         description: ' «Траецкае прадмесце» (Мінск)',
       },
       {
-        image: 'https://live.staticflickr.com/4303/35546085910_c83289faee_h.jpg',
+        image: '/img/person9/portfolio/work5.jpg',
         description: ' «Верхні горад» (Мінск)',
       },
       ],
@@ -1700,19 +1688,19 @@ export default [
       },
       ],
       works: [{
-        image: 'https://live.staticflickr.com/4046/4571294561_85d760da2c_c.jpg',
+        image: '/img/person12/portfolio/work1.jpg',
         description: 'Здание бывшего Орловского коммерческого банка.',
       },
       {
-        image: 'https://live.staticflickr.com/111/313839194_6c42fcd56b_c.jpg',
+        image: '/img/person12/portfolio/work2.jpg',
         description: 'Бывший доходный дом купца К. П. Грошикова.',
       },
       {
-        image: 'https://live.staticflickr.com/1255/1437480802_161278771f_h.jpg',
+        image: '/img/person12/portfolio/work3.jpg',
         description: 'Здание бывшего Виленского коммерческого банка.',
       },
       {
-        image: 'https://live.staticflickr.com/2655/4106581231_bcdbd1420c_h.jpg',
+        image: '/img/person12/portfolio/work4.jpg',
         description: 'Дом-коммуна, пр. Ленина',
       },
       ],
@@ -1781,19 +1769,19 @@ export default [
       },
       ],
       works: [{
-        image: 'https://live.staticflickr.com/4046/4571294561_85d760da2c_c.jpg',
+        image: '/img/person12/portfolio/work1.jpg',
         description: 'The building of the former Oryol Commercial Bank.',
       },
       {
-        image: 'https://live.staticflickr.com/111/313839194_6c42fcd56b_c.jpg',
+        image: '/img/person12/portfolio/work2.jpg',
         description: 'The former apartment building of the merchant K.P. Groshikov.',
       },
       {
-        image: 'https://live.staticflickr.com/1255/1437480802_161278771f_h.jpg',
+        image: '/img/person12/portfolio/work3.jpg',
         description: 'The building of the former Vilnius Commercial Bank.',
       },
       {
-        image: 'https://live.staticflickr.com/2655/4106581231_bcdbd1420c_h.jpg',
+        image: '/img/person12/portfolio/work4.jpg',
         description: 'House-commune, Lenin Ave',
       },
       ],
@@ -1862,19 +1850,19 @@ export default [
       },
       ],
       works: [{
-        image: 'https://live.staticflickr.com/4046/4571294561_85d760da2c_c.jpg',
+        image: '/img/person12/portfolio/work1.jpg',
         description: 'Будынак былога Арлоўскага камерцыйнага банка.',
       },
       {
-        image: 'https://live.staticflickr.com/111/313839194_6c42fcd56b_c.jpg',
+        image: '/img/person12/portfolio/work2.jpg',
         description: 'Былы даходны дом купца К. П. Грошыкава.',
       },
       {
-        image: 'https://live.staticflickr.com/1255/1437480802_161278771f_h.jpg',
+        image: '/img/person12/portfolio/work3.jpg',
         description: 'Будынак былога Віленскага камерцыйнага банка.',
       },
       {
-        image: 'https://live.staticflickr.com/2655/4106581231_bcdbd1420c_h.jpg',
+        image: '/img/person12/portfolio/work4.jpg',
         description: 'Дом-камуна, пр. Леніна',
       },
       ],

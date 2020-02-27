@@ -11,7 +11,7 @@ function DescriptionShort({
   const { t } = useTranslation('description');
   return (
     <div className="text-left">
-      <h1 className="name-short mb-5 mt-md-5">{ name }</h1>
+      <h2 className="name-short pb-5 pt-5">{ name }</h2>
       <p className="occupation-short mb-5">{ occupation }</p>
       {isDescriptionFull
         ? (

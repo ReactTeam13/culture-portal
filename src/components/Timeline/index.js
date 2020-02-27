@@ -4,8 +4,8 @@ import './index.css';
 
 function TimeLine({ data, title, description }) {
   return (
-    <div>
-      <h2 className="h3 mb-3 ohra">{title}</h2>
+    <div className="container">
+      <h2 className="h3 mb-4 mt-5 pr-3 pl-3 ohra">{title}</h2>
       <p className="max-w-550 p-2 mx-auto h6 text-center">{description}</p>
       <Timeline lineColor="#ddd">
         {data.activity.map((item, index) => (

@@ -15,15 +15,17 @@ function PersonalPage({ profile }) {
   const { t } = useTranslation('personPage');
   return (
     <div className="personal-page">
-      <div className="row background-dark">
-        <div className="col-md-5 p-5 text-center">
-          <Avatar data={profile} />
-        </div>
-        <div className="col-md-7 p-5">
-          <DescriptionShort
-            data={profile}
-            isDescriptionFull
-          />
+      <div className="background-dark">
+        <div className="container row pt-5 pb-5 m-auto">
+          <div className="col-md-5 text-center">
+            <Avatar data={profile} />
+          </div>
+          <div className="col-md-5">
+            <DescriptionShort
+              data={profile}
+              isDescriptionFull
+            />
+          </div>
         </div>
       </div>
       <Timeline

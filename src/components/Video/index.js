@@ -28,8 +28,8 @@ class Video extends Component {
       data, title, description, buttonText,
     } = this.props;
     return (
-      <div className="video-block text-center">
-        <h2 className="h3 mb-3 ohra">{title}</h2>
+      <div className="video-block pt-5 pb-5 text-center">
+        <h2 className="h3 mb-3 ohra container">{title}</h2>
         <p className="max-w-550 p-2 mx-auto h6 text-center p-video">{description}</p>
         <ModalVideo
           channel="youtube"
