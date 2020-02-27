@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import './index.css';
@@ -10,10 +10,23 @@ import ParalaxBlock from '../../components/ParalaxBlock';
 
 function MainPage() {
   const { t, i18n: { language } } = useTranslation('mainPage');
-  const authorDay = Math.floor(Math.random() * architects.length);
-  const profile = architects[authorDay][language];
+  const [architectDay, setArchitectDay] = useState(2);
+
+  const getArchitectDay = (items) => {
+    const { length } = items;
+    const msInDay = 86400000;
+    const dayNumber = Math.floor((new Date('2020-03-01').getTime()) / msInDay);
+    const architectIndex = (dayNumber + length) % length;
+    return architectIndex;
+  };
+
+  useEffect(() => {
+    setArchitectDay(getArchitectDay(architects));
+  });
+
+  const profile = architects[architectDay][language];
   const lastNameIndex = 0;
-  const urlName = architects[authorDay].en.name.split(' ')[lastNameIndex];
+  const urlName = architects[architectDay].en.name.split(' ')[lastNameIndex];
   const btn = (
     <Link to={`/architector/${urlName}`}>
       <Button
