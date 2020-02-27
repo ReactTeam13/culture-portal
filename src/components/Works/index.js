@@ -7,9 +7,9 @@ function Works({
   data, title, date, work,
 }) {
   return (
-    <div className="works">
-      <h2>{title}</h2>
-      <List className="list-works">
+    <div className="works pt-5 pb-5 pr-3 pl-3">
+      <h2 className="pb-4 container">{title}</h2>
+      <List className="list-works container">
         <ListItem button className="listitem-title listitem-container">
           <span className="year">
             {date}

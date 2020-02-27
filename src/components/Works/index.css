@@ -1,16 +1,10 @@
 .works{
   background: #F5F4F2;
-  padding: 50px 10px;
   font-family: 'Lato', sans-serif;
-}
-
-.works h2{
-  padding-bottom: 50px;
 }
 
 .MuiList-root.list-works {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   border: 1px solid #c4c4c4;
 }
@@ -43,16 +37,18 @@
 
 .MuiListItem-button .work {
   width: calc(100% - 200px);
- 
 }
 
 .MuiListItem-button.listitem-title .work {
   display: flex;
 }
 
-@media (max-width: 1200px) {
-  .MuiList-root.list-works {
-    margin: 10px;
+@media (max-width: 765px) {
+  .MuiListItem-button .year {
+    width: 150px;
+  }
+  .MuiListItem-button .work {
+    width: calc(100% - 150px);
   }
 }
 
