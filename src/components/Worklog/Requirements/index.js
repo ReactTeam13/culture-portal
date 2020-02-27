@@ -1,10 +1,12 @@
 import React from 'react';
-import requirements from '../../../data/requirements';
-import './index.css';
-import Checkbox from '../../Checkbox/index';
-import transl from './localTranslation';
+import { useTranslation } from 'react-i18next';
 
-function Requirements({ lang }) {
+import requirements from '../../../data/requirements';
+import Checkbox from '../../Checkbox/index';
+import './index.css';
+
+function Requirements() {
+  const { t, i18n: { language: lang } } = useTranslation('requirements');
   let total = 0;
   let calculations = '';
   let max = 0;
@@ -35,10 +37,10 @@ function Requirements({ lang }) {
       </div>
       <div>
         <p className="m-2 mb-3 mt-5">
-          {`${transl[lang].calculations} : `}
+          {`${t('calculations')} : `}
           <small>{calculations.slice(0, -2)}</small>
         </p>
-        <p className="m-2 font-weight-bold">{`${transl[lang].total} : ${total} ${transl[lang].from} ${max}`}</p>
+        <p className="m-2 font-weight-bold">{t('total', { total, max })}</p>
       </div>
     </div>
   );
