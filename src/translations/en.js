@@ -39,4 +39,13 @@ export default {
     videoDescription: 'Biography of the author and famous works of the architect in one video',
     videoButton: 'Open video',
   },
+  worklog: {
+    tab: 'Worklog',
+    difficulties: 'Team Difficulties',
+    requirements: 'Self estimate',
+  },
+  requirements: {
+    calculations: 'Mark calculations',
+    total: 'TOTAL: {{total}} from {{max}}',
+  },
 };

@@ -39,4 +39,13 @@ export default {
     videoDescription: 'Біяграфія аўтара і вядомыя працы архітэктара ў адным відэа',
     videoButton: 'Адкрыць відэа',
   },
+  worklog: {
+    tab: 'Варклог',
+    difficulties: 'Цяжкасці',
+    requirements: 'Самаацэнка',
+  },
+  requirements: {
+    calculations: 'Падсчет',
+    total: 'ТОТАЛ: {{total}} з {{max}}',
+  },
 };
