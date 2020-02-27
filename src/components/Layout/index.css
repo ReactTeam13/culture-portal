@@ -1,10 +1,28 @@
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #41414E;
   overflow-x: hidden;
+   font-family: 'Montserrat';
+   font-weight: 300;
+   letter-spacing: 0.8px;
+}
+
+h1, h2, h3, h4, h5, h6, .h {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2.8px;
+}
+
+
+span, p, a, small, .p {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.bold, strong {
+  font-weight: 500;
 }
 
 code {
@@ -14,8 +32,4 @@ code {
 
 .background-dark {
   background-color: #F5F4F2;
-}
-
-strong {
-  font-weight: bold;
 }

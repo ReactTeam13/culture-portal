@@ -53,10 +53,10 @@ function TitleSwipe({ text1, text2 }) {
           <div className="long_splitter mx-auto" />
         </Plx>
         <Plx parallaxData={prxData1}>
-          <p className="text-upper h2 space-1 p-3">{text1}</p>
+          <h2 className="text-upper h2 space-1 p-2">{text1}</h2>
         </Plx>
         <Plx parallaxData={prxData2}>
-          <p className="text-upper h2  space-2">{text2}</p>
+          <h3 className="text-upper h2  space-2">{text2}</h3>
         </Plx>
         <div className="long_splitter mx-auto m-4" />
       </div>
