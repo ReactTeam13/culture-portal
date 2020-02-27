@@ -14,8 +14,8 @@ function ImageGalleryComponent({ data, title }) {
   });
 
   return (
-    <div className="photogallery">
-      <h2 className="h3 mb-3 ohra">{title}</h2>
+    <div className="photogallery pt-5 pb-5 container">
+      <h2 className="h3 mb-5 ohra">{title}</h2>
       <ImageGallery items={images} />
     </div>
   );
