@@ -24,13 +24,15 @@
 }
 
 .card3 {
-    width: 200px;
-    height: 200px;
-    padding: 52px 45px 45px;
+    font-family: 'Playfair Display', serif;
+    width: 300px;
+    height: 300px;
+    padding: 72px 45px 45px;
+    font-size: x-large;
     font-weight: bold;
     text-align: center;
     margin-top: 80px;
-    line-height: 20px;
+    line-height: 29px;
     background: rgb(168, 135, 77);
     border-radius: 50%;
     color: #fff;
@@ -68,15 +70,19 @@
 }
 @media (max-width: 765px){
     .card2 {
-        top: 367px;
+        top: 373px;
     }
     .card3 {
-        width: 160px;
-        height: 160px;
-        padding: 42px 0 0;
-        margin-top: 30px;
+        width: 180px;
+        height: 180px;
+        padding: 30px;
+        margin-top: 250px;
+        font-size: medium;
+        line-height: 24px;
     }
+    
     .paralax-container{
         margin:  0 0 100px 0;
     }
+      
 }
