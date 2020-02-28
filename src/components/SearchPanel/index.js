@@ -34,7 +34,7 @@ const SearchPanel = ({ setSearchResult }) => {
               type="button"
               content={t('button')}
               id="button-addon2"
-              btnAdditionalClasses="btn-xxl btn-yellow"
+              btnAdditionalClasses="btn-xxl btn-primary"
               onClickCallback={handleReturnSearchResult}
             />
           </div>

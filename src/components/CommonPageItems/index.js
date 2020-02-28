@@ -21,7 +21,7 @@ function CommonPageItems({ data }) {
             <DescriptionShort data={profile} />
             <Link
               to={`/architector/${url}`}
-              className="btn btn-xxl btn-yellow"
+              className="btn btn-xxl btn-primary"
             >
               {t('link')}
             </Link>
