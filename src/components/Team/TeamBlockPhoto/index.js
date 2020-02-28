@@ -7,7 +7,7 @@ function TeamBlockPhoto() {
   return (
     <div>
       <Parallax bgImage={team} strength={600}>
-        <div style={{ height: 435 }} />
+        <div style={{ height: 320 }} />
       </Parallax>
     </div>
   );

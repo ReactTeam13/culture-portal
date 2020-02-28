@@ -7,4 +7,6 @@ a, a:active, a:focus {
 .avatar:hover{
 	cursor: pointer;
 	transform: scale(0.97);
+	filter: brightness(0.75);
+
 }

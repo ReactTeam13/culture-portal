@@ -11,13 +11,13 @@ import './index.css';
 function TeamBlock() {
   const { i18n: { language: lang } } = useTranslation();
   return (
-    <div>
+    <div className="conainer">
       <ParallaxTitle
         text1={teamData[lang].title.header[0]}
         text2={teamData[lang].title.header[1]}
       />
       <TeamBlockPhoto />
-      <div className="container">
+      <div className="container mb-5">
         <TeamTitle titleData={teamData[lang].title} />
         <TeamMembers teamData={teamData[lang].team} />
       </div>

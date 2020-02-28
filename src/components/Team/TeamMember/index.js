@@ -6,19 +6,20 @@ import LinkIcon from '../../LinkIcon/index';
 
 function TeamMember({ data }) {
   return (
-    <div className="row pr-4 pl-4 pt-1 pb-1 text-center">
-      <div className="col-lg-6 col-md-8 col-sm-8 col-6 mx-auto p-0">
+    <div className="row pr-3 pl-3 text-center">
+      <div className="col-lg-6 col-md-8 col-sm-8 col-7 mx-auto p-0">
         <TeamAvatar link={data.links[0].src} src={`https://avatars.githubusercontent.com/${data.githubId}`} />
       </div>
       <div className="w-100 text-center h6">
-        <div className=" pt-3 pb-2">
+        <div className=" pt-4 pb-2">
           <h3 className="bold">{data.name}</h3>
         </div>
-        <p className="yellow pb-2">{data.position}</p>
+        <p className="yellow pb-1">{data.position}</p>
         <p className="mx-auto pb-1 max-w-300"><small>{data.contribution}</small></p>
-        <div className="p-2">
+        <div className="pt-3">
           {data.links.map((linkData, i) => (
-            <LinkIcon key={i} src={linkData.src} icon={linkData.icon} />))}
+            <div className="d-inline m-2"><LinkIcon key={i} src={linkData.src} icon={linkData.icon} /></div>
+          ))}
         </div>
       </div>
       <div style={{ height: '220px' }} />

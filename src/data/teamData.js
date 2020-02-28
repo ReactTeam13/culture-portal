@@ -1,4 +1,5 @@
 const githubIcon = 'https://image.flaticon.com/icons/svg/733/733553.svg';
+const mailIcon = 'https://image.flaticon.com/icons/svg/481/481651.svg';
 const teamData = {
   en: {
     title: {
@@ -18,6 +19,11 @@ const teamData = {
         githubId: 'Xelsoid',
         links: [
           { name: 'github', src: 'https://github.com/Xelsoid', icon: githubIcon },
+          {
+            name: 'mail',
+            src: 'mailto:artemrevtovich@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
@@ -32,19 +38,29 @@ const teamData = {
             src: 'https://github.com/maryna-js',
             icon: githubIcon,
           },
+          {
+            name: 'mail',
+            src: 'mailto:maryna@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
         id: 1,
         position: 'Disigner, developer',
         name: 'Anastasia',
-        contribution: 'Developer of the portal disigh and view',
+        contribution: 'Development of the portal disigh and components structure',
         githubId: 'Nasta313',
         links: [
           {
             name: 'github',
             src: 'https://github.com/Nasta313',
             icon: githubIcon,
+          },
+          {
+            name: 'mail',
+            src: 'mailto:Vlasovec.nasta313@gmail.com',
+            icon: mailIcon,
           },
         ],
       },
@@ -53,10 +69,15 @@ const teamData = {
         position: 'Frontend developer',
         name: 'Irina',
         contribution:
-        'Development of project enviroment, components structure',
+        'Development of the project enviroment, components structure',
         githubId: 'irbris',
         links: [
           { name: 'github', src: 'https://github.com/irbris', icon: githubIcon },
+          {
+            name: 'mail',
+            src: 'mailto:irina@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
@@ -71,6 +92,11 @@ const teamData = {
             name: 'github',
             src: 'https://github.com/anton-rsschool',
             icon: githubIcon,
+          },
+          {
+            name: 'mail',
+            src: 'mailto:anton@gmail.com',
+            icon: mailIcon,
           },
         ],
       },
@@ -87,6 +113,11 @@ const teamData = {
             src: 'https://github.com/KseniaKuntsevich',
             icon: githubIcon,
           },
+          {
+            name: 'mail',
+            src: 'mailto:kse.kuntsevich@icloud.com',
+            icon: mailIcon,
+          },
         ],
       },
     ],
@@ -96,7 +127,7 @@ const teamData = {
       header: ['Встречайте,', 'Наша команда'],
       article: {
         h: 'Встречайте нашу команду',
-        p: 'Наша большая группа постаралась воплотить идеи каждого участника и вложить душу в наш проект. Надеимся, Вам он понравился!',
+        p: 'Наша большая группа постаралась воплотить идеи каждого участника и вложить душу в наш проект. Надеемся, Вам он понравился!',
       },
     },
     team: [
@@ -109,13 +140,18 @@ const teamData = {
         githubId: 'Xelsoid',
         links: [
           { name: 'github', src: 'https://github.com/Xelsoid', icon: githubIcon },
+          {
+            name: 'mail',
+            src: 'mailto:artemrevtovich@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
         id: 2,
         position: 'Фронтенд разработчик',
         name: 'Марина',
-        contribution: 'Разработка создание компонентов для сторибука',
+        contribution: 'Разработка и создание компонентов для сторибука',
         githubId: 'maryna-js',
         links: [
           {
@@ -123,13 +159,18 @@ const teamData = {
             src: 'https://github.com/maryna-js',
             icon: githubIcon,
           },
+          {
+            name: 'mail',
+            src: 'mailto:maryna@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
         id: 1,
         position: 'Дизайнер, фронтенд разработчик',
         name: 'Анастасия',
-        contribution: 'Разработка внешнего вида и дизайна сайта',
+        contribution: 'Разработка дизайна сайта, создание компонентов',
         githubId: 'Nasta313',
         links: [
           {
@@ -137,16 +178,26 @@ const teamData = {
             src: 'https://github.com/Nasta313',
             icon: githubIcon,
           },
+          {
+            name: 'mail',
+            src: 'mailto:Vlasovec.nasta313@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
         id: 3,
         position: 'Фронтенд разработчик',
         name: 'Ирина',
-        contribution: 'Разработка окружения. Архитектура сайта',
+        contribution: 'Разработка окружения и архитектуры сайта',
         githubId: 'irbris',
         links: [
           { name: 'github', src: 'https://github.com/irbris', icon: githubIcon },
+          {
+            name: 'mail',
+            src: 'mailto:irina@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
@@ -162,6 +213,11 @@ const teamData = {
             src: 'https://github.com/anton-rsschool',
             icon: githubIcon,
           },
+          {
+            name: 'mail',
+            src: 'mailto:anton@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
@@ -176,6 +232,11 @@ const teamData = {
             name: 'github',
             src: 'https://github.com/KseniaKuntsevich',
             icon: githubIcon,
+          },
+          {
+            name: 'mail',
+            src: 'mailto:kse.kuntsevich@icloud.com',
+            icon: mailIcon,
           },
         ],
       },
@@ -199,6 +260,11 @@ const teamData = {
         githubId: 'Xelsoid',
         links: [
           { name: 'github', src: 'https://github.com/Xelsoid', icon: githubIcon },
+          {
+            name: 'mail',
+            src: 'mailto:artemrevtovich@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
@@ -213,6 +279,11 @@ const teamData = {
             src: 'https://github.com/maryna-js',
             icon: githubIcon,
           },
+          {
+            name: 'mail',
+            src: 'mailto:maryna@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
@@ -220,13 +291,18 @@ const teamData = {
         position: 'Дызайнер, дэвелапер',
         name: 'Анастасія',
         contribution:
-        'Распрацоўка знешняга выгляду, архітэктуры і дызайну сайта',
+        'Распрацоўка дызайну сайта, рэалізацыя кампанентаў',
         githubId: 'Nasta313',
         links: [
           {
             name: 'github',
             src: 'https://github.com/Nasta313',
             icon: githubIcon,
+          },
+          {
+            name: 'mail',
+            src: 'mailto:Vlasovec.nasta313@gmail.com',
+            icon: mailIcon,
           },
         ],
       },
@@ -238,6 +314,11 @@ const teamData = {
         githubId: 'irbris',
         links: [
           { name: 'github', src: 'https://github.com/irbris', icon: githubIcon },
+          {
+            name: 'mail',
+            src: 'mailto:irina@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
@@ -253,6 +334,11 @@ const teamData = {
             src: 'https://github.com/anton-rsschool',
             icon: githubIcon,
           },
+          {
+            name: 'mail',
+            src: 'mailto:anton@gmail.com',
+            icon: mailIcon,
+          },
         ],
       },
       {
@@ -267,6 +353,11 @@ const teamData = {
             name: 'github',
             src: 'https://github.com/KseniaKuntsevich',
             icon: githubIcon,
+          },
+          {
+            name: 'mail',
+            src: 'mailto:kse.kuntsevich@icloud.com',
+            icon: mailIcon,
           },
         ],
       },

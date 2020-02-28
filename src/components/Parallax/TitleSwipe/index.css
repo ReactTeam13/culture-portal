@@ -1,18 +1,14 @@
 .long_splitter {
-  border-top: 20px dotted black;
+  border-top: 20px dotted #C4A871;
   height: 35px;
   width: 35%;
 }
 
-.text-upper {
-  text-transform: uppercase;
-}
-
 .space-2 {
-  letter-spacing: 10px
+  letter-spacing: 9px
 }
 
 .space-1 {
-  letter-spacing: 10px
+  letter-spacing: 7px
 }
 
