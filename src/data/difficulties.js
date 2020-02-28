@@ -41,17 +41,17 @@ const difficultiesList = {
     data: [
       {
         title: 'Организация процесса и общение',
-        icon: '../img/worklog-img/icon01.png',
+        icon: './img/worklog-img/icon01.png',
         description: 'Учитывать интересы и мнение каждого, искать компромисс. Разделение всей работы на микротаски.',
       },
       {
         title: 'Техническая часть и интеграции',
-        icon: '../img/worklog-img/icon02.png',
+        icon: './img/worklog-img/icon02.png',
         description: 'Изучение, установка и настройка GatsbyJS, CMS.',
       },
       {
         title: 'Работа в одном репозитории',
-        icon: '../img/worklog-img/icon03.png',
+        icon: './img/worklog-img/icon03.png',
         description: 'Кофликты слияния веток. Организация процесса и правил коммитов и пулл реквестов. ',
       }],
   },
