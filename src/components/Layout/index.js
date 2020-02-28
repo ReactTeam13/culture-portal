@@ -15,9 +15,6 @@ const Layout = ({ children }) => (
   <>
     <Helmet>
       <title>Culture portal. Architects of Belarus.</title>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
     </Helmet>
     <div>
       <Header />

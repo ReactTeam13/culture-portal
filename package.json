@@ -14,8 +14,8 @@
     "lint:fix": "eslint ./ --fix",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 -s static",
+    "build-storybook": "build-storybook -s static"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.3",

@@ -1,4 +1,12 @@
-.btn-yellow {
+.btn {
+  border-radius: 50px;
+}
+
+.btn:disabled {
+  background: #5B5B65 !important;
+}
+
+.btn-primary {
   background: #D7B87B;
   color: #41414E;
   border: none;
@@ -6,14 +14,30 @@
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-.btn-yellow:hover, .btn-yellow:focus {
-  background: #C3A871;
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: #C3A871!important;
 }
-.btn-yellow:active {
+
+.btn-secondary {
+  background: #ffffff;
+  color: #41414E;
+  border: 2px solid #D7B87B;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn-secondary:hover:not(:disabled),
+.btn-secondary:focus,
+.btn-secondary:active {
   background: #C3A871;
+  border: 2px solid #D7B87B;
 }
 
 .btn-xxl {
   padding: 6px 30px;
-  border-radius: 50px;
+  font-size: 20px;
 }

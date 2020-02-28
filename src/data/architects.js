@@ -3,7 +3,7 @@ export default [
     ru: {
       id: 1,
       name: 'Бакланов Михаил Иванович',
-      avatar: '/img/person1/avatar/ava.jpg',
+      avatar: './img/person1/avatar/ava.jpg',
       occupation: 'Белорусский советский архитектор. Заслуженный архитектор Белорусской ССР.',
       birthDate: '13.01.1914',
       birthPlace: 'с.Ивановка, Украина',
@@ -37,12 +37,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person1/portfolio/work1.jpg', description: 'Национальный академический драматический театр' },
-        { image: '/img/person1/portfolio/work2.jpg', description: 'Государственная картинная галерея БССР' },
-        { image: '/img/person1/portfolio/work3.jpg', description: 'Белорусский государственный аграрный технический университет' },
-        { image: '/img/person1/portfolio/work4.jpg', description: 'Главный корпус Белорусского Государственного университета' },
-        { image: '/img/person1/portfolio/work5.jpg', description: 'Библиотечный корпус Белорусского политехнического института' },
-        { image: '/img/person1/portfolio/work6.jpg', description: 'Памятник Якубу Коласу в дер. Миколаевщина Минской области' }],
+        { image: './img/person1/portfolio/work1.jpg', description: 'Национальный академический драматический театр' },
+        { image: './img/person1/portfolio/work2.jpg', description: 'Государственная картинная галерея БССР' },
+        { image: './img/person1/portfolio/work3.jpg', description: 'Белорусский государственный аграрный технический университет' },
+        { image: './img/person1/portfolio/work4.jpg', description: 'Главный корпус Белорусского Государственного университета' },
+        { image: './img/person1/portfolio/work5.jpg', description: 'Библиотечный корпус Белорусского политехнического института' },
+        { image: './img/person1/portfolio/work6.jpg', description: 'Памятник Якубу Коласу в дер. Миколаевщина Минской области' }],
       listOfWorks: [
         {
           year: '1948—1950',
@@ -65,7 +65,7 @@ export default [
     be: {
       id: 1,
       name: 'Бакланаў Міхаіл Іванавіч',
-      avatar: '/img/person1/avatar/ava.jpg',
+      avatar: './img/person1/avatar/ava.jpg',
       occupation: 'Беларускі савецкі архітэктар. Заслужаны архітэктар Беларускай ССР.',
       birthDate: '13.01.1914',
       birthPlace: 'с.Ивановка, Украіна',
@@ -99,12 +99,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person1/portfolio/work1.jpg', description: 'Нацыянальны акадэмічны драматычны тэатр' },
-        { image: '/img/person1/portfolio/work2.jpg', description: 'Дзяржаўная карцінная галерэя БССР' },
-        { image: '/img/person1/portfolio/work3.jpg', description: 'Беларускі дзяржаўны аграрны тэхнічны універсітэт' },
-        { image: '/img/person1/portfolio/work4.jpg', description: 'Галоўны корпус Беларускага Дзяржаўнага універсітэта' },
-        { image: '/img/person1/portfolio/work5.jpg', description: 'Бібліятэчны корпус Беларускага політэхнічнага інстытута' },
-        { image: '/img/person1/portfolio/work6.jpg', description: 'Помнік Якубу Коласу ў в. Мікалаеўшчына Мінскай вобласці' }],
+        { image: './img/person1/portfolio/work1.jpg', description: 'Нацыянальны акадэмічны драматычны тэатр' },
+        { image: './img/person1/portfolio/work2.jpg', description: 'Дзяржаўная карцінная галерэя БССР' },
+        { image: './img/person1/portfolio/work3.jpg', description: 'Беларускі дзяржаўны аграрны тэхнічны універсітэт' },
+        { image: './img/person1/portfolio/work4.jpg', description: 'Галоўны корпус Беларускага Дзяржаўнага універсітэта' },
+        { image: './img/person1/portfolio/work5.jpg', description: 'Бібліятэчны корпус Беларускага політэхнічнага інстытута' },
+        { image: './img/person1/portfolio/work6.jpg', description: 'Помнік Якубу Коласу ў в. Мікалаеўшчына Мінскай вобласці' }],
       listOfWorks: [
         {
           year: '1948-1950',
@@ -127,7 +127,7 @@ export default [
     en: {
       id: 1,
       name: 'Baklanov Mikhail Ivanovich',
-      avatar: '/img/person1/avatar/ava.jpg',
+      avatar: './img/person1/avatar/ava.jpg',
       occupation: 'Belarusian Soviet architect. Honored Architect of the Belarusian SSR.',
       birthDate: '13.01.1914',
       birthPlace: 's.Ivanovka, Ukraine',
@@ -161,12 +161,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person1/portfolio/work1.jpg', description: 'National Academic Drama Theater' },
-        { image: '/img/person1/portfolio/work2.jpg', description: 'State Art Gallery of the BSSR' },
-        { image: '/img/person1/portfolio/work3.jpg', description: 'Belarusian State Agrarian Technical University' },
-        { image: '/img/person1/portfolio/work4.jpg', description: 'The main building of the Belarusian State University' },
-        { image: '/img/person1/portfolio/work5.jpg', description: 'Library building of the Belarusian Polytechnic Institute' },
-        { image: '/img/person1/portfolio/work6.jpg', description: 'Monument to Yakub Kolas in village Mikolaevschina of the Minsk region' }],
+        { image: './img/person1/portfolio/work1.jpg', description: 'National Academic Drama Theater' },
+        { image: './img/person1/portfolio/work2.jpg', description: 'State Art Gallery of the BSSR' },
+        { image: './img/person1/portfolio/work3.jpg', description: 'Belarusian State Agrarian Technical University' },
+        { image: './img/person1/portfolio/work4.jpg', description: 'The main building of the Belarusian State University' },
+        { image: './img/person1/portfolio/work5.jpg', description: 'Library building of the Belarusian Polytechnic Institute' },
+        { image: './img/person1/portfolio/work6.jpg', description: 'Monument to Yakub Kolas in village Mikolaevschina of the Minsk region' }],
       listOfWorks: [
         {
           year: '1948-1950',
@@ -191,7 +191,7 @@ export default [
     ru: {
       id: 2,
       name: 'Воинов Александр Петрович',
-      avatar: '/img/person2/avatar/ava.jpg',
+      avatar: './img/person2/avatar/ava.jpg',
       occupation: 'Архитектор, ученый, член-корреспондент НАН Беларуси, заслуженный деятель искусств БССР',
       birthDate: '03.12.1902',
       birthPlace: 'г.Колпино, Россия',
@@ -235,12 +235,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person2/portfolio/work1.jpg', description: 'Жилые дома на улице Московской г. Минска' },
-        { image: '/img/person2/portfolio/work2.jpg', description: 'Гостиница «Свислочь» в г. Минске' },
-        { image: '/img/person2/portfolio/work3.jpg', description: 'Дворец пионеров и школьников' },
-        { image: '/img/person2/portfolio/work4.jpg', description: 'Театр юного зрителя, ныне резиденция Президента' },
-        { image: '/img/person2/portfolio/work5.jpg', description: 'Здание ЦК КПБ' },
-        { image: '/img/person2/portfolio/work6.jpg', description: 'Институт физкультуры в г. Минске' }],
+        { image: './img/person2/portfolio/work1.jpg', description: 'Жилые дома на улице Московской г. Минска' },
+        { image: './img/person2/portfolio/work2.jpg', description: 'Гостиница «Свислочь» в г. Минске' },
+        { image: './img/person2/portfolio/work3.jpg', description: 'Дворец пионеров и школьников' },
+        { image: './img/person2/portfolio/work4.jpg', description: 'Театр юного зрителя, ныне резиденция Президента' },
+        { image: './img/person2/portfolio/work5.jpg', description: 'Здание ЦК КПБ' },
+        { image: './img/person2/portfolio/work6.jpg', description: 'Институт физкультуры в г. Минске' }],
       listOfWorks: [
         {
           year: '1933—1940',
@@ -260,7 +260,7 @@ export default [
     be: {
       id: 2,
       name: 'Воінаў Аляксандр Пятровіч',
-      avatar: '/img/person2/avatar/ava.jpg',
+      avatar: './img/person2/avatar/ava.jpg',
       occupation: 'Архітэктар, вучоны, член-карэспандэнт НАН Беларусі, заслужаны дзеяч мастацтваў БССР',
       birthDate: '03.12.1902 ',
       birthPlace: 'г.Колпино, Расія',
@@ -304,12 +304,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person2/portfolio/work1.jpg', description: 'Жылыя дамы на вуліцы Маскоўскай г. Мінска' },
-        { image: '/img/person2/portfolio/work2.jpg', description: 'Гасцініца «Свіслач» у г. Мінску' },
-        { image: '/img/person2/portfolio/work3.jpg', description: 'Палац піянераў і школьнікаў' },
-        { image: '/img/person2/portfolio/work4.jpg', description: 'Тэатр юнага гледача, цяпер рэзідэнцыя Прэзідэнта' },
-        { image: '/img/person2/portfolio/work5.jpg', description: 'Будынак ЦК КПБ' },
-        { image: '/img/person2/portfolio/work6.jpg', description: 'Інстытут фізкультуры ў г. Мінску' }],
+        { image: './img/person2/portfolio/work1.jpg', description: 'Жылыя дамы на вуліцы Маскоўскай г. Мінска' },
+        { image: './img/person2/portfolio/work2.jpg', description: 'Гасцініца «Свіслач» у г. Мінску' },
+        { image: './img/person2/portfolio/work3.jpg', description: 'Палац піянераў і школьнікаў' },
+        { image: './img/person2/portfolio/work4.jpg', description: 'Тэатр юнага гледача, цяпер рэзідэнцыя Прэзідэнта' },
+        { image: './img/person2/portfolio/work5.jpg', description: 'Будынак ЦК КПБ' },
+        { image: './img/person2/portfolio/work6.jpg', description: 'Інстытут фізкультуры ў г. Мінску' }],
       listOfWorks: [
         {
           year: '1933-1940',
@@ -328,7 +328,7 @@ export default [
     en: {
       id: 2,
       name: 'Voinov Alexander Petrovich',
-      avatar: '/img/person2/avatar/ava.jpg',
+      avatar: './img/person2/avatar/ava.jpg',
       occupation: 'Architect, scientist, corresponding member of the National Academy of Sciences of Belarus, Honored Artist of the BSSR',
       birthDate: '03.12.1902 ',
       birthPlace: 'Kolpino, Russia',
@@ -372,12 +372,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person2/portfolio/work1.jpg', description: 'Residential buildings on the Moscow street of Minsk' },
-        { image: '/img/person2/portfolio/work2.jpg', description: 'Hotel Svisloch in Minsk' },
-        { image: '/img/person2/portfolio/work3.jpg', description: 'Palace of Pioneers and Schoolchildren' },
-        { image: '/img/person2/portfolio/work4.jpg', description: 'The Theater of the Young Spectator, now the residence of the President' },
-        { image: '/img/person2/portfolio/work5.jpg', description: 'Building of the Central Committee of the CPB' },
-        { image: '/img/person2/portfolio/work6.jpg', description: 'Institute of Physical Education in Minsk' }],
+        { image: './img/person2/portfolio/work1.jpg', description: 'Residential buildings on the Moscow street of Minsk' },
+        { image: './img/person2/portfolio/work2.jpg', description: 'Hotel Svisloch in Minsk' },
+        { image: './img/person2/portfolio/work3.jpg', description: 'Palace of Pioneers and Schoolchildren' },
+        { image: './img/person2/portfolio/work4.jpg', description: 'The Theater of the Young Spectator, now the residence of the President' },
+        { image: './img/person2/portfolio/work5.jpg', description: 'Building of the Central Committee of the CPB' },
+        { image: './img/person2/portfolio/work6.jpg', description: 'Institute of Physical Education in Minsk' }],
       listOfWorks: [
         {
           year: '1933-1940',
@@ -398,7 +398,7 @@ export default [
     ru: {
       id: 5,
       name: 'Заборский Георгий Владимирович',
-      avatar: '/img/person5/avatar/ava.jpg',
+      avatar: './img/person5/avatar/ava.jpg',
       occupation: 'Народный архитектор СССР, заслуженный строитель Беларуси, академик Российской академии архитектуры и строительных наук, академик Белорусской академии архитектуры, лауреат Государственной премии СССР',
       birthDate: '11.11.1909',
       birthPlace: 'г.Минск',
@@ -462,12 +462,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Кинотеатр «Пионер» г. Минска' },
-        { image: '/img/person5/portfolio/image2.jpg', description: 'Площадь «Независимости» в г. Минске' },
-        { image: '/img/person5/portfolio/image3.jpg', description: 'Октябрьская площадь в г. Минске' },
-        { image: '/img/person5/portfolio/image4.jpg', description: 'Площадь «Победы» в г. Минске' },
-        { image: '/img/person5/portfolio/image5.jpg', description: 'Дом семьи Якуба Коласа г. Минске' },
-        { image: '/img/person5/portfolio/image6.jpg', description: 'Суворовское училище г. Минске' },
+        { image: './img/person5/portfolio/image1.jpg', description: 'Кинотеатр «Пионер» г. Минска' },
+        { image: './img/person5/portfolio/image2.jpg', description: 'Площадь «Независимости» в г. Минске' },
+        { image: './img/person5/portfolio/image3.jpg', description: 'Октябрьская площадь в г. Минске' },
+        { image: './img/person5/portfolio/image4.jpg', description: 'Площадь «Победы» в г. Минске' },
+        { image: './img/person5/portfolio/image5.jpg', description: 'Дом семьи Якуба Коласа г. Минске' },
+        { image: './img/person5/portfolio/image6.jpg', description: 'Суворовское училище г. Минске' },
       ],
       listOfWorks: [
         {
@@ -495,7 +495,7 @@ export default [
     be: {
       id: 5,
       name: 'Заборскі Георгій Уладзіміравіч',
-      avatar: '/img/person5/avatar/ava.jpg',
+      avatar: './img/person5/avatar/ava.jpg',
       occupation: 'Народны архітэктар СССР, заслужаны будаўнік Беларусі, акадэмік Расійскай акадэміі архітэктуры і будаўнічых навук, акадэмік Беларускай акадэміі архітэктуры, лаўрэат Дзяржаўнай прэміі СССР',
       birthDate: '11.11.1909',
       birthPlace: 'г. Мінск',
@@ -559,12 +559,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Кінатэатр "Піянер" г. Мінска' },
-        { image: '/img/person5/portfolio/image2.jpg', description: 'Плошча "Незалежнасці" ў г. Мінску' },
-        { image: '/img/person5/portfolio/image3.jpg', description: 'Кастрычніцкая плошча ў г. Мінску' },
-        { image: '/img/person5/portfolio/image4.jpg', description: 'Плошча "Перамогі" ў г. Мінску' },
-        { image: '/img/person5/portfolio/image5.jpg', description: "Дом сям'і Якуба Коласа г. Мінску" },
-        { image: '/img/person5/portfolio/image6.jpg', description: 'Сувораўскае вучылішча г. Мінску' },
+        { image: './img/person5/portfolio/image1.jpg', description: 'Кінатэатр "Піянер" г. Мінска' },
+        { image: './img/person5/portfolio/image2.jpg', description: 'Плошча "Незалежнасці" ў г. Мінску' },
+        { image: './img/person5/portfolio/image3.jpg', description: 'Кастрычніцкая плошча ў г. Мінску' },
+        { image: './img/person5/portfolio/image4.jpg', description: 'Плошча "Перамогі" ў г. Мінску' },
+        { image: './img/person5/portfolio/image5.jpg', description: "Дом сям'і Якуба Коласа г. Мінску" },
+        { image: './img/person5/portfolio/image6.jpg', description: 'Сувораўскае вучылішча г. Мінску' },
       ],
       listOfWorks: [
         {
@@ -592,7 +592,7 @@ export default [
     en: {
       id: 5,
       name: 'Zaborsky Georgy Vladimirovich',
-      avatar: '/img/person5/avatar/ava.jpg',
+      avatar: './img/person5/avatar/ava.jpg',
       occupation: "People's architect of the USSR, honored Builder of Belarus, academician of the Russian Academy of architecture and construction Sciences, academician of the Belarusian Academy of architecture, winner of the state prize of the USSR",
       birthDate: '11.11.1909',
       birthPlace: 'Minsk',
@@ -656,12 +656,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person5/portfolio/image1.jpg', description: 'Pioneer cinema in Minsk' },
-        { image: '/img/person5/portfolio/image2.jpg', description: 'Independence square in Minsk' },
-        { image: '/img/person5/portfolio/image3.jpg', description: 'Oktyabrskaya square in Minsk' },
-        { image: '/img/person5/portfolio/image4.jpg', description: 'Victory square in Minsk' },
-        { image: '/img/person5/portfolio/image5.jpg', description: 'The family home of Yakub Kolas, Minsk' },
-        { image: '/img/person5/portfolio/image6.jpg', description: 'Suvorov military school in Minsk' },
+        { image: './img/person5/portfolio/image1.jpg', description: 'Pioneer cinema in Minsk' },
+        { image: './img/person5/portfolio/image2.jpg', description: 'Independence square in Minsk' },
+        { image: './img/person5/portfolio/image3.jpg', description: 'Oktyabrskaya square in Minsk' },
+        { image: './img/person5/portfolio/image4.jpg', description: 'Victory square in Minsk' },
+        { image: './img/person5/portfolio/image5.jpg', description: 'The family home of Yakub Kolas, Minsk' },
+        { image: './img/person5/portfolio/image6.jpg', description: 'Suvorov military school in Minsk' },
       ],
       listOfWorks: [
         {
@@ -691,7 +691,7 @@ export default [
     ru: {
       id: 6,
       name: 'Карако Виктор Иванович',
-      avatar: '/img/person6/avatar/ava.jpg',
+      avatar: './img/person6/avatar/ava.jpg',
       occupation: 'Белорусский архитектор, член правления Белорусского союза архитекторов, лауреат премии Ленинского Комсомола Белоруссии, руководитель творческой мастерской',
       birthDate: '29.07.1948',
       birthPlace: 'г.Гродно',
@@ -745,12 +745,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person6/portfolio/image7.jpg', description: 'Реконструкция здания банка по улице Заславской, 10' },
-        { image: '/img/person6/portfolio/image8.jpg', description: 'Молодёжный центр в г. Новополоцк' },
-        { image: '/img/person6/portfolio/image9.jpg', description: 'Реконструкция школы 4 в г. Минск' },
-        { image: '/img/person6/portfolio/image10.jpg', description: 'Оперный театр в г. Пловдиве' },
-        { image: '/img/person6/portfolio/image11.jpg', description: 'Здание МВД по ул. Опанского в г. Минск' },
-        { image: '/img/person6/portfolio/image12.jpg', description: 'Судейский домик на гоночном кольце Боровая' },
+        { image: './img/person6/portfolio/image7.jpg', description: 'Реконструкция здания банка по улице Заславской, 10' },
+        { image: './img/person6/portfolio/image8.jpg', description: 'Молодёжный центр в г. Новополоцк' },
+        { image: './img/person6/portfolio/image9.jpg', description: 'Реконструкция школы 4 в г. Минск' },
+        { image: './img/person6/portfolio/image10.jpg', description: 'Оперный театр в г. Пловдиве' },
+        { image: './img/person6/portfolio/image11.jpg', description: 'Здание МВД по ул. Опанского в г. Минск' },
+        { image: './img/person6/portfolio/image12.jpg', description: 'Судейский домик на гоночном кольце Боровая' },
       ],
       listOfWorks: [
         {
@@ -778,7 +778,7 @@ export default [
     be: {
       id: 6,
       name: 'Карака Віктар Іванавіч',
-      avatar: '/img/person6/avatar/ava.jpg',
+      avatar: './img/person6/avatar/ava.jpg',
       occupation: 'Беларускі архітэктар, член праўлення Беларускага саюза архітэктараў, лаўрэат прэміі Ленінскага камсамола Беларусі, кіраўнік творчай майстэрні',
       birthDate: '29.07.1948',
       birthPlace: 'г. Гродна',
@@ -832,12 +832,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person6/portfolio/image7.jpg', description: 'Рэканструкцыя будынка банка па вуліцы Заслаўскай, 10' },
-        { image: '/img/person6/portfolio/image8.jpg', description: 'Моладзевы цэнтр У Г. Наваполацк' },
-        { image: '/img/person6/portfolio/image9.jpg', description: 'Рэканструкцыя школы 4 У Г. Мінск' },
-        { image: '/img/person6/portfolio/image10.jpg', description: 'Оперны тэатр у г. Плоўдзіве' },
-        { image: '/img/person6/portfolio/image11.jpg', description: 'Будынак МУС па вул. Апанскага ў г. Мінск' },
-        { image: '/img/person6/portfolio/image12.jpg', description: 'Судзейскі дамок на гоначным кольцы Баравая' },
+        { image: './img/person6/portfolio/image7.jpg', description: 'Рэканструкцыя будынка банка па вуліцы Заслаўскай, 10' },
+        { image: './img/person6/portfolio/image8.jpg', description: 'Моладзевы цэнтр У Г. Наваполацк' },
+        { image: './img/person6/portfolio/image9.jpg', description: 'Рэканструкцыя школы 4 У Г. Мінск' },
+        { image: './img/person6/portfolio/image10.jpg', description: 'Оперны тэатр у г. Плоўдзіве' },
+        { image: './img/person6/portfolio/image11.jpg', description: 'Будынак МУС па вул. Апанскага ў г. Мінск' },
+        { image: './img/person6/portfolio/image12.jpg', description: 'Судзейскі дамок на гоначным кольцы Баравая' },
       ],
       listOfWorks: [
         {
@@ -865,7 +865,7 @@ export default [
     en: {
       id: 6,
       name: 'Karako Viktor Ivanovich',
-      avatar: '/img/person6/avatar/ava.jpg',
+      avatar: './img/person6/avatar/ava.jpg',
       occupation: 'Belarusian architect, member of the Board of the Belarusian Union of architects, winner of the Lenin Komsomol of Belarus award, head of the creative workshop',
       birthDate: '29.07.1948',
       birthPlace: 'Grodno',
@@ -919,12 +919,12 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person6/portfolio/image7.jpg', description: 'Reconstruction of the Bank building at 10 Zaslavskaya street' },
-        { image: '/img/person6/portfolio/image8.jpg', description: 'Youth center in Novopolotsk' },
-        { image: '/img/person6/portfolio/image9.jpg', description: 'Reconstruction of school 4 in Minsk' },
-        { image: '/img/person6/portfolio/image10.jpg', description: 'Opera house in Plovdiv' },
-        { image: '/img/person6/portfolio/image11.jpg', description: 'Ministry of internal Affairs building on opanski street in Minsk' },
-        { image: '/img/person6/portfolio/image12.jpg', description: "Judge's house on the Borovaya racing ring" },
+        { image: './img/person6/portfolio/image7.jpg', description: 'Reconstruction of the Bank building at 10 Zaslavskaya street' },
+        { image: './img/person6/portfolio/image8.jpg', description: 'Youth center in Novopolotsk' },
+        { image: './img/person6/portfolio/image9.jpg', description: 'Reconstruction of school 4 in Minsk' },
+        { image: './img/person6/portfolio/image10.jpg', description: 'Opera house in Plovdiv' },
+        { image: './img/person6/portfolio/image11.jpg', description: 'Ministry of internal Affairs building on opanski street in Minsk' },
+        { image: './img/person6/portfolio/image12.jpg', description: "Judge's house on the Borovaya racing ring" },
       ],
       listOfWorks: [
         {
@@ -954,7 +954,7 @@ export default [
     ru: {
       id: 7,
       name: 'Король Владимир Адамович',
-      avatar: '/img/person7/avatar/ava.jpg',
+      avatar: './img/person7/avatar/ava.jpg',
       occupation: 'Белорусский советский архитектор. Народный архитектор СССР',
       birthDate: '27.12.1912',
       birthPlace: 'г. Червень',
@@ -998,8 +998,8 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person7/portfolio/image1.jpg', description: 'Перспектива Центральной площади в Минске' },
-        { image: '/img/person7/portfolio/image2.jpg', description: 'Здание Центрального телеграфа в Минске' },
+        { image: './img/person7/portfolio/image1.jpg', description: 'Перспектива Центральной площади в Минске' },
+        { image: './img/person7/portfolio/image2.jpg', description: 'Здание Центрального телеграфа в Минске' },
       ],
       listOfWorks: [
         {
@@ -1015,7 +1015,7 @@ export default [
     be: {
       id: 7,
       name: 'Кароль Уладзімір Адамовіч',
-      avatar: '/img/person7/avatar/ava.jpg',
+      avatar: './img/person7/avatar/ava.jpg',
       occupation: 'Беларускі савецкі архітэктар. Народны архітэктар СССР',
       birthDate: '27.12.1912',
       birthPlace: 'г. Чэрвень',
@@ -1059,8 +1059,8 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person7/portfolio/image1.jpg', description: 'Перспектыва Цэнтральнай плошчы ў Менску' },
-        { image: '/img/person7/portfolio/image2.jpg', description: 'Будынак Цэнтральнага тэлеграфа ў Менску' },
+        { image: './img/person7/portfolio/image1.jpg', description: 'Перспектыва Цэнтральнай плошчы ў Менску' },
+        { image: './img/person7/portfolio/image2.jpg', description: 'Будынак Цэнтральнага тэлеграфа ў Менску' },
       ],
       listOfWorks: [
         {
@@ -1076,7 +1076,7 @@ export default [
     en: {
       id: 7,
       name: 'Korol Vladimir Adamovich',
-      avatar: '/img/person7/avatar/ava.jpg',
+      avatar: './img/person7/avatar/ava.jpg',
       occupation: 'Belorussian Soviet architect. Honored Architect of the USSR',
       birthDate: '27.12.1912',
       birthPlace: 'Cherven',
@@ -1120,8 +1120,8 @@ export default [
         },
       ],
       works: [
-        { image: '/img/person7/portfolio/image1.jpg', description: 'Perspective of the Central Square in Minsk' },
-        { image: '/img/person7/portfolio/image2.jpg', description: 'The building of the Central Telegraph in Minsk' },
+        { image: './img/person7/portfolio/image1.jpg', description: 'Perspective of the Central Square in Minsk' },
+        { image: './img/person7/portfolio/image2.jpg', description: 'The building of the Central Telegraph in Minsk' },
       ],
       listOfWorks: [
         {
@@ -1140,7 +1140,7 @@ export default [
     ru: {
       id: 8,
       name: 'Лангбард Иосиф Григорьевич',
-      avatar: '/img/person8/avatar/ava.jpg',
+      avatar: './img/person8/avatar/ava.jpg',
       occupation: 'Белорусский советский архитектор, заслуженный деятель искусств Белорусской ССР, обладатель Гран-при Всемирной выставки в Париже, доктор архитектуры.',
       birthDate: '06.01.1882',
       birthPlace: 'г. Бельск-Подляски, Польша',
@@ -1185,19 +1185,19 @@ export default [
       ],
       works: [
         {
-          image: '/img/person8/portfolio/work1.jpg',
+          image: './img/person8/portfolio/work1.jpg',
           description: 'Дом правительства г. Минск',
         },
         {
-          image: '/img/person8/portfolio/work2.jpg',
+          image: './img/person8/portfolio/work2.jpg',
           description: 'Дом Красной Армии (ныне Дом офицеров) в Минске',
         },
         {
-          image: '/img/person8/portfolio/work3.jpg',
+          image: './img/person8/portfolio/work3.jpg',
           description: 'Белорусский государственный театр оперы и балета в Минске',
         },
         {
-          image: '/img/person8/portfolio/work4.jpg',
+          image: './img/person8/portfolio/work4.jpg',
           description: 'Дом Советов в Могилеве',
         },
       ],
@@ -1224,7 +1224,7 @@ export default [
     be: {
       id: 8,
       name: 'Лангбард Іосіф Рыгоравіч',
-      avatar: '/img/person8/avatar/ava.jpg',
+      avatar: './img/person8/avatar/ava.jpg',
       occupation: 'Беларускі савецкі архітэктар, заслужаны дзеяч мастацтваў Беларускай ССР, уладальнік Гран-пры Сусветнай выставы ў Парыжы, доктар архітэктуры.',
       birthDate: '06.01.1882',
       birthPlace: 'г. Бельск-Падляскі, Польшча',
@@ -1269,19 +1269,19 @@ export default [
       ],
       works: [
         {
-          image: '/img/person8/portfolio/work1.jpg',
+          image: './img/person8/portfolio/work1.jpg',
           description: 'Дом ўрада г. Мінск',
         },
         {
-          image: '/img/person8/portfolio/work2.jpg',
+          image: './img/person8/portfolio/work2.jpg',
           description: 'Дом Чырвонай Арміі (цяпер Дом афіцэраў) у Мінску',
         },
         {
-          image: '/img/person8/portfolio/work3.jpg',
+          image: './img/person8/portfolio/work3.jpg',
           description: 'Беларускі дзяржаўны тэатр оперы і балета ў Мінску',
         },
         {
-          image: '/img/person8/portfolio/work4.jpg',
+          image: './img/person8/portfolio/work4.jpg',
           description: 'Дом Саветаў у Магілёве',
         },
       ],
@@ -1308,7 +1308,7 @@ export default [
     en: {
       id: 8,
       name: 'Langbard Joseph Grigorievich',
-      avatar: '/img/person8/avatar/ava.jpg',
+      avatar: './img/person8/avatar/ava.jpg',
       occupation: 'Belarusian Soviet architect, Honored Art Worker of the Belarusian SSR, winner of the Grand Prix of the World Exhibition in Paris, doctor of architecture.',
       birthDate: '06.01.1882',
       birthPlace: 'Bielsk Podlaski, Poland',
@@ -1353,19 +1353,19 @@ export default [
       ],
       works: [
         {
-          image: '/img/person8/portfolio/work1.jpg',
+          image: './img/person8/portfolio/work1.jpg',
           description: 'Government House Minsk',
         },
         {
-          image: '/img/person8/portfolio/work2.jpg',
+          image: './img/person8/portfolio/work2.jpg',
           description: 'House of the Red Army (now the House of Officers) in Minsk',
         },
         {
-          image: '/img/person8/portfolio/work3.jpg',
+          image: './img/person8/portfolio/work3.jpg',
           description: 'Belarusian State Opera and Ballet Theater in Minsk',
         },
         {
-          image: '/img/person8/portfolio/work4.jpg',
+          image: './img/person8/portfolio/work4.jpg',
           description: 'House of Soviets in Mogilev',
         },
       ],
@@ -1394,7 +1394,7 @@ export default [
     ru: {
       id: 9,
       name: 'Левин Леонид Менделевич',
-      avatar: '/img/person9/avatar/ava.jpg',
+      avatar: './img/person9/avatar/ava.jpg',
       occupation: 'Заслуженный архитектор Республики Беларусь',
       birthDate: '25.06.1936',
       birthPlace: 'Минск, Белорусская ССР, СССР',
@@ -1432,23 +1432,23 @@ export default [
       },
       ],
       works: [{
-        image: '/img/person9/portfolio/work1.jpg',
+        image: './img/person9/portfolio/work1.jpg',
         description: 'Мемориальный комплекс «Яма». Памятник создавался в течение 8 лет.',
       },
       {
-        image: '/img/person9/portfolio/work2.jpg',
+        image: './img/person9/portfolio/work2.jpg',
         description: 'Памятник Якубу Коласу (Минск)',
       },
       {
-        image: '/img/person9/portfolio/work3.jpg',
+        image: './img/person9/portfolio/work3.jpg',
         description: 'Памятник Янке Купале (Минск)',
       },
       {
-        image: '/img/person9/portfolio/work4.jpg',
+        image: './img/person9/portfolio/work4.jpg',
         description: '«Троицкое предместье» (Минск)',
       },
       {
-        image: '/img/person9/portfolio/work5.jpg',
+        image: './img/person9/portfolio/work5.jpg',
         description: '«Верхний город» (Минск)',
       },
       ],
@@ -1477,7 +1477,7 @@ export default [
     en: {
       id: 9,
       name: 'Levin Leonid Mendelevich',
-      avatar: '/img/person9/avatar/ava.jpg',
+      avatar: './img/person9/avatar/ava.jpg',
       occupation: 'Honored Architect of the Republic of Belarus',
       birthDate: '25 .06.1936 ',
       birthPlace: 'Minsk, Belorussian SSR, USSR',
@@ -1515,23 +1515,23 @@ export default [
       },
       ],
       works: [{
-        image: '/img/person9/portfolio/work1.jpg',
+        image: './img/person9/portfolio/work1.jpg',
         description: 'Memorial complex “Pit”. The monument was created over 8 years. ',
       },
       {
-        image: '/img/person9/portfolio/work2.jpg',
+        image: './img/person9/portfolio/work2.jpg',
         description: 'Monument to Yakub Kolas (Minsk)',
       },
       {
-        image: '/img/person9/portfolio/work3.jpg',
+        image: './img/person9/portfolio/work3.jpg',
         description: 'Monument to Janka Kupala (Minsk)',
       },
       {
-        image: '/img/person9/portfolio/work4.jpg',
+        image: './img/person9/portfolio/work4.jpg',
         description: '“Trinity Suburb” (Minsk)',
       },
       {
-        image: '/img/person9/portfolio/work5.jpg',
+        image: './img/person9/portfolio/work5.jpg',
         description: '“Upper Town” (Minsk)',
       },
       ],
@@ -1560,7 +1560,7 @@ export default [
     be: {
       id: 9,
       name: 'Левін Леанід Мендзелевіч',
-      avatar: '/img/person9/avatar/ava.jpg',
+      avatar: './img/person9/avatar/ava.jpg',
       occupation: 'Заслужаны архітэктар Рэспублікі Беларусь',
       birthDate: '25 .06.1936 ',
       birthPlace: 'Мінск, Беларуская ССР, СССР',
@@ -1598,23 +1598,23 @@ export default [
       },
       ],
       works: [{
-        image: '/img/person9/portfolio/work1.jpg',
+        image: './img/person9/portfolio/work1.jpg',
         description: 'Мемарыяльны комплекс "Яма". Помнік ствараўся на працягу 8 гадоў.',
       },
       {
-        image: '/img/person9/portfolio/work2.jpg',
+        image: './img/person9/portfolio/work2.jpg',
         description: 'Помнік Якубу Коласу (Мінск)',
       },
       {
-        image: '/img/person9/portfolio/work3.jpg',
+        image: './img/person9/portfolio/work3.jpg',
         description: 'Помнік Янку Купалу (Мінск)',
       },
       {
-        image: '/img/person9/portfolio/work4.jpg',
+        image: './img/person9/portfolio/work4.jpg',
         description: ' «Траецкае прадмесце» (Мінск)',
       },
       {
-        image: '/img/person9/portfolio/work5.jpg',
+        image: './img/person9/portfolio/work5.jpg',
         description: ' «Верхні горад» (Мінск)',
       },
       ],
@@ -1645,7 +1645,7 @@ export default [
     ru: {
       id: 12,
       name: 'Шабуневский Станислав Данилович',
-      avatar: '/img/person12/avatar/ava.jpg',
+      avatar: './img/person12/avatar/ava.jpg',
       occupation: 'Заслуженный архитектор, автор значительной части застройки Гомеля начала XX в.',
       birthDate: '02.12.1868',
       birthPlace: 'Скородное, Мозырский уезд, Минская губерния, Российская империя',
@@ -1688,19 +1688,19 @@ export default [
       },
       ],
       works: [{
-        image: '/img/person12/portfolio/work1.jpg',
+        image: './img/person12/portfolio/work1.jpg',
         description: 'Здание бывшего Орловского коммерческого банка.',
       },
       {
-        image: '/img/person12/portfolio/work2.jpg',
+        image: './img/person12/portfolio/work2.jpg',
         description: 'Бывший доходный дом купца К. П. Грошикова.',
       },
       {
-        image: '/img/person12/portfolio/work3.jpg',
+        image: './img/person12/portfolio/work3.jpg',
         description: 'Здание бывшего Виленского коммерческого банка.',
       },
       {
-        image: '/img/person12/portfolio/work4.jpg',
+        image: './img/person12/portfolio/work4.jpg',
         description: 'Дом-коммуна, пр. Ленина',
       },
       ],
@@ -1726,7 +1726,7 @@ export default [
     en: {
       id: 12,
       name: 'Shabunevsky Stanislav Danilovich',
-      avatar: '/img/person12/avatar/ava.jpg',
+      avatar: './img/person12/avatar/ava.jpg',
       occupation: 'Honored architect, author of a significant part of the construction of Gomel at the beginning of the 20th century.',
       birthDate: '02 .12.1868 ',
       birthPlace: 'Skorodnoye, Mozyr Uyezd, Minsk Province, Russian Empire',
@@ -1769,19 +1769,19 @@ export default [
       },
       ],
       works: [{
-        image: '/img/person12/portfolio/work1.jpg',
+        image: './img/person12/portfolio/work1.jpg',
         description: 'The building of the former Oryol Commercial Bank.',
       },
       {
-        image: '/img/person12/portfolio/work2.jpg',
+        image: './img/person12/portfolio/work2.jpg',
         description: 'The former apartment building of the merchant K.P. Groshikov.',
       },
       {
-        image: '/img/person12/portfolio/work3.jpg',
+        image: './img/person12/portfolio/work3.jpg',
         description: 'The building of the former Vilnius Commercial Bank.',
       },
       {
-        image: '/img/person12/portfolio/work4.jpg',
+        image: './img/person12/portfolio/work4.jpg',
         description: 'House-commune, Lenin Ave',
       },
       ],
@@ -1807,7 +1807,7 @@ export default [
     be: {
       id: 12,
       name: 'Шабунеўскага Станіслаў Данілавіч',
-      avatar: '/img/person12/avatar/ava.jpg',
+      avatar: './img/person12/avatar/ava.jpg',
       occupation: 'Заслужаны архітэктар, аўтар значнай часткі забудовы Гомеля пачатку XX ст.',
       birthDate: '02 .12.1868 ',
       birthPlace: 'Скароднае, Мазырскі павет, Мінская губерня, Расійская імперыя',
@@ -1850,19 +1850,19 @@ export default [
       },
       ],
       works: [{
-        image: '/img/person12/portfolio/work1.jpg',
+        image: './img/person12/portfolio/work1.jpg',
         description: 'Будынак былога Арлоўскага камерцыйнага банка.',
       },
       {
-        image: '/img/person12/portfolio/work2.jpg',
+        image: './img/person12/portfolio/work2.jpg',
         description: 'Былы даходны дом купца К. П. Грошыкава.',
       },
       {
-        image: '/img/person12/portfolio/work3.jpg',
+        image: './img/person12/portfolio/work3.jpg',
         description: 'Будынак былога Віленскага камерцыйнага банка.',
       },
       {
-        image: '/img/person12/portfolio/work4.jpg',
+        image: './img/person12/portfolio/work4.jpg',
         description: 'Дом-камуна, пр. Леніна',
       },
       ],

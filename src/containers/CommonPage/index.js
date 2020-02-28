@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 import { useTranslation } from 'react-i18next';
-import CommonPageItems from '../../components/CommonPageItems';
+import ArchitectBlockChessOrder from '../../components/ArchitectBlockChessOrder';
 import SearchPanel from '../../components/SearchPanel';
 import data from '../../data/architects';
 
@@ -33,7 +33,7 @@ const CommonPage = () => {
         setSearchResult={filterBySearchResult}
       />
       <div className="container">
-        <CommonPageItems
+        <ArchitectBlockChessOrder
           data={filteredData}
         />
       </div>

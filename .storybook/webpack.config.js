@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = ({ config }) => {
   // Transpile Gatsby module because Gatsby includes un-transpiled ES6 code.
   config.module.rules[0].exclude = [/node_modules\/(?!(gatsby)\/)/];
@@ -21,15 +23,11 @@ module.exports = ({ config }) => {
   // Prefer Gatsby ES6 entrypoint (module) over commonjs (main) entrypoint
   config.resolve.mainFields = ["browser", "module", "main"];
 
-  //Use loaders to handle scss
-  // config.module.rules.push({
-  //   test: /\.scss$/,
-  //   use: [
-  //     'style-loader',
-  //     'css-loader',
-  //     'sass-loader',
-  //   ],
-  // });
+  // Use loaders to handle scss
+  config.resolve.alias = {
+    React: path.resolve(__dirname, '../node_modules/react/'),
+    ReactDOM: path.resolve(__dirname, '../node_modules/react-dom/')
+  };
 
   return config
 };

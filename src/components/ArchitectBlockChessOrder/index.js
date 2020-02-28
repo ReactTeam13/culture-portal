@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import Avatar from '../Avatar';
 import DescriptionShort from '../DescriptionShort';
 
-function CommonPageItems({ data }) {
+function ArchitectBlockChessOrder({ data }) {
   const { t, i18n: { language } } = useTranslation('mainPage');
 
   return (
@@ -21,7 +21,7 @@ function CommonPageItems({ data }) {
             <DescriptionShort data={profile} />
             <Link
               to={`/architector/${url}`}
-              className="btn btn-xxl btn-yellow"
+              className="btn btn-xxl btn-primary"
             >
               {t('link')}
             </Link>
@@ -32,4 +32,4 @@ function CommonPageItems({ data }) {
   );
 }
 
-export default CommonPageItems;
+export default ArchitectBlockChessOrder;
