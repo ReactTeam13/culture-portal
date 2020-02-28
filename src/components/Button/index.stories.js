@@ -20,31 +20,31 @@ storiesOf('Buttons', module)
     />
   ))
   .add('Button primary extra size', () => (
-      <Button
-          btnAdditionalClasses="btn-primary btn-xxl"
-          type="button"
-          content="click me"
-      />
+    <Button
+      btnAdditionalClasses="btn-primary btn-xxl"
+      type="button"
+      content="click me"
+    />
   ))
   .add('Button secondary', () => (
-      <Button
-          btnAdditionalClasses="btn-secondary"
-          type="button"
-          content="click me"
-      />
+    <Button
+      btnAdditionalClasses="btn-secondary"
+      type="button"
+      content="click me"
+    />
   ))
   .add('Button secondary disabled', () => (
-      <Button
-          btnAdditionalClasses="btn-secondary"
-          type="button"
-          content="click me"
-          isDisabled
-      />
+    <Button
+      btnAdditionalClasses="btn-secondary"
+      type="button"
+      content="click me"
+      isDisabled
+    />
   ))
   .add('Button secondary extra size', () => (
     <Button
-        btnAdditionalClasses="btn-secondary btn-xxl"
-        type="button"
-        content="click me"
+      btnAdditionalClasses="btn-secondary btn-xxl"
+      type="button"
+      content="click me"
     />
   ));

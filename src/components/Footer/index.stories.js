@@ -5,5 +5,5 @@ import Footer from './index';
 
 storiesOf('Footer', module)
   .add('Footer UI representation', () => (
-    <Footer/>
+    <Footer />
   ));

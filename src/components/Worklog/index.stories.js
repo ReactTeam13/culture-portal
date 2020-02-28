@@ -12,28 +12,26 @@ import dataDifficulties from '../../data/difficulties';
 import dataRequirements from '../../data/difficulties';
 
 
-
 storiesOf('WorkLog', module)
   // .add('WorkLog UI representation', () => (
   //   <WorkLog/>
   // ))
   .add('WorkLogTabs UI representation', () => (
-      <WorklogTab data={dataWorklog.ru.data}/>
+    <WorklogTab data={dataWorklog.ru.data} />
   ))
   .add('Requirements UI representation', () => (
-      <Requirements data={dataRequirements.ru.data}/>
+    <Requirements data={dataRequirements.ru.data} />
   ))
   .add('Card UI representation', () => {
-    const {icon, title, description} = dataDifficulties.ru.data[1];
+    const { icon, title, description } = dataDifficulties.ru.data[1];
     return (
-        <Card
-            src={icon}
-            title={title}
-            p={description}
-        />
-    )
+      <Card
+        src={icon}
+        title={title}
+        p={description}
+      />
+    );
   })
   .add('WorkDifficulties (Cards) UI representation', () => (
-      <WorkDifficulties data={dataDifficulties.ru.data}/>
+    <WorkDifficulties data={dataDifficulties.ru.data} />
   ));
-

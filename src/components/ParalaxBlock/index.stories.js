@@ -6,6 +6,6 @@ import ParalaxBlock from './index';
 storiesOf('ParalaxBlock', module)
   .add('ParalaxBlock UI representation', () => (
     <ParalaxBlock
-        text="КУЛЬТУРНЫЙ ПОРТАЛ об известных архитекторах Беларуси"
+      text="КУЛЬТУРНЫЙ ПОРТАЛ об известных архитекторах Беларуси"
     />
   ));
