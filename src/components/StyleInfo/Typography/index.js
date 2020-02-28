@@ -1,60 +1,46 @@
 import React from 'react';
 import './index.css';
-import Color from '../Colors/Color';
 
 function TypographyContainer() {
   const style = {
     fontSize: '18px',
   };
   return (
-    <div className="text-container">
-      <div className="pb-5 pt-5 container text-container">
-        <h3 className="h3 ohra text-center pb-4">Typography</h3>
+    <div>
+      <div className="pb-5 pt-5 container">
+        <h2 className="h2 ohra text-center pb-4">Typography</h2>
         <div className="fonts">
           <table className="table">
-            <thead className="h4">
+            <thead>
               <tr>
                 <th>Style Name</th>
-                <th>Lato, sans-serif</th>
-                <th>Colors</th>
+                <th>Font</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row " className="h3 ohra">Headline large</th>
-                <td>28px, normal</td>
-                <td>
-                  <Color color="#C3A871" size="20px" />
-                </td>
+                <th scope="row " className="headline h2 ohra">Headline large</th>
+                <td>Playfair Display, serif, 32px, bold</td>
               </tr>
               <tr>
-                <th scope="row" className="h4">Headline small</th>
-                <td>24px, normal</td>
-                <td>
-                  <Color color="#41414E" size="20px" />
-                </td>
+                <th scope="row " className="headline-small h2 ">Headline small</th>
+                <td>Playfair Display, serif, 24px, normal</td>
               </tr>
               <tr>
                 <th scope="row" className="h5">Button text</th>
-                <td>20px, normal</td>
-                <td>
-                  <Color color="#41414E" size="20px" />
-                </td>
+                <td>Montserrat, 20px, normal</td>
               </tr>
               <tr>
-                <th scope="row" style={style}>Header, footer text</th>
-                <td>18px, normal</td>
-                <td>
-                  <Color color="#41414E" size="20px" />
-                </td>
+                <th scope="row" style={style} className="header-style">Navigation</th>
+                <td>Montserrat, 18px, normal</td>
+              </tr>
+              <tr>
+                <th scope="row" style={style} className="footer-fontstyle">Footer, button text</th>
+                <td>Montserrat, 16px, normal</td>
               </tr>
               <tr>
                 <th scope="row">Body text</th>
-                <td>14px, normal</td>
-                <td>
-                  <Color color="#41414E" size="20px" />
-                </td>
-
+                <td>Montserrat, 14px, normal</td>
               </tr>
             </tbody>
           </table>
