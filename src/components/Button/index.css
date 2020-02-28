@@ -14,10 +14,11 @@
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background: #C3A871;
+  background: #C3A871!important;
 }
 
 .btn-secondary {

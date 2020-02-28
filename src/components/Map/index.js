@@ -2,7 +2,6 @@ import React from 'react';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 import './index.css';
 
-
 export function MapContainer(props) {
   const { data, google } = props;
   const { locationsCoords } = data;
