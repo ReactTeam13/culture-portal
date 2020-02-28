@@ -20,7 +20,7 @@ function Requirements() {
   };
 
   return (
-    <div className="pr-5 pl-5">
+    <div className="pr-3 pl-4">
       <div>
         {
         requirements.map((requirement, i) => {

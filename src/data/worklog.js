@@ -22,6 +22,8 @@ const worklog = {
           ['3h', 'Implement Logo, Header components.'],
           ['2h', 'Implement Search Component.'],
           ['2h', 'Search Component, refactoring.'],
+          ['2h', 'Storybook filling.'],
+          ['2h', 'Code refactoring, solving issues with SB config.'],
         ],
       },
       {
@@ -100,6 +102,8 @@ const worklog = {
           ['3h', 'Рэалізацыя кампанентаў Logo и Header.'],
           ['2h', 'Рэалізацыя кампанента пошуку.'],
           ['2h', 'Кампанент пошуку, рэфактарынг.'],
+          ['2h', 'Запаўненне Storybook.'],
+          ['2h', 'Рэфактарынг кода, рашэнне праблем у конфігах Storybook.'],
         ],
       },
       {
@@ -174,6 +178,8 @@ const worklog = {
           ['3h', 'Реализация компонентов Logo и Header.'],
           ['2h', 'Реализация компонента поиска.'],
           ['2h', 'Компонент поиска, рефакторинг.'],
+          ['2h', 'Заполнение Storybook.'],
+          ['2h', 'Рефакторинг кода, решение проблем с конфигом Storybook.'],
         ],
       },
       {
