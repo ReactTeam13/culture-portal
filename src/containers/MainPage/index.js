@@ -5,10 +5,9 @@ import './index.css';
 import { Link } from 'gatsby';
 import ArchitectBlock from '../../components/ArchitectBlock';
 import Button from '../../components/Button';
-import architects from '../../data/architects';
 import ParalaxBlock from '../../components/ParalaxBlock';
 
-function MainPage() {
+function MainPage({ data: architects }) {
   const { t, i18n: { language } } = useTranslation('mainPage');
   const [architectDay, setArchitectDay] = useState(2);
 

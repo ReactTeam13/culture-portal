@@ -3,9 +3,8 @@ import './index.css';
 import { useTranslation } from 'react-i18next';
 import CommonPageItems from '../../components/CommonPageItems';
 import SearchPanel from '../../components/SearchPanel';
-import data from '../../data/architects';
 
-const CommonPage = () => {
+const CommonPage = ({ data }) => {
   const [filteredData, setFilteredData] = useState(data);
   const { i18n } = useTranslation();
   const currentLanguage = i18n.language;
