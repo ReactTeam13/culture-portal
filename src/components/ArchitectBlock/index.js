@@ -10,7 +10,7 @@ function ArchitectBlock({ data, btn }) {
         <div className="col-md-6 text-center text-md-left">
           <Avatar data={data} />
         </div>
-        <div className="col-lg-4 col-md-6">
+        <div className="col-lg-4 col-md-6 p-4">
           <DescriptionShort data={data}>
             {btn}
           </DescriptionShort>

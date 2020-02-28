@@ -12,6 +12,7 @@ body {
 h2, h3, h4, h5, h6, .h {
   font-family: 'Playfair Display', serif;
   letter-spacing: 2.8px;
+  font-weight: 400;
 }
 
 
