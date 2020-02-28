@@ -3,7 +3,7 @@ import './index.css';
 
 function LinkIcon({ src, icon }) {
   return (
-    <div>
+    <div className="d-inline">
       <a
         href={src}
       >
