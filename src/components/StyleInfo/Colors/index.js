@@ -6,7 +6,7 @@ import Color from './Color';
 function ColorsContainer() {
   return (
     <div className="p-5 container">
-      <h3 className="h3 ohra text-center pb-4">Color palette</h3>
+      <h2 className="h2 ohra text-center pb-4">Color palette</h2>
       <div className="colors-container pb-2">
         <Color color="#41414E" size="80px" />
         <Color color="#5B5B65" size="80px" />

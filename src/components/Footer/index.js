@@ -13,7 +13,7 @@ function Footer() {
       <div className="bg-gray">
         <div className=" container">
           <div className=" row">
-            <div className="col-lg-4 col-md-5 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <FooterNav links={t('links', { returnObjects: true })} />
             </div>
             <div className="col-6 d-none d-lg-block d-md-block">

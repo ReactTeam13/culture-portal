@@ -1,6 +1,5 @@
 .works{
   background: #F5F4F2;
-  font-family: 'Lato', sans-serif;
 }
 
 .MuiList-root.list-works {
@@ -21,7 +20,6 @@
 }
 
 .MuiListItem-button.listitem-title {
-  font-size: 22px;
   padding: 10px 20px;
   border-bottom: 1px solid #c4c4c4;
 }
@@ -33,10 +31,12 @@
 .MuiListItem-button .year {
   width: 200px;
   padding: 10px;
+  
 }
 
 .MuiListItem-button .work {
   width: calc(100% - 200px);
+  
 }
 
 .MuiListItem-button.listitem-title .work {
