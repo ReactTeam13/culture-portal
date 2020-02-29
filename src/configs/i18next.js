@@ -17,9 +17,11 @@ i18n
     },
   });
 
-const lang = localStorage.getItem('lang');
-if (lang) {
-  i18n.changeLanguage(lang);
+if (typeof window !== 'undefined') {
+  const lang = localStorage.getItem('lang');
+  if (lang) {
+    i18n.changeLanguage(lang);
+  }
 }
 
 export default i18n;
