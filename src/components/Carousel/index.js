@@ -2,7 +2,7 @@ import React from 'react';
 
 import './index.css';
 
-function Carusel({ list, description }) {
+function Carousel({ list, description }) {
   let activeItem = 0;
 
   const slide = (side) => {
@@ -52,4 +52,4 @@ function Carusel({ list, description }) {
   );
 }
 
-export default Carusel;
+export default Carousel;
