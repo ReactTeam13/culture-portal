@@ -8,5 +8,5 @@ storiesOf('Ceckbox', module)
     <Ceckbox />
   ))
   .add('Ceckbox is checked', () => (
-    <Ceckbox isChecked='true' />
-  ))
+    <Ceckbox isChecked="true" />
+  ));
