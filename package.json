@@ -20,6 +20,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.3",
     "@material-ui/icons": "^4.9.1",
+    "@storybook/react": "^5.3.13",
     "bootstrap": "^4.4.1",
     "css-loader": "^3.4.2",
     "gatsby": "^2.19.7",
@@ -52,7 +53,6 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@storybook/addon-actions": "^5.3.13",
     "@storybook/addon-info": "^5.3.13",
-    "@storybook/react": "^5.3.13",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "eslint": "^6.8.0",
