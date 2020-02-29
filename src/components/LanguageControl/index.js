@@ -10,6 +10,7 @@ const LanguageControl = ({ languages }) => {
   const handleChange = (event) => {
     const { value } = event.target;
     i18n.changeLanguage(value);
+    localStorage.setItem('lang', value);
   };
 
   const items = Object.keys(languages).map((key) => {
