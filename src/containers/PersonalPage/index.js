@@ -6,7 +6,7 @@ import Avatar from '../../components/Avatar';
 import DescriptionShort from '../../components/DescriptionShort';
 import Timeline from '../../components/Timeline';
 import Works from '../../components/Works';
-import ImageGalleryComponent from '../../components/ImageGallery';
+import ImageGallery from '../../components/ImageGallery';
 import Video from '../../components/Video';
 // eslint-disable-next-line import/no-named-as-default
 import MapContainer from '../../components/Map';
@@ -39,7 +39,7 @@ function PersonalPage({ profile }) {
         date={t('dateCreate')}
         work={t('workCreate')}
       />
-      <ImageGalleryComponent data={profile} title={t('galleryTitle')} />
+      <ImageGallery data={profile} title={t('galleryTitle')} />
       <Video
         data={profile}
         title={t('videoTitle')}
