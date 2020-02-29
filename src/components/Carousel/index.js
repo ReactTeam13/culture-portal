@@ -6,7 +6,11 @@ function Carusel({ list, description }) {
   let activeItem = 0;
 
   const slide = (side) => {
-    activeItem += side === ('prev') ? -1 : 1;
+    if (side === 'prev') {
+      activeItem -= 1;
+    } else {
+      activeItem += 1;
+    }
     if (activeItem > list.length - 1 || activeItem < 0) {
       activeItem = 0;
     }
