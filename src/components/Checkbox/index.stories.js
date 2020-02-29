@@ -1,12 +1,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Ceckbox from './index';
+import Checkbox from './index';
 
 
-storiesOf('Ceckbox', module)
-  .add('Ceckbox is not checked', () => (
-    <Ceckbox />
+storiesOf('Checkbox', module)
+  .add('Checkbox is not checked', () => (
+    <Checkbox />
   ))
-  .add('Ceckbox is checked', () => (
-    <Ceckbox isChecked="true" />
+  .add('Checkbox is checked', () => (
+    <Checkbox isChecked="true" />
   ));
